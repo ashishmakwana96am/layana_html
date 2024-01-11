@@ -16,7 +16,8 @@
     overflow-x: hidden;
   }
   .team-data h5,
-  .footer-link li a{
+  .footer-link li a,
+  .team-data p{
     font-family: 'Quattrocento';
   }
   
