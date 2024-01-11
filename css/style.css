@@ -51,6 +51,7 @@
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 2px;
+    padding: 0 !important;
   }
   #main .nav-item{
     margin: 0 10px;
@@ -64,23 +65,23 @@
     content: "";
     width: 0%;
     height: 1px;
-    top: 31px;
-    left: 7px;
+    top: 25px;
+    left: 0px;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s;
   }
-  .sub-menu{
+  .sub-menu {
     position: absolute;
-    top: 100%;
-    left: 8%;
+    top: 38px;
+    left: 0px;
     background-color: var(--white-color);
-   width: 147px;
-   padding: 7px;
-   opacity: 0;
-   visibility: hidden;
-   transition: all 0.5s;
-  }
+    width: 147px;
+    padding: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
   #main .nav-item:hover .sub-menu{
     opacity: 1;
     visibility: visible;
@@ -159,6 +160,8 @@
   }
   .sub-menu li a{
     color: var(--black-color);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
   }
   /* #main .swiper-slide{
   padding-top: 240px;
