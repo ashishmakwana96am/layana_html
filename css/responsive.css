@@ -1,0 +1,353 @@
+@media(max-width:1440px){
+    .swiper-row {
+justify-content: center;
+text-align: center;
+    }
+    /* #main .swiper-slide {
+        padding-top: 172px;
+    } */
+    .about-us {
+        padding-bottom: 70px;
+    }
+    .collection {
+        padding: 70px 0;
+    }
+    /* .collection-left-data {
+        padding: 191px 173px;
+    } */
+    .collection-img img {
+        top: 3%;
+    }
+    /* --offer-- */
+    .offer {
+        padding: 90px 20px;
+    }
+    .beauty {
+        padding: 127px 0;
+    }
+    .collection-left-col{
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+      .beuty-info-box1 h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .beuty-info-box1 {
+        top: 32%;
+    }
+    .beuty-info-box1 {
+        height: 100px;
+      }
+      .beuty-info-box1 .btn{
+        padding: 16px 50px 16px 50px;
+      }
+}
+@media(max-width:1024px){
+    #main .nav-item{
+        margin: 0;
+      }
+      #main .swiper-content h1{
+        font-size: 49px;
+      }
+      #main .swiper-content {
+        text-align: center;
+        padding: 0 35px;
+    }
+
+    /* --about us-- */
+    .about-left-data {
+        padding: 0px 27px;
+    }
+    .about-us {
+        padding: 67px 0;
+    }
+    .collection {
+        padding: 24px 0;
+    }
+    /* .collection-left-data {
+        padding: 113px 74px;
+    } */
+    .collection-img img {
+        top: 18%;
+    }
+    .collection-img img {
+        top: 10%;
+        left: 53%;
+        width: 430px;
+        height: 466px;
+    }
+    .collection-left-col {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .beuty-info-box1 h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .beuty-info-box1 {
+        top: 32%;
+    }
+    .beuty-info-box1 {
+        height: 100px;
+      }
+    /* --offer-- */
+    /* .offer-box {
+        padding: 50px 60px;
+    } */
+    .beauty {
+        padding: 97px 0;
+    }
+    .beauty-info {
+        padding-bottom: 78px;
+    }
+}
+@media(max-width:768px){
+    #main .swiper-content h1 {
+        font-size: 42px;
+        line-height: 53px;
+    }
+    
+#main .swiper-content p {
+    font-size: 16px;
+}
+
+#main .swiper-content .btn {
+    border: 1px solid var(--white-color);
+    padding:  15px 35px 15px 35px;
+}
+#main .swiper-button-next:after,#main .swiper-button-prev:after{
+    font-size: 38px;
+}
+#main .swiper-content{
+    text-align: center;
+    padding: 0 35px;
+}
+#main .swiper-content h1 {
+    line-height: 61px;
+}
+.about-left-data p {
+    font-size: 24px;
+}
+.about-left-data {
+    padding: 0px 15px;
+}
+.about-us {
+    padding: 66px 0;
+}
+.collection-img img {
+    top: 14%;
+    left: 53%;
+    width: 341px;
+    height: 371px;
+}
+.collection-left-data {
+   padding-right: 50px;
+}
+.collection-left-data h4 {
+    font-size: 27px;
+    line-height: 40px;
+}
+.collection-left-data .btn {
+    padding: 19px 50px 19px 50px;
+}
+
+.offer {
+    padding: 61px 20px;
+}
+.beauty {
+    padding: 84px 0;
+}
+.beauty-data h2 {
+    font-weight: 400;
+    font-size: 56px;
+}
+.our-team .team-data {
+    margin-bottom: 30px;
+}
+.our-team-btn {
+    padding-top: 27px;
+}
+.logo-slider {
+    padding: 70px 0;
+}
+.team-data {
+    padding: 16px;
+}
+.beuty-info-box1 .btn {
+    padding: 10px;
+}
+.beuty-info-box1 h3 {
+    font-size: 16px;
+    line-height: 28px;
+}
+}
+@media(max-width:425px){
+    .swiper-button-prev:after {
+        right: 88%;
+        /* transition: all 0.5s ease-in-out; */
+    }
+    #main .swiper-button-prev {
+        color: var(--white-color);
+        padding: 51px 30px;
+    }
+    .swiper-button-next:after {
+        content: 'next';
+        left: 89%;
+        position: absolute;
+        /* transition: 0.3s ease-in-out; */
+    }
+    #main .swiper-button-next {
+        padding: 51px 35px;
+    }
+   #main .swiper-content h1 {
+        font-size: 32px;
+        line-height: 41px;
+    }
+    #main .swiper-button-next:after,#main .swiper-button-prev:after{
+        font-size: 28px;
+    }
+    .about-left-data p {
+        text-align: start;
+    }
+    .about-left-data {
+        padding: 0px;
+    }
+    .padding-top {
+        padding-top: 28px;
+    }
+    
+  
+    .about-left-data p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .about-right-data p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .about-info-data span {
+        line-height: 20px;
+    }
+    .about-info-data h3 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 0;
+    }
+    .about-info-data h5 {
+        font-size: 14px;
+        line-height: 29px;
+        margin-bottom: 0;
+    }
+    .collection-img img{
+        position: static;
+        width: 100%;
+        height: 100%;
+    }
+    .collection-left-data {
+        padding: 0px 20px 50px;
+    }
+    .collection-left-data h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .collection-left-data p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .collection-left-data .btn {
+        padding: 15px 35px 15px 35px;
+    }
+    .offer {
+        padding: 60px 20px;
+    }
+    .beauty-data h2 {
+        font-size: 38px;
+        line-height: 48px;
+        max-width: 283px;
+    }
+    #main .swiper-content {
+        text-align: center;
+        padding: 0 47px;
+    }
+    .collection {
+        background: linear-gradient(90deg, #282828 100%, #FFFFFF 50%);
+    }
+    
+    .collection-left-col {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }    
+    .collection {
+        padding: 24px 0 0px;
+    }
+    .collection-image{
+        padding: 0;
+    }
+    .contactus {
+        background-color: rgba(247, 239, 236, 1);
+        padding: 50px 0;
+    }
+    .about-us {
+        padding: 60px 0;
+    }
+    .beuty-content img {
+        width: auto;
+    }
+    .beuty-info-box1 {
+        position: absolute;
+        top: 34%;
+        left: 0;
+        transform: translateX(0%);
+        z-index: 3;
+        right: 0;
+        margin: auto;
+    }
+    .beuty-info-box1 h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .beuty-info-box1 .btn {
+        padding: 15px 35px;
+    }
+    .beauty-info {
+        padding-bottom: 60px;
+    }
+    /* footer */
+    .footer-logo{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .footer-contact{
+        margin-top: 30px;
+    }
+    .contactus-data h3 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 35px;
+        margin-top: 10px;
+    }
+
+}
+@media(max-width:320px){
+    #main .swiper-content h1 {
+        font-size: 29px;
+        line-height: 41px;
+    }
+    #main .swiper-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .collection-left-data {
+        padding: 59px 14px;
+    }
+    .collection-left-data h4 {
+        font-size: 21px;
+    }
+    .offer {
+        padding: 60px 20px;
+    }
+    .team-data {
+        padding: 6px;
+    }
+}
