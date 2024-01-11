@@ -143,17 +143,17 @@
     opacity: 1;
     width: 100%;
   }
-  .location-sub-menu{
+  .location-sub-menu {
     position: absolute;
     top: 188%;
-    left: 0%;
+    left: -15%;
     background-color: var(--white-color);
-   width: 147px;
-   padding: 7px;
-   opacity: 0;
-   visibility: hidden;
-   transition: all 0.5s;
-  }
+    width: 165px;
+    padding: 10px 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
   .location-select span:hover .location-sub-menu{
     opacity: 1;
     visibility: visible;
@@ -232,6 +232,7 @@
   .vector{
     width: 25px;
     height: 25px;
+    margin-left: 30px;
   }
 .responsive-nav{
     position: absolute;
