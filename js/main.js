@@ -64,7 +64,7 @@ function animateContent(button, text, direction) {
           { opacity: '1', transform: 'translateX(0)' },
       ],
       {
-          duration: 500, // Adjust the duration as needed
+          duration: 1500, // Adjust the duration as needed
           easing: 'ease-in-out',
       }
   );
@@ -76,23 +76,23 @@ function animateContent(button, text, direction) {
               { opacity: '0', transform: `translateX(${direction === 'prev' ? '-' : ''}20px)` },
           ],
           {
-              duration: 500, // Adjust the duration as needed
+              duration: 1500, // Adjust the duration as needed
               easing: 'ease-in-out',
           }
       );
 
       setTimeout(function () {
           content.remove();
-      }, 500);
+      }, 1500);
   }, 1500); // Adjust the duration as needed
 }
 
 nextButton.addEventListener('mouseenter', function () {
-  animateContent(nextButton, 'Next', 'next');
+  animateContent(nextButton, 'NEXT', 'next');
 });
 
 prevButton.addEventListener('mouseenter', function () {
-  animateContent(prevButton, 'Prev', 'prev');
+  animateContent(prevButton, 'PREV', 'prev');
 });
 
 nextButton.addEventListener('mouseleave', function () {
