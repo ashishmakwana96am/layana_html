@@ -8,59 +8,107 @@ $(document).ready(function() {
 
 //   ---swiper slider main div----
 
+// var swiper = new Swiper(".mySwiper", {
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+//   loop: true, 
+// });
+
+
+
+// var nextButton = document.querySelector('.swiper-button-next');
+// var prevButton = document.querySelector('.swiper-button-prev');
+
+
+// nextButton.addEventListener('mouseenter', function() {
+//     nextButton.textContent = 'Next';
+// });
+
+// nextButton.addEventListener('mouseleave', function() {
+//     nextButton.textContent = '';
+// });
+
+// prevButton.addEventListener('mouseenter', function() {
+//     prevButton.textContent = 'Prev';
+// });
+
+// prevButton.addEventListener('mouseleave', function() {
+//     prevButton.textContent = '';
+// });
+
+
+///////
 var swiper = new Swiper(".mySwiper", {
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
   },
+  loop: true,
 });
-
-
 
 var nextButton = document.querySelector('.swiper-button-next');
 var prevButton = document.querySelector('.swiper-button-prev');
 
+function animateContent(button, text, direction) {
+  var content = document.createElement('span');
+  content.textContent = text;
+  content.style.opacity = '0';
+  content.style.transform = `translateX(${direction === 'prev' ? '-' : ''}20px)`;
+  button.appendChild(content);
 
+  content.animate(
+      [
+          { opacity: '0', transform: `translateX(${direction === 'prev' ? '-' : ''}20px)` },
+          { opacity: '1', transform: 'translateX(0)' },
+      ],
+      {
+          duration: 500, // Adjust the duration as needed
+          easing: 'ease-in-out',
+      }
+  );
 
+  setTimeout(function () {
+      content.animate(
+          [
+              { opacity: '1', transform: 'translateX(0)' },
+              { opacity: '0', transform: `translateX(${direction === 'prev' ? '-' : ''}20px)` },
+          ],
+          {
+              duration: 500, // Adjust the duration as needed
+              easing: 'ease-in-out',
+          }
+      );
 
-nextButton.addEventListener('mouseenter', function() {
-    nextButton.style.transition = '0.3s ease-in-out';
-    nextButton.textContent = 'Next';
+      setTimeout(function () {
+          content.remove();
+      }, 500);
+  }, 1500); // Adjust the duration as needed
+}
+
+nextButton.addEventListener('mouseenter', function () {
+  animateContent(nextButton, 'Next', 'next');
 });
 
-nextButton.addEventListener('mouseleave', function() {
-    nextButton.style.transition = '0.3s ease-in-out';
-    nextButton.textContent = '';
+prevButton.addEventListener('mouseenter', function () {
+  animateContent(prevButton, 'Prev', 'prev');
 });
 
-prevButton.addEventListener('mouseenter', function() {
-    prevButton.style.transition = '0.3s ease-in-out';
-    prevButton.textContent = 'Prev';
+nextButton.addEventListener('mouseleave', function () {
+  nextButton.textContent = '';
 });
 
-prevButton.addEventListener('mouseleave', function() {
-    prevButton.style.transition = '0.3s ease-in-out';
-    prevButton.textContent = '';
+prevButton.addEventListener('mouseleave', function () {
+  prevButton.textContent = '';
 });
+
+
+
+
+
+
 // ---logo section-slider---
-var swiper = new Swiper(".mySwiper-logo-slider", {
-slidesPerView: 1,
-spaceBetween: 10,
-pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-},
-breakpoints: {
-    768: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-    },
-    1024: {
-        slidesPerView: 5,
-        spaceBetween: 30,
-    },
-  }
-});
 
 
 $('.owl-carousel').owlCarousel({
