@@ -461,12 +461,16 @@
     transform: scale(1.2);
 }
 .beuty-info-box1 {
-    position: absolute;
-    top:34%;
-    top: 34%;
-    left: 25%; 
-    transform: translateX(-8%);
-    z-index: 3;
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
 }
 .beuty-info-box1 h3{
     font-size: 36px;

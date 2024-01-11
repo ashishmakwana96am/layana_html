@@ -33,12 +33,12 @@ text-align: center;
         font-size: 30px;
         line-height: 40px;
     }
-    .beuty-info-box1 {
+    /* .beuty-info-box1 {
         top: 32%;
     }
     .beuty-info-box1 {
         height: 100px;
-      }
+      } */
       .beuty-info-box1 .btn{
         padding: 16px 50px 16px 50px;
       }
@@ -85,12 +85,15 @@ text-align: center;
         font-size: 18px;
         line-height: 28px;
     }
-    .beuty-info-box1 {
+    .beuty-info-box1 .btn{
+        padding: 16px 30px 16px 30px;
+      }
+    /* .beuty-info-box1 {
         top: 32%;
     }
     .beuty-info-box1 {
         height: 100px;
-      }
+      } */
     /* --offer-- */
     /* .offer-box {
         padding: 50px 60px;
@@ -174,13 +177,13 @@ text-align: center;
 .team-data {
     padding: 16px;
 }
-.beuty-info-box1 .btn {
+/* .beuty-info-box1 .btn {
     padding: 10px;
-}
-.beuty-info-box1 h3 {
+} */
+/* .beuty-info-box1 h3 {
     font-size: 16px;
     line-height: 28px;
-}
+} */
 }
 @media(max-width:425px){
     .swiper-button-prev:after {
@@ -294,7 +297,7 @@ text-align: center;
     .beuty-content img {
         width: auto;
     }
-    .beuty-info-box1 {
+    /* .beuty-info-box1 {
         position: absolute;
         top: 34%;
         left: 0;
@@ -302,7 +305,7 @@ text-align: center;
         z-index: 3;
         right: 0;
         margin: auto;
-    }
+    } */
     .beuty-info-box1 h3 {
         font-size: 32px;
         line-height: 42px;
