@@ -17,7 +17,8 @@
   }
   .team-data h5,
   .footer-link li a,
-  .team-data p{
+  .team-data p,
+  #main .swiper-content p{
     font-family: 'Quattrocento';
   }
   
@@ -196,12 +197,16 @@
     font-weight: 400;
     line-height: 75px;
     color: var(--white-color);
+    margin-bottom: 20px;
   }
   #main .swiper-content p{
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 200 !important;
     line-height:32px;
     color: var(--white-color);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
   }
   #main .swiper-content .btn{
     border: 1px solid var(--white-color);
@@ -213,6 +218,7 @@
     line-height: 14px;
     transition: all 0.5s;
     text-transform: uppercase;
+    letter-spacing: 2px;
   }
   #main .swiper-content .btn:hover{
     background-color: var(--white-color);
@@ -285,10 +291,12 @@
     line-height: 40px;
     color: var(--black-color);
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .about-info-data h3{
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: 4px;
     line-height: 28px;
     color: var(--black-color);
     text-transform: uppercase;
@@ -298,13 +306,15 @@
     font-weight: 400;
     line-height: 22px;
     color: var(--black-color);
+    letter-spacing: 0.2px;
 }
 .about-info-data a{
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 14px;
     color: var(--black-color);
     text-decoration: underline;
+    letter-spacing: 1px;
 }
 
 /* --collection-- */
@@ -351,7 +361,7 @@
     border-radius: 0;
     color: var(--white-color);
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 
 }
 .collection-left-data .btn:hover{
@@ -494,6 +504,7 @@
     border-radius: 0;
     color: var(--white-color);
     transition: all 0.5s;
+    letter-spacing: 2px;
 }
 .beuty-info-box1 .btn:hover{
     background-color: var(--white-color);
@@ -520,7 +531,7 @@
     line-height: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: rgba(0, 0, 0, 1);
 }
 .team-data h5{
@@ -529,13 +540,14 @@
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
     letter-spacing: 0.5px;
-  
+  margin-bottom: 15px;
 }
 .team-data p{
     font-size: 12px;
     line-height: 17px;
     font-weight: 400;
-    color: rgba(102, 102, 102, 1);
+    color: #666666;
+    letter-spacing: 0.5px;
 }
 .our-team-btn {
     padding-top: 50px;
@@ -549,6 +561,7 @@
     border-radius: 0;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 1);
+    letter-spacing: 2px;
 }
 .about-content .about-info{
   margin-bottom: 30px;
@@ -632,6 +645,7 @@ form{
     font-weight: 400;
     border-radius: 0;
     color: var(--white-color);
+    letter-spacing: 2px;
 }
 .subscribe-btn:hover{
     background-color: var(--white-color);
