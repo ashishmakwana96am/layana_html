@@ -1,8 +1,8 @@
 @media(max-width:1440px){
-    .swiper-row {
-justify-content: center;
-text-align: center;
-    }
+.swiper-row {
+justify-content: start;
+text-align: start;
+}
     /* #main .swiper-slide {
         padding-top: 172px;
     } */
@@ -44,6 +44,10 @@ text-align: center;
       }
 }
 @media(max-width:1024px){
+    .swiper-row {
+        justify-content: start;
+        text-align: start;
+    }
     #main .nav-item{
         margin: 0;
       }
@@ -51,7 +55,7 @@ text-align: center;
         font-size: 49px;
       }
       #main .swiper-content {
-        text-align: center;
+        text-align: start;
         padding: 0 35px;
     }
 
@@ -106,6 +110,10 @@ text-align: center;
     }
 }
 @media(max-width:768px){
+    .swiper-row {
+        justify-content: center;
+        text-align: center;
+        }
     #main .swiper-content h1 {
         font-size: 42px;
         line-height: 53px;
