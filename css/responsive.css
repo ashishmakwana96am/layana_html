@@ -102,7 +102,6 @@ text-align: start;
 
 /* 768 Screen */
 
-
 @media(max-width:768px){
 .swiper-row {
     justify-content: center;
@@ -322,6 +321,11 @@ padding: 16px;
 }
 .cosmetic-service {
     background: linear-gradient(90deg, #F7EFEC 100%, #FFFFFF 50%);
+    margin-bottom: 60px;
+}
+.muswell-cosmetic-service {
+    background: linear-gradient(90deg, #F7EFEC 100%, #FFFFFF 50%);
+    margin-bottom: 60px;
 }
 .central-contact-box {
     grid-template-columns: repeat(2,1fr);
@@ -344,9 +348,7 @@ line-height: 38px;
 .central-section {
     padding: 60px 0;
 }
-.cosmetic-service{
-margin-bottom: 60px;
-}
+
 }
 
 

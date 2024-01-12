@@ -370,7 +370,7 @@ background-color: var(--white-color);
 }
 .collection-img img {
   position: absolute;
-  top: 7%;
+  top: 9%;
   left: 53%;
   width: 650px;
   object-fit: cover;
@@ -735,6 +735,7 @@ line-height: 26px;
 font-weight: 600;
 text-decoration: underline;
 letter-spacing: 2px;
+font-family: 'Mulish';
 }
 
 .contect-border{
@@ -808,3 +809,53 @@ color: #666666;
   background-color: #000000;
   color: #ffffff;
 }
+
+
+
+
+
+
+/* muswell section */
+#main .slide-muswell-1{
+  background-image: url('../images/header\ 2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  }
+  .slide-muswell-2{
+  background-image: url('../images/header\ 2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  }
+
+/* cosmentic service section */  
+  .muswell-cosmetic-service{
+    background: linear-gradient(90deg, rgba(252, 244, 233, 1) 57%, #FFFFFF 50%);
+    margin-bottom: 90px;
+    }
+    .muswell-cosmetic-service .collection-left-data span{
+    color: #000000;
+    }
+    .muswell-cosmetic-service .collection-left-data h4{
+    color: #000000;
+    font-weight: 600;
+    }
+    .muswell-cosmetic-service .collection-left-data p{
+    color: #666666;
+    }
+    .muswell-cosmetic-service .collection-left-data .btn{
+      color: #000000;
+      border: 1px solid #000000;
+    
+    }
+    .muswell-cosmetic-service .collection-left-data .btn:hover{
+      background-color: #000000;
+      color: #ffffff;
+    }
+    
+    
+
