@@ -36,6 +36,100 @@ img {
   --black-color :#000000;
 }
 
+
+
+/* header location */
+
+.fa-location-dot:before, .fa-map-marker-alt:before {
+  position: absolute;
+  content: "\f3c5";
+  font-size: 16px;
+  top: 6px;
+  left: -8px;
+}
+.location-select div.select:after {
+  content: "\f3c5";
+  position: absolute;
+  right: 6px;
+  top: 8px;
+  font-size: 9px;
+}
+.location-select p {
+  margin: 0;
+}
+.location-select div.select {
+  padding-right: 15px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  border: none;
+  position: relative;
+  background: transparent;
+  color: #fff;
+  transition: all 0.5s;
+}
+.location-select div.select p {
+	padding: 5px;
+	width: max-content;
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.location-select div.select:after {
+  content: "\f3c5";
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    font-size: 9px;
+}
+.location-select div.select .hidden {
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	transition: .1s;
+	background: white;
+  color: #000000;
+	border: 1px solid #999;
+	z-index: 10;
+	width: 100%;
+  margin-top: 115px;
+  min-width: 150px;
+  transition: all 0.5s;
+}
+.location-select div.select:hover .hidden {
+	visibility: visible;
+	opacity: 1;
+}
+.location-select div.select p:hover, div.select:hover {
+  background: transparent;
+}
+.select{
+  position: relative;
+  transition: all 0.5s;
+}
+.select::before{
+  background-color: var(--white-color);
+  position: absolute;
+  content: "";
+  width: -webkit-fill-available;
+  height: 1px;
+  top: 28px;
+  left: 10px;
+  right: 16px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+.select:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
 /* --main--- */
 #main{
   position: relative;
@@ -71,7 +165,7 @@ display: flex;
   content: "";
   width: 0%;
   height: 1px;
-  top: 25px;
+  top: 28px;
   left: 0px;
   opacity: 0;
   visibility: hidden;
@@ -132,7 +226,7 @@ transition: color 0.3s ease-in-out;
   position: relative;
   transition: all 0.5s;
 }
-.location-select span:after{
+/* .location-select span:after{
   background-color: var(--white-color);
   position: absolute;
   content: "";
@@ -148,7 +242,7 @@ transition: color 0.3s ease-in-out;
   visibility: visible;
   opacity: 1;
   width: 100%;
-}
+} */
 .location-sub-menu {
   position: absolute;
   top: 188%;
@@ -160,7 +254,8 @@ transition: color 0.3s ease-in-out;
   visibility: hidden;
   transition: all 0.5s;
 }
-.location-select span:hover .location-sub-menu{
+
+.location-select:hover .location-sub-menu{
   opacity: 1;
   visibility: visible;
 }
@@ -241,11 +336,11 @@ header{
 .vector{
   width: 25px;
   height: 25px;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .responsive-nav{
   position: absolute;
-  background-color: rgba(255, 255,255, 0.9);
+  background-color: rgba(255, 255,255, 255);
   color:var(--black-color) ;
   top: 90%;
   left: 5%;
@@ -371,10 +466,10 @@ background-color: var(--white-color);
 .collection-img img {
   position: absolute;
   top: 9%;
-  left: 53%;
-  width: 650px;
+  left: 50%;
+  width: 687px;
   object-fit: cover;
-  height: 600px;
+  height: 602px;
 }
 
 /* --offer-- */

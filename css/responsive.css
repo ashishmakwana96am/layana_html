@@ -37,6 +37,23 @@ text-align: start;
 /* 1024 Screen */
 
 @media(max-width:1024px){
+    .container{
+        max-width: 1050px;
+    }
+.location-select div.select p{
+    font-size: 12px;
+}
+#main .nav-link{
+    font-size: 10px;
+    padding: 5px;
+}
+.nav-item{
+    padding-right: 10px;
+}
+#main .responsive-nav .nav-link{
+    font-size: 14px;
+}
+
 .swiper-row {
     justify-content: start;
     text-align: start;
@@ -114,6 +131,7 @@ text-align: start;
 
 #main .swiper-content p {
 font-size: 16px;
+line-height: 20px;
 }
 
 #main .swiper-content .btn {
@@ -356,6 +374,9 @@ line-height: 38px;
 /* 320screen */
 
 @media(max-width:320px){
+    header {
+        margin-bottom: -124px;
+    }
 #main .swiper-content h1 {
     font-size: 29px;
     line-height: 41px;

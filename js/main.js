@@ -6,40 +6,7 @@ $(document).ready(function() {
   });
 });
 
-//   ---swiper slider main div----
 
-// var swiper = new Swiper(".mySwiper", {
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-//   loop: true, 
-// });
-
-
-
-// var nextButton = document.querySelector('.swiper-button-next');
-// var prevButton = document.querySelector('.swiper-button-prev');
-
-
-// nextButton.addEventListener('mouseenter', function() {
-//     nextButton.textContent = 'Next';
-// });
-
-// nextButton.addEventListener('mouseleave', function() {
-//     nextButton.textContent = '';
-// });
-
-// prevButton.addEventListener('mouseenter', function() {
-//     prevButton.textContent = 'Prev';
-// });
-
-// prevButton.addEventListener('mouseleave', function() {
-//     prevButton.textContent = '';
-// });
-
-
-///////
 var swiper = new Swiper(".mySwiper", {
   navigation: {
       nextEl: ".swiper-button-next",
@@ -128,3 +95,10 @@ $('.owl-carousel').owlCarousel({
       }
   }
 })
+
+$('.hidden p').click(function(){
+  $(this).closest('.select').find('.input').text($(this).text());
+  $(this).closest('.select').find('input').val($(this).attr('value'));
+  $(this).closest('.select').trigger("change");
+});
+
