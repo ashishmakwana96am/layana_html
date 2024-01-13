@@ -96,9 +96,20 @@ $('.owl-carousel').owlCarousel({
   }
 })
 
-$('.hidden p').click(function(){
-  $(this).closest('.select').find('.input').text($(this).text());
-  $(this).closest('.select').find('input').val($(this).attr('value'));
-  $(this).closest('.select').trigger("change");
-});
 
+
+$('.hidden p').click(function() {
+  var selectedText = $(this).text();
+  var selectedValue = $(this).attr('value');
+
+  // Update the text and value in the main dropdown area
+  $(this).closest('.select').find('.input').text(selectedText);
+  $(this).closest('.select').find('input').val(selectedValue);
+  $(this).closest('.select').trigger("change");
+
+  // Hide the selected option in the dropdown
+  $(this).hide();
+
+  // Show the remaining options
+  $(this).siblings().show();
+});
