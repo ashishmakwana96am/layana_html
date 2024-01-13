@@ -96,7 +96,7 @@ $('.owl-carousel').owlCarousel({
   }
 })
 
-
+// header select option
 
 $('.hidden p').click(function() {
   var selectedText = $(this).text();

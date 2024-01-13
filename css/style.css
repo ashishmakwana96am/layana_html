@@ -18,7 +18,8 @@ body {
 .team-data h5,
 .footer-link li a,
 .team-data p,
-#main .swiper-content p{
+#main .swiper-content p,
+.terms-condition-section p{
   font-family: 'Quattrocento';
 }
 
@@ -971,4 +972,50 @@ color: #666666;
 }
 .team-row{
   margin-top: 40px;
+}
+
+
+
+
+/* 
+*****
+terms condition
+***** */
+.terms-center-column h1{
+  color: rgba(255, 255, 255, 1);
+  font-size: 65px;
+  line-height: 75px;
+  font-weight: 400;
+}
+.slide-condition{
+  background-image: url('../images/terms.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.terms-condition-section{
+  margin:90px 0;
+}
+.terms-condition-section h4{
+  color: #000000;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.terms-condition-section p{
+  color: #666666;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 0 !important;
+}
+.terms-box{
+  margin-bottom: 30px;
 }

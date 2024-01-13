@@ -214,8 +214,21 @@ padding: 20px;
     font-size: 28px;
     line-height: 38px
 }
+.slide-condition{
+    height: 350px;
 }
-
+.terms-center-column h1{
+    font-size: 28px;
+    line-height: 38px
+}
+.terms-condition-section {
+    margin: 60px 0 45px;
+}
+.terms-condition-section h4{
+    font-size: 20px;
+    line-height: 30px
+}
+}
 
 
 /* 425 screen */
