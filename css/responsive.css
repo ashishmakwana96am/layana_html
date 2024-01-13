@@ -112,7 +112,9 @@ text-align: start;
 .central-row{
     align-items: center;
 }
-
+.our-team-section {
+    margin: 70px 0;
+}
 }
 
 
@@ -194,10 +196,16 @@ padding-top: 27px;
 padding: 70px 0;
 }
 .team-data {
-padding: 16px;
+padding: 20px;
 }
 .central-img-col{
     margin-bottom: 30px;
+}
+.our-team-section {
+    margin: 60px 0 30px;
+}
+.team-row {
+    margin-top: 0;
 }
 }
 
@@ -366,7 +374,18 @@ line-height: 38px;
 .central-section {
     padding: 60px 0;
 }
-
+.team-data h3{
+    font-size: 16px;
+    line-height: 26px;
+}
+.team-data h5{
+    font-size: 12px;
+    line-height: 22px;
+}
+.team-data p{
+    font-size: 11px;
+    line-height: 14px;
+}
 }
 
 
@@ -395,6 +414,6 @@ line-height: 38px;
     padding: 60px 20px;
 }
 .team-data {
-    padding: 6px;
+    padding: 20px 10px 15px;
 }
 }
