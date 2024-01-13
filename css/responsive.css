@@ -207,6 +207,13 @@ padding: 20px;
 .team-row {
     margin-top: 0;
 }
+.slide-team-1{
+    height: 350px;
+}
+.center-column h1{
+    font-size: 28px;
+    line-height: 38px
+}
 }
 
 
