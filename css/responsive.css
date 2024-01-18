@@ -122,6 +122,11 @@ text-align: start;
 .our-team-section {
     margin: 70px 0;
 }
+.team-grid-col{
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+  }
 }
 
 
@@ -214,6 +219,11 @@ padding: 20px;
 .team-row {
     margin-top: 0;
 }
+.team-grid-col{
+    display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+  }
 .slide-team-1{
     height: 350px;
 }
@@ -267,6 +277,12 @@ padding: 20px;
 #main .swiper-button-next:after,#main .swiper-button-prev:after{
     font-size: 28px;
 }
+.about-content{
+    padding-right: 10px;
+  }
+  .about-content-right{
+    padding-left: 10px;
+  }
 .about-left-data p {
     text-align: start;
 }
