@@ -113,3 +113,30 @@ $('.hidden p').click(function() {
   // Show the remaining options
   $(this).siblings().show();
 });
+
+
+// tabs js
+function showTab(tabId) {
+  // Hide all tab contents
+  var tabContents = document.querySelectorAll('.tab-content');
+  tabContents.forEach(function (tabContent) {
+      tabContent.style.display = 'none';
+  });
+
+  // Show the selected tab content
+  var selectedTab = document.getElementById(tabId);
+  if (selectedTab) {
+      selectedTab.style.display = 'block';
+  }
+
+  // Update the active tab style
+  var tabs = document.querySelectorAll('.tab');
+  tabs.forEach(function (tab) {
+      tab.style.borderBottom = '1px solid #ccc';
+      tab.classList.remove('active');
+  });
+
+  var clickedTab = document.querySelector('.tab');
+  clickedTab.style.borderBottom = '2px solid #000';
+  clickedTab.classList.add('active');
+}
