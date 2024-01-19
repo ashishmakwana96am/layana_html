@@ -21,7 +21,8 @@ body {
 #main .swiper-content p,
 .terms-condition-section p,
 .about-right-data p,
-.collection-left-data p{
+.collection-left-data p,
+.about-info-data h3{
   font-family: 'Quattrocento';
 }
 
@@ -292,15 +293,7 @@ transition: color 0.3s ease-in-out;
 }
 #main .swiper-content .btn{
   border: 1px solid var(--white-color);
-  padding: 23px 50px 23px 50px;
-  border-radius: 0;
   color: var(--white-color);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14px;
-  transition: all 0.5s;
-  text-transform: uppercase;
-  letter-spacing: 2px;
 }
 #main .swiper-content .btn:hover{
   background-color: var(--white-color);
@@ -368,7 +361,7 @@ header{
 .about-right-data p{
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   margin-bottom: 0;
   color: #666;
   text-align: justify;
@@ -385,13 +378,13 @@ header{
   line-height: 40px;
   color: var(--black-color);
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .about-info-data h3{
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 400;
   letter-spacing: 4px;
-  line-height: 28px;
+  line-height: 32px;
   color: var(--black-color);
   text-transform: uppercase;
 }
@@ -445,22 +438,13 @@ align-items: center;
   margin-top: 10px;
 }
 .collection-left-data p{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 27px;
   color: #666666;
   margin-bottom: 35px;
 }
-.collection-left-data .btn{
-  padding: 23px 50px 23px 50px;
-  border: 1px solid var(--black-color);
-  text-transform: uppercase;
-  border-radius: 0;
-  color: var(--black-color);
-  font-size: 12px;
-  letter-spacing: 2px;
-  transition: all 0.5s;
-}
+
 
 .collection-img img {
   position: absolute;
@@ -492,7 +476,7 @@ align-items: center;
   line-height: 75px;
   color: var(--white-color);
   width: 100%;
-  max-width: 600px;
+  max-width: 670px;
   margin: 0 auto;
 }
 .beauty-info{
@@ -552,28 +536,13 @@ text-align: center;
 width: 100%;
 }
 .beuty-info-box1 h3{
-  font-size: 36px;
-  line-height: 52px;
+  font-size: 28px;
+  line-height: 28px;
   font-weight: 400;
   color: #282828;
   margin-bottom: 20px;
 }
-.beuty-info-box1 .btn{
-  padding:  23px 50px 23px 50px;
-  border: 1px solid #000000;
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 14px;
-  font-weight: 400;
-  border-radius: 0;
-  color: #000000;
-  transition: all 0.5s;
-  letter-spacing: 2px;
-}
-.beuty-content .btn:hover{
-  background-color: #000000;
-  color: #fff;
-}
+
 
 .team-grid-col{
   display: grid;
@@ -596,7 +565,7 @@ margin-bottom: 40px;
 }
 .our-team h1{
   font-size: 42px;
-  line-height: 18px;
+  line-height: 42px;
   font-weight: 400;
   margin-bottom: 10px;
   color: #000000;
@@ -606,8 +575,9 @@ margin-bottom: 40px;
   line-height: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #000000;
+  letter-spacing: 2px;
 }
 .team-data h5{
   font-size: 14px;
@@ -619,25 +589,16 @@ margin-bottom: 15px;
 }
 .team-data p{
   font-size: 14px;
-  line-height: 17px;
+  line-height: 22px;
   font-weight: 400;
   color: #666666;
   letter-spacing: 0.5px;
+  margin-bottom: 0;
 }
 .our-team-btn {
   padding-top: 50px;
 }
-.our-team-btn .btn{
-  border: 1px solid var(--black-color);
-  padding:23px 50px 23px 50px;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14px;
-  border-radius: 0;
-  text-transform: uppercase;
-  color: rgba(0, 0, 0, 1);
-  letter-spacing: 2px;
-}
+
 .about-content .about-info{
 margin-bottom: 30px;
 }
@@ -685,7 +646,8 @@ footer{
 .footer-link li{
   font-size: 12px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 26px;
+  margin-bottom: 5px;
 }
 .footer-link li a{
   color: var(--white-color);
@@ -697,7 +659,7 @@ footer{
   line-height: 28px;
   font-weight: 400;
   color: var(--white-color);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .footer-contact input {
 width: 100%;
@@ -725,9 +687,13 @@ form{
   color: var(--white-color);
   letter-spacing: 2px;
 }
-.subscribe-btn:hover{
+.subscribe-btn.btn{
+  border:1px solid var(--white-color);
+  color: var(--white-color);
+}
+.subscribe-btn.btn:hover{
   background-color: var(--white-color);
-  color: var(--black-color);
+  color: #000000;
 }
 .copy-right{
   padding: 30px 0;
@@ -790,8 +756,8 @@ margin-bottom: 20px;
 }
 .central-about p{
 color: #666666;
-font-size: 15px;
-line-height: 24px;
+font-size: 16px;
+line-height: 26px;
 letter-spacing: 0.5px;
 text-align: justify;
 }
@@ -833,14 +799,15 @@ background: #F7EFEC;
 }
 .contact-inner-box h6{
 color: #000000;
-font-size: 14px;
+font-size: 22px;
 line-height: 24px;
 font-weight: 500;
-margin-top: 10px;
+margin-top: 15px;
+margin-bottom: 16px;
 }
 .contact-inner-box p{
 color: #666666;
-font-size: 14px;
+font-size: 18px;
 line-height: 24px;
 font-weight: 400;
 }
@@ -922,17 +889,6 @@ font-weight: 600;
 .cosmetic-service .collection-left-data p{
 color: #666666;
 }
-.cosmetic-service .collection-left-data .btn{
-  color: #000000;
-  border: 1px solid #000000;
-  transition: all 0.5s;
-}
-
-
-
-
-
-
 
 /* muswell section */
 #main .slide-muswell-1{
@@ -966,15 +922,7 @@ color: #666666;
     .muswell-cosmetic-service .collection-left-data p{
     color: #666666;
     }
-    .muswell-cosmetic-service .collection-left-data .btn{
-      color: #000000;
-      border: 1px solid #000000;
-      transition: all 0.5s;
-    }
-    .collection-left-data .btn:hover{
-      background-color: #000000;
-      color: #ffffff;
-    }
+  
     
 
 /*beauty css */
@@ -1012,7 +960,7 @@ color: #666666;
   height: max-content !important;
 }
  .slide-team-1{
-  background-image: url('../images/layana_team_bg.png');
+  background-image: url('../images/layana_team.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1043,6 +991,11 @@ color: #666666;
 *****
 terms condition
 ***** */
+.condition-inner-section{
+  border: 8px solid #FBFBFB;
+  border-radius: 5px;
+  padding: 30px 25px; 
+}
 .terms-center-column h1{
   color: rgba(255, 255, 255, 1);
   font-size: 65px;
@@ -1076,10 +1029,11 @@ terms condition
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
-  margin-bottom: 0 !important;
+  text-align: justify;
+
 }
 .terms-box{
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 
@@ -1200,6 +1154,7 @@ Treatment section css
   text-transform: uppercase;
   color: rgba(0, 0, 0, 1);
   letter-spacing: 2px;
+  transition: all 0.5s;
 }
 .btn:hover{
   background-color: #000000;

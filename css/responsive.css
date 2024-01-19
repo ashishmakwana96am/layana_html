@@ -134,6 +134,9 @@ text-align: start;
 /* 768 Screen */
 
 @media(max-width:768px){
+    .left-content-col {
+        padding-left: 12px;
+    }
 .swiper-row {
     justify-content: center;
     text-align: center;
@@ -150,7 +153,7 @@ line-height: 20px;
 
 #main .swiper-content .btn {
 border: 1px solid var(--white-color);
-padding:  15px 35px 15px 35px;
+padding:  15px 16px 15px 16px;
 }
 #main .swiper-button-next:after,#main .swiper-button-prev:after{
 font-size: 38px;
@@ -198,15 +201,19 @@ padding: 84px 0;
 font-weight: 400;
 font-size: 56px;
 }
-.our-team .team-data {
+/* .our-team .team-data {
 margin-bottom: 30px;
-}
+} */
 .our-team-btn {
-padding-top: 27px;
+padding-top: 0px;
 }
 .logo-slider {
-padding: 70px 0;
+padding: 60px 0;
 }
+.logo-slider .container-fluid {
+    padding: 25px 0;
+}
+
 .team-data {
 padding: 20px;
 }
@@ -224,6 +231,14 @@ padding: 20px;
   grid-template-columns: repeat(2,1fr);
   gap: 15px;
   }
+  .team-data-img {
+    margin-bottom: 15px;
+}
+.team-data h3 {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 7px;
+}
 .slide-team-1{
     height: 350px;
 }
@@ -239,7 +254,7 @@ padding: 20px;
     line-height: 38px
 }
 .terms-condition-section {
-    margin: 60px 0 45px;
+    margin: 60px 0 20px;
 }
 .terms-condition-section h4{
     font-size: 20px;
@@ -260,28 +275,28 @@ padding: 20px;
 }
 #main .swiper-button-prev {
     color: var(--white-color);
-    padding: 51px 30px;
+    /* padding: 51px 30px; */
 }
 .swiper-button-next:after {
     content: 'next';
     left: 89%;
     position: absolute;
 }
-#main .swiper-button-next {
+/* #main .swiper-button-next {
     padding: 51px 35px;
-}
+} */
 #main .swiper-content h1 {
-    font-size: 32px;
-    line-height: 41px;
+    font-size: 28px;
+    line-height: 38px;
 }
 #main .swiper-button-next:after,#main .swiper-button-prev:after{
     font-size: 28px;
 }
 .about-content{
-    padding-right: 10px;
+    padding-right: 12px;
   }
   .about-content-right{
-    padding-left: 10px;
+    padding-left: 12px;
   }
 .about-left-data p {
     text-align: start;
@@ -290,7 +305,7 @@ padding: 20px;
     padding: 0px;
 }
 .padding-top {
-    padding-top: 28px;
+    padding-top: 60px;
 }
 .about-left-data p {
     font-size: 18px;
@@ -298,7 +313,7 @@ padding: 20px;
 }
 .about-right-data p {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 22px;
 }
 .about-info-data span {
     line-height: 20px;
@@ -306,7 +321,11 @@ padding: 20px;
 .about-info-data h3 {
     font-size: 20px;
     line-height: 25px;
-    margin-bottom: 0;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.about-content .about-info {
+    margin-bottom: 28px;
 }
 .about-info-data h5 {
     font-size: 14px;
@@ -319,22 +338,23 @@ padding: 20px;
     height: 100%;
 }
 .collection-left-data {
-    padding: 0px 20px 50px;
+    padding: 0px 20px 46px;
 }
 .collection-left-data h4 {
     font-size: 24px;
-    line-height: 30px;
+    line-height: 34px;
     margin-bottom: 15px;
 }
 .collection-left-data p {
     font-size: 12px;
     line-height: 20px;
+    margin-bottom: 15px;
 }
 .collection-left-data .btn {
     padding: 15px 35px 15px 35px;
 }
 .offer {
-    padding: 60px 20px;
+    padding: 60px 12px;
 }
 .beauty-data h2 {
     font-size: 38px;
@@ -349,18 +369,17 @@ padding: 20px;
     background: linear-gradient(90deg, #FEFAF9 100%, #FFFFFF 50%);
 }
 .collection-left-col {
-    padding-top: 30px;
+    padding-top: 46px;
     padding-bottom: 0px;
 }    
 .collection {
-    padding: 24px 0 0px;
+    padding: 0px 0 0px;
 }
 .collection-image{
     padding: 0;
 }
 .contactus {
-    background-color: rgba(247, 239, 236, 1);
-    padding: 50px 0;
+    padding: 30px 0;
 }
 .about-us {
     padding: 60px 0;
@@ -431,11 +450,28 @@ line-height: 38px;
 .team-data h5{
     font-size: 12px;
     line-height: 22px;
+    margin-bottom: 10px;
 }
 .team-data p{
     font-size: 11px;
     line-height: 14px;
 }
+.condition-inner-section{
+    border: 0;
+    border-radius: 5px;
+    padding: 0; 
+  }
+  .terms-box {
+    margin-bottom: 30px;
+}
+.terms-condition-section h4{
+    margin-bottom: 10px;
+}
+.footer-link li {
+    line-height: 20px;
+}
+
+
 }
 
 
@@ -443,19 +479,22 @@ line-height: 38px;
 /* 320screen */
 
 @media(max-width:320px){
+    .team-data-img img{
+        width: 82%;
+    }
     header {
         margin-bottom: -124px;
     }
 #main .swiper-content h1 {
-    font-size: 29px;
-    line-height: 41px;
+    font-size: 28px;
+    line-height: 38px;
 }
 #main .swiper-content p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 28px;
 }
 .collection-left-data {
-    padding: 59px 14px;
+    padding: 0px 14px 46px;
 }
 .collection-left-data h4 {
     font-size: 21px;

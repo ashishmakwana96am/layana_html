@@ -83,9 +83,11 @@ $('.owl-carousel').owlCarousel({
   dots:false,
   margin:10,
   nav:false,
+  stagePadding: 50,
   responsive:{
       0:{
-          items:1
+          items:2,
+          stagePadding: 20,
       },
       600:{
           items:3
@@ -140,3 +142,5 @@ function showTab(tabId) {
   clickedTab.style.borderBottom = '2px solid #000';
   clickedTab.classList.add('active');
 }
+
+
