@@ -2,6 +2,9 @@
     .central-direction.container{
         max-width: 1000px;
       }
+      .parking-section .container{
+        max-width: 980px;
+      }
 }
 
 
@@ -38,8 +41,6 @@ text-align: start;
     padding: 16px 50px 16px 50px;
     }
 }
-
-
 
 /* 1024 Screen */
 
