@@ -118,6 +118,11 @@ $('.hidden p').click(function() {
 
 
 // tabs js
+// Set the first tab as active initially
+var initialTab = document.querySelector('.tab:first-child');
+initialTab.style.borderBottom = '2px solid #000000';
+initialTab.classList.add('active');
+
 function showTab(tabId) {
   // Hide all tab contents
   var tabContents = document.querySelectorAll('.tab-content');
@@ -133,14 +138,17 @@ function showTab(tabId) {
 
   // Update the active tab style
   var tabs = document.querySelectorAll('.tab');
-  tabs.forEach(function (tab) {
-      tab.style.borderBottom = '1px solid #ccc';
-      tab.classList.remove('active');
+
+
+  tabs.forEach((tab,i)=>{
+    tab.addEventListener("click",function(){
+      $(".tab").removeClass('active');
+      tab.classList.add("active");
+    })
   });
 
-  var clickedTab = document.querySelector('.tab');
-  clickedTab.style.borderBottom = '2px solid #000';
-  clickedTab.classList.add('active');
+
+
 }
 
 

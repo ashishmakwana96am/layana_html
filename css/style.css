@@ -410,12 +410,12 @@ header{
   position: relative;
 }
 .collection{
-background: linear-gradient(90deg, #FEFAF9 57%, #FFFFFF 50%);
+background: linear-gradient(90deg, #F7EFEC 57%, #FFFFFF 50%);
 }
 
 .collection-left-col{
 padding-top: 190px;
-padding-bottom: 223px;
+padding-bottom: 190px;
 text-align: center;
 }
 .collection .row{
@@ -447,13 +447,9 @@ align-items: center;
 }
 
 
-.collection-img img {
-  position: absolute;
-  top: 9%;
-  left: 50%;
-  width: 687px;
-  object-fit: cover;
-  height: 602px;
+.collection-img {
+ text-align: center;
+ 
 }
 
 /* --offer-- */
@@ -479,6 +475,9 @@ align-items: center;
   width: 100%;
   max-width: 670px;
   margin: 0 auto;
+}
+.beauty-info{
+  overflow: hidden;
 }
 .beauty-info{
   padding-bottom: 110px;
@@ -837,7 +836,6 @@ content: '';
 top: 19px;
 bottom: 0;
 right: 0;
-/* left: 0; */
 height: 100px;
 color: #7a3e28;
 width: 18px;
@@ -846,7 +844,23 @@ display: flex;
 align-items: center;
 opacity: 40%;
 }
-
+.contect-border1{
+  position: relative;
+}
+.contect-border1::after{
+  position: absolute;
+  content: '';
+  top: 19px;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  color: #7a3e28;
+  width: 18px;
+  border-right: 1px solid #666666;
+  display: flex;
+  align-items: center;
+  opacity: 40%;
+}
 
 /*beauty css */
 .bg-box-1:after{
@@ -1068,7 +1082,6 @@ Treatment section css
 .tab-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
 }
 
 .tab {
@@ -1076,6 +1089,7 @@ Treatment section css
   background-color: transparent ;
   cursor: pointer;
   user-select: none;
+  border-bottom: 1px solid #66666633;
 }
 .tab.active {
   border-bottom: 2px solid #000;
@@ -1085,9 +1099,9 @@ Treatment section css
 }
 .tab-content {
   display: none;
-  padding: 20px;
-  width: 300px;
-  margin-top: 20px;
+  /* padding: 20px; */
+  /* width: 300px; */
+  margin-top: 40px;
 }
 
 .tab-content.active {
@@ -1143,6 +1157,12 @@ Treatment section css
   color: #fff;
 }
 
+.tab:focus-visible {
+  outline: 2px solid rgba(0,102,204,1);
+  border-radius: 3px;
+}
+
+
 
 /* 
 *************
@@ -1168,7 +1188,14 @@ Contact Page Css Start
     font-weight: 400;
 }
 .contact-cosmetic-section{
-  margin: 110px 0;
+  margin: 35px 0 110px;
+}
+.parking-title h4{
+  font-size: 36px;
+  line-height: 46px;
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
 }
 .parking-box h6{
 font-size: 24px;
@@ -1186,9 +1213,14 @@ text-align: center;
   line-height: 30px;
   font-weight: 300;
   color: #666666;
-  font-style: italic;
-  padding: 20px 25px;
 }
+.parking-content{
+  padding: 30px 20px;
+}
+.parking-box p:last-child{
+margin-bottom: 0 !important;
+}
+
 .parking-box{
   border: 5px solid #FBFBFB;
 }
@@ -1208,16 +1240,17 @@ text-align: center;
 }
 .form-group{
   margin-bottom: 25px;
+  border-bottom: 1px solid rgba(102, 102, 102, 1);
 }
-.form-control{
-  margin-top: 10px;
-}
+
 .form-enquire-section{
   margin-bottom: 110px;
 }
 .form-control{
   resize: none;
-  padding: 12px 20px;
+  padding:0 0  10px;
+  border: none;
+  margin-top: 10px;
 }
 
 
@@ -1238,4 +1271,17 @@ text-align: center;
 .btn:hover{
   background-color: #000000;
   color: #fff;
+}
+
+
+
+
+
+
+.contact-location-section{
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+.contact-location-section .text-get{
+  display: none;
 }

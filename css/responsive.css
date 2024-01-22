@@ -17,11 +17,9 @@ text-align: start;
     padding-bottom: 70px;
 }
 .collection {
-    padding: 70px 0;
+    padding: 50px 0;
 }
-.collection-img img {
-    top: 3%;
-}
+
 /* --offer-- */
 .offer {
     padding: 90px 20px;
@@ -45,8 +43,11 @@ text-align: start;
 /* 1024 Screen */
 
 @media(max-width:1024px){
-    .container{
+    /* .container{
         max-width: 1050px;
+    } */
+    .parking-section {
+        margin-bottom: 70px;
     }
 .location-select div.select p{
     font-size: 12px;
@@ -88,15 +89,6 @@ text-align: start;
     padding: 24px 0;
 }
 
-.collection-img img {
-    top: 18%;
-}
-.collection-img img {
-    top: 10%;
-    left: 53%;
-    width: 430px;
-    height: 466px;
-}
 .collection-left-col {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -127,11 +119,23 @@ text-align: start;
     display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 15px;
-  }
+}
+.contact-location-section {
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
 }
 
 
 
+
+@media(max-width:991px){
+    .cosmetic-service {
+        background: linear-gradient(90deg, #FEFAF9 65%, #FFFFFF 50%);
+    }
+   
+}
 /* 768 Screen */
 
 @media(max-width:768px){
@@ -175,12 +179,7 @@ padding: 0px 15px;
 .about-us {
 padding: 66px 0;
 }
-.collection-img img {
-top: 14%;
-left: 53%;
-width: 341px;
-height: 371px;
-}
+
 .collection-left-data {
 padding-right: 50px;
 }
@@ -191,7 +190,6 @@ line-height: 40px;
 .collection-left-data .btn {
 padding: 19px 50px 19px 50px;
 }
-
 .offer {
 padding: 61px 20px;
 }
@@ -202,9 +200,6 @@ padding: 84px 0;
 font-weight: 400;
 font-size: 56px;
 }
-/* .our-team .team-data {
-margin-bottom: 30px;
-} */
 .our-team-btn {
 padding-top: 0px;
 }
@@ -214,7 +209,6 @@ padding: 60px 0;
 .logo-slider .container-fluid {
     padding: 25px 0;
 }
-
 .team-data {
 padding: 20px;
 }
@@ -265,12 +259,61 @@ padding: 20px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .contact-inner-box p {
+    font-size: 16px;
+    line-height: 24px;
 }
-
-
+.contact-us-btn .btn {
+    padding: 19px 25px 19px 25px;
+}
+.contact-inner-box p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.contact-cosmetic-section {
+    margin: 35px 0 70px;
+}
+}
+@media(max-width:767px){
+    .cosmetic-service {
+        background: linear-gradient(180deg, #FEFAF9 40%, #FFFFFF 40%) !important;
+    }
+    .collection-image{
+        padding: 0;
+    }
+    .collection-img img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .collection {
+        background: linear-gradient(180deg, #F7EFEC 40%, #FFFFFF 40%);
+    }
+    .muswell-cosmetic-service{
+        background: linear-gradient(180deg, #FBFBFB  40%, #FFFFFF 40%);
+    }
+    
+}
 /* 425 screen */
 
 @media(max-width:425px){
+    .parking-title h4 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .contact-location-section {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .parking-box p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .parking-section {
+        margin-bottom: 60px;
+    }
+    .form-enquire-section {
+        margin-bottom: 60px;
+    }
 .swiper-button-prev:after {
     right: 88%;
 }
@@ -283,9 +326,6 @@ padding: 20px;
     left: 89%;
     position: absolute;
 }
-/* #main .swiper-button-next {
-    padding: 51px 35px;
-} */
 #main .swiper-content h1 {
     font-size: 28px;
     line-height: 38px;
@@ -333,11 +373,6 @@ padding: 20px;
     line-height: 29px;
     margin-bottom: 0;
 }
-.collection-img img{
-    position: static;
-    width: 100%;
-    height: 100%;
-}
 .collection-left-data {
     padding: 0px 20px 46px;
 }
@@ -367,7 +402,10 @@ padding: 20px;
     padding: 0 47px;
 }
 .collection {
-    background: linear-gradient(90deg, #FEFAF9 100%, #FFFFFF 50%);
+    background: linear-gradient(90deg, #F7EFEC 100%, #FFFFFF 50%);
+}
+.contact-cosmetic-section {
+    margin: 25px 0 60px;
 }
 .collection-left-col {
     padding-top: 46px;
@@ -398,6 +436,12 @@ padding: 20px;
 .beauty-info {
     padding-bottom: 60px;
 }
+.contect-border1:after{
+    display: none;
+}
+.central-direction-contact.container{
+    padding: 0;
+}
 /* footer */
 .footer-logo{
     text-align: center;
@@ -413,7 +457,7 @@ padding: 20px;
     margin-top: 10px;
 }
 .cosmetic-service {
-    background: linear-gradient(90deg, #FEFAF9 100%, #FFFFFF 50%);
+    background: linear-gradient(180deg, #FEFAF9 100%, #FFFFFF 50%);
     margin-bottom: 60px;
 }
 .muswell-cosmetic-service {
@@ -428,7 +472,10 @@ padding: 20px;
     margin:30px auto 0;
 }
 .contact-inner-box h6 {
-    margin-top: 6px;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 14px;
+
 }
 .central-about h4{
 font-size: 28px;
@@ -471,7 +518,11 @@ line-height: 38px;
 .footer-link li {
     line-height: 20px;
 }
-
+.contact-inner-box .centarl-call {
+    height: 42px;
+    width: 42px;
+    line-height: 13px;
+}
 
 }
 
@@ -505,5 +556,9 @@ line-height: 38px;
 }
 .team-data {
     padding: 20px 10px 15px;
+}
+.contact-inner-box p {
+    font-size: 12px;
+    line-height: 20px;
 }
 }
