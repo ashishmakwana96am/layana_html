@@ -986,12 +986,8 @@ color: #666666;
   align-items: center;
   }
     
-.center-column h1{
-    color: rgba(255, 255, 255, 1);
-    font-size: 65px;
-    line-height: 75px;
-    font-weight: 400;
-}
+
+
 .our-team-section{
   margin: 110px 0;
 }
@@ -1077,7 +1073,17 @@ Treatment section css
   display: flex;
   align-items: center;
 }
-
+.treatment-slide-detail{
+  background-image: url('../images/t-detail-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
 /* tabs css */
 .tab-container {
   display: flex;
@@ -1194,10 +1200,6 @@ Treatment section css
 .bg-skin-11:after{
   background-color: #FFF9F3;
 }
-
-
-
-
 .treatment-content:hover:after{
   opacity: 75%;
 }
@@ -1224,12 +1226,7 @@ Contact Page Css Start
   display: flex;
   align-items: center;
   }
-  .center-column h1{
-    color: rgba(255, 255, 255, 1);
-    font-size: 65px;
-    line-height: 75px;
-    font-weight: 400;
-}
+
 .contact-cosmetic-section{
   margin: 35px 0 110px;
 }
@@ -1296,6 +1293,37 @@ margin-bottom: 0 !important;
   margin-top: 10px;
 }
 
+.contact-location-section{
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+.contact-location-section .text-get{
+  display: none;
+}
+
+/* 
+*************
+Contact Page Css Start
+************* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* button css */
@@ -1316,15 +1344,20 @@ margin-bottom: 0 !important;
   color: #fff;
 }
 
-
-
-
-
-
-.contact-location-section{
-  margin-top: 110px;
-  margin-bottom: 110px;
+/* heading */
+.center-column h1{
+  color: rgba(255, 255, 255, 1);
+  font-size: 65px;
+  line-height: 75px;
+  font-weight: 400;
 }
-.contact-location-section .text-get{
-  display: none;
+
+/* btreadcrumb css */
+.hero-breadcrumd a{
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 400;
 }
+
+

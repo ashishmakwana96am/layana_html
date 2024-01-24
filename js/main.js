@@ -117,6 +117,7 @@ $('.hidden p').click(function() {
 });
 
 
+
 // tabs js
 // Set the first tab as active initially
 var initialTab = document.querySelector('.tab:first-child');
@@ -136,16 +137,11 @@ function showTab(tabId) {
       selectedTab.style.display = 'block';
   }
 
-  // Update the active tab style
-  var tabs = document.querySelectorAll('.tab');
+  $('.tab-container').find(".active").removeClass("active");
+  var currentTab = tabId.split('_');
+  $('.tab-container .tab:nth-child('+currentTab[1]+')').addClass("active");
+  
 
-
-  tabs.forEach((tab,i)=>{
-    tab.addEventListener("click",function(){
-      $(".tab").removeClass('active');
-      tab.classList.add("active");
-    })
-  });
 }
 
 
