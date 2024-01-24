@@ -38,8 +38,19 @@ text-align: start;
     .beuty-info-box1 .btn{
     padding: 16px 50px 16px 50px;
     }
+     
+    .treatement-inner-img {
+        gap: 10px;
+        margin-top: 10px;
+    }   
 }
+@media(max-width:1200px){
+    .treatement-inner-img img {
+        width: 146px;
+        height: 146px;
+    }
 
+}
 /* 1024 Screen */
 
 @media(max-width:1024px){
@@ -299,7 +310,15 @@ padding: 20px;
     font-size: 28px;
     line-height: 38px;
 }
+.treatment-deatil-box{
+    display: block;
+    
+  }
+
 }
+
+
+
 @media(max-width:767px){
 
     .cosmetic-service {
@@ -321,7 +340,16 @@ padding: 20px;
     .beuty-info-box1 .btn {
         padding: 16px 9px 16px 9px;
     }
+    .treatement-inner-img img {
+        max-width: max-content;
+        width: 120px;
+        height: 120px;
+    }
     
+    
+    .treatement-inner-img {
+        gap: 10px;
+    }
 }
 /* 425 screen */
 
@@ -562,6 +590,14 @@ line-height: 38px;
 }
 .treatment-tab-section {
     margin: 60px 0;
+}
+.treatement-inner-img img {
+    max-width: max-content;
+    width: 92px;
+    height: 92px;
+}
+.treatement-inner-img {
+    gap: 10px;
 }
 }
 

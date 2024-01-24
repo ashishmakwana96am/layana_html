@@ -4442,7 +4442,7 @@ fieldset:disabled .btn {
 }
 .accordion {
   --bs-accordion-color: var(--bs-body-color);
-  --bs-accordion-bg: var(--bs-body-bg);
+  --bs-accordion-bg: transparent
   --bs-accordion-transition: color 0.15s ease-in-out,
     background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
@@ -4528,7 +4528,7 @@ fieldset:disabled .btn {
 }
 .accordion-item {
   color: var(--bs-accordion-color);
-  background-color: var(--bs-accordion-bg);
+  background-color: transparent !important;
   border: var(--bs-accordion-border-width) solid
     var(--bs-accordion-border-color);
 }
