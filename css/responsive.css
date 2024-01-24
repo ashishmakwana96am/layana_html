@@ -125,6 +125,10 @@ text-align: start;
     margin-bottom: 70px;
 
 }
+.treatment-info-box1 h3{
+    font-size: 20px;
+    line-height: 30px;
+}
 }
 
 
@@ -139,6 +143,24 @@ text-align: start;
 /* 768 Screen */
 
 @media(max-width:768px){
+    .treatment-tab-section {
+        margin: 80px 0;
+    }
+    .tab-container {
+        display: block;
+        text-align: center;
+    }
+    .tab.active {
+        border-bottom: 2px solid #000;
+        width: 100%;
+        max-width: 200px;
+        margin: auto;
+    }
+    .tab{
+        width: 100%;
+        max-width: 200px;
+        margin: auto;;
+    }
     .left-content-col {
         padding-left: 12px;
     }
@@ -257,7 +279,7 @@ padding: 20px;
 }
 .tab-box-col{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .contact-inner-box p {
     font-size: 16px;
@@ -275,8 +297,9 @@ padding: 20px;
 }
 }
 @media(max-width:767px){
+
     .cosmetic-service {
-        background: linear-gradient(180deg, #FEFAF9 40%, #FFFFFF 40%) !important;
+        background: linear-gradient(180deg, #FEFAF9 60%, #FFFFFF 40%) !important;
     }
     .collection-image{
         padding: 0;
@@ -286,16 +309,23 @@ padding: 20px;
         width: 100%;
     }
     .collection {
-        background: linear-gradient(180deg, #F7EFEC 40%, #FFFFFF 40%);
+        background: linear-gradient(180deg, #F7EFEC 60%, #FFFFFF 40%);
     }
     .muswell-cosmetic-service{
-        background: linear-gradient(180deg, #FBFBFB  40%, #FFFFFF 40%);
+        background: linear-gradient(180deg, #FBFBFB  60%, #FFFFFF 40%);
+    }
+    .beuty-info-box1 .btn {
+        padding: 16px 9px 16px 9px;
     }
     
 }
 /* 425 screen */
 
 @media(max-width:425px){
+    .tab-box-col {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
     .parking-title h4 {
         font-size: 28px;
         line-height: 28px;
@@ -418,7 +448,7 @@ padding: 20px;
     padding: 0;
 }
 .contactus {
-    padding: 30px 0;
+    padding: 0 0 30px;
 }
 .about-us {
     padding: 60px 0;
@@ -457,11 +487,10 @@ padding: 20px;
     margin-top: 10px;
 }
 .cosmetic-service {
-    background: linear-gradient(180deg, #FEFAF9 100%, #FFFFFF 50%);
-    margin-bottom: 60px;
+    background: linear-gradient(180deg, #FEFAF9 100%, #FFFFFF 50%) !important;
 }
 .muswell-cosmetic-service {
-    background: linear-gradient(90deg, #FBFBFB 100%, #FFFFFF 50%);
+    background: linear-gradient(90deg, #FBFBFB 100%, #FFFFFF 50%) !important;
     margin-bottom: 60px;
 }
 .central-contact-box {
