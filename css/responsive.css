@@ -552,7 +552,9 @@ line-height: 38px;
     width: 42px;
     line-height: 13px;
 }
-
+.treatment-tab-section {
+    margin: 60px 0;
+}
 }
 
 
