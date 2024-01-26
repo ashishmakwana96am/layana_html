@@ -1368,14 +1368,27 @@ Treatment Detail Page Css Start
   font-weight: 400;
   text-align: justify;
 }
-.treatment-image img {
-  max-width: 100%;
+.slide-click-img .swiper-slide img{
   /* width: 100%; */
+  /* height: 168px; */
+  object-fit: cover;
+  /* display: flex; */
+  justify-content: center;
 }
-.treatment-image{
-  text-align: center;
+.tratement-slider-parent .swiper-button-next{
+  display: none;
+}
+.slide-click-img {
+  margin-top: 30px;
 }
 
+.treatment-parent{
+  margin-top: 30px;
+}
+.treatment-img.swiper-slide {
+  justify-content: center;
+  object-fit: cover;
+}
 
 .treatment-benifit-box{
   margin-top: 30px;
@@ -1747,10 +1760,35 @@ border-bottom: 0;
 .thumbnail.is-active {
   opacity: 1;
 }
-.splide__arrow--prev,
-.splide__arrow--next {
-  display: none !important;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

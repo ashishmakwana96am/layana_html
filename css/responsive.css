@@ -11,9 +11,7 @@
       .parking-section .container{
         max-width: 980px;
       }
-      .traetment-detail-content{
-        margin-left: -50px;
-      }
+  
 }
 
 
@@ -52,10 +50,7 @@ padding: 16px 50px 16px 50px;
     gap: 10px;
     margin-top: 50px;
 }  
-.treatment-image img {
-    max-width: 100%;
-    /* width: 100%; */
-} 
+
 }
 @media(max-width:1200px){
     .treatement-inner-img img {
@@ -351,10 +346,6 @@ padding: 20px;
 }
 .treatment-deatil-box{
     display: block;
-}
-.treatment-image img {
-    max-width: 100%;
-    width: 100%;
 }
 .treatement-inner-img img {
     max-width: 100%; 
