@@ -1,4 +1,4 @@
-// --responsive navbar ----
+// detail page thumbnail js
 var splide = new Splide("#main-slider", {
   pagination: false,
 });
@@ -38,8 +38,6 @@ splide.on("mounted move", function () {
   }
 });
 
-
-
 splide.mount();
 $(document).ready(function () {
   $("#mobileMenuToggle").click(function () {
@@ -47,6 +45,10 @@ $(document).ready(function () {
   });
 });
 
+
+
+
+// --responsive navbar ----
 var swiper = new Swiper(".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",

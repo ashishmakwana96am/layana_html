@@ -12,7 +12,7 @@ ul {
   margin: 0;
 }
 body {
-  font-family: 'Mulish';
+  font-family: 'Muli';
   overflow-x: hidden;
 }
 p,
@@ -1469,10 +1469,10 @@ margin-bottom: 0;
   background-color: #F3F3F3;
   padding: 50px 0;
 }
-.accordion-collapse {
+.faq-section .accordion-collapse {
   border: 0;
 }
-.accordion-button {
+.faq-section .accordion-button {
   padding: 0px;
   font-weight: 400;
   border: 0;
@@ -1481,19 +1481,19 @@ margin-bottom: 0;
   text-align: left;
   border-bottom: 1px solid #ddd; 
 }
-.accordion-button:focus {
+.faq-section .accordion-button:focus {
   box-shadow: none;
   border: none;
   border-bottom:none; 
 }
-.accordion-button:not(.collapsed) {
+.faq-section .accordion-button:not(.collapsed) {
   background: none;
   color: #282828;
 }
-.accordion-body {
+.faq-section .accordion-body {
   padding: 0px 0 30px
 }
-.accordion-button::after {
+.faq-section .accordion-button::after {
   width: auto;
   height: auto;
   content: "+";
@@ -1503,7 +1503,7 @@ margin-bottom: 0;
   color: #282828;
   transform: translateY(-4px);
 }
-.accordion-button:not(.collapsed)::after {
+.faq-section .accordion-button:not(.collapsed)::after {
   width: auto;
   height: auto;
   background-image: none;
@@ -1513,7 +1513,7 @@ margin-bottom: 0;
   transform: rotate(0deg);
 }
 
-.accordion-header{
+.faq-section .accordion-header{
   color: #282828;
   font-weight: 400 !important;
   font-size: 20px;
@@ -1528,10 +1528,10 @@ margin-bottom: 0;
   margin-bottom: 20px;
   text-align: center;
 }
-.accordion-item{
+.faq-section .accordion-item{
   margin: 15px 0;
 }
-.accordion-button{
+.faq-section .accordion-button{
 border-bottom: 0;
 }
 
@@ -1598,43 +1598,184 @@ border-bottom: 0;
 }
 
 
+/* **************
+beauty Detail page css
+************** */
 
+.beauty-detail{
+  margin: 110px 0;
+}
+.beauty-image h4{
+  color: #000000;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.beauty-image p{
+  color: #282828;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.beauty-image h5{
+  color: #282828;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+.beauty-text{
+  margin-bottom: 5px !important;
+}
+ .beauty-centarl-call img{
+  background: #F7EFEC;
+  padding: 10px;
+  border-radius: 50px;
+  height: 36px;
+  width: 36px;
+  line-height: 11px;
+}
+.beauty-detail-content img {
+  max-width: 100%;
+  width: 15px;
+  height: 15px;
+}
+.beauty-call-detail p{
+  margin-bottom: 0;
+}
+.beauty-slide-detail{
+  background-image: url('../images/b-detail.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.beauty-detail-content{
+  background: #F7EFEC;
+  padding: 30px 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* accordion section css */
+.beauty-accordion .accordion-button:not(.collapsed) {
+  color:#282828 !important;
+  background-color: transparent !important;
+  box-shadow: transparent !important;
+}
+.accordion-item{
+  border: none;
+}
+.beauty-accordion .accordion-button:focus {
+  box-shadow: none;
+  border: none;
+  border-bottom:none; 
+}
+.beauty-sidebar h4{
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+.beauty-sidebar .accordion-button {
+  padding: 20px 10px 20px 0;
+}
+.beauty-sidebar .accordion-header{
+  color: #282828;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  border-bottom: 1px solid #66666633;
+  font-family: 'Muli';
+}
+.beauty-sidebar .accordion-body {
+  margin: 15px;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid #66666633;
+}
+.accordion{
+  border: none;
+}
+.beauty-price {
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+}
+.beauty-price p {
+  color: #666666;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  position: relative;
+  margin-bottom: 0;
+}
+.beauty-border1::after {
+  position: absolute;
+    content: '';
+    right: -11px;
+    top: 0px;
+    bottom: 0;
+    height: 16px;
+    width: 0;
+    color: #000000;
+    border: 1px solid rgba(102, 102, 102, 0.2);
+}
+.beauty-border2::after {
+  position: absolute;
+    content: '';
+    right: -11px;
+    top: 0px;
+    bottom: 0;
+    height: 16px;
+    width: 0;
+    color: #000000;
+    border: 1px solid rgba(102, 102, 102, 0.2);
+}
+.beauty-price strong
+{
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 5px;
+}
+.accordion-body h6{
+  color: #666666;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  margin-bottom: 15px;
+}
+.accordion-body-last{
+  border-bottom:none !important;
+  margin-top:15px;
+}
+.accordion-body-last strong{
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  font-style: italic;
+  font-family: 'Muli'
+}
+.accordion-body-last p{
+  color: #666666;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: justify;
+  font-style: italic;
+  margin-bottom: 15px;
+  font-family: 'Muli'
+}
 
 
 
@@ -1676,12 +1817,7 @@ border-bottom: 0;
 
 
 
-
-
-
-
-
-
+/* thumbnail detail page css */
 
 .thumbnails {
   display: flex;
@@ -1707,9 +1843,6 @@ border-bottom: 0;
   height: auto;
 }
 
-/* .thumbnail {
-  opacity: 0.3;
-} */
 
 .thumbnail.is-active {
   opacity: 1;
