@@ -12,6 +12,12 @@
         max-width: 980px;
       }
   
+      .traetment-detail-content{
+        margin-left: -50px;
+      }
+      .beauty-image{
+        padding-right: 42px;
+      }
 }
 
 
@@ -384,7 +390,16 @@ line-height: 30px;
     justify-content: center;
     gap: 10px;
 }
-
+.beauty-image h4{
+    margin-top: 40px;
+}
+.beauty-detail-content{
+    margin-top: 80px;
+}
+.hero-breadcrumd a {
+    font-size: 20px;
+    line-height: 30px;
+}
 }
 
 
@@ -718,6 +733,25 @@ line-height: 38px;
   }
   .treatment-detail-btn {
     gap: 26px;
+}
+.beauty-call-detail{
+    display: block !important;
+}
+.beauty-detail-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+.beauty-image h5{
+    font-size: 18px;
+    line-height: 24px;
+}
+.beauty-image p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.hero-breadcrumd a {
+    font-size: 14px;
+    line-height: 30px;
 }
 }
 

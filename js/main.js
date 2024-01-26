@@ -1,4 +1,54 @@
+// detail page thumbnail js
+var splide = new Splide("#main-slider", {
+  pagination: false,
+});
 
+splide.mount();
+
+var thumbnails = document.getElementsByClassName("thumbnail");
+var current; // Keeps the current thumbnail
+
+var splide = new Splide("#main-slider", {
+  pagination: false,
+});
+
+var thumbnails = document.getElementsByClassName("thumbnail");
+var current;
+
+for (var i = 0; i < thumbnails.length; i++) {
+  initThumbnail(thumbnails[i], i);
+}
+
+function initThumbnail(thumbnail, index) {
+  thumbnail.addEventListener("click", function () {
+    splide.go(index);
+  });
+}
+
+splide.on("mounted move", function () {
+  var thumbnail = thumbnails[splide.index];
+
+  if (thumbnail) {
+    if (current) {
+      current.classList.remove("is-active");
+    }
+
+    thumbnail.classList.add("is-active");
+    current = thumbnail;
+  }
+});
+
+splide.mount();
+$(document).ready(function () {
+  $("#mobileMenuToggle").click(function () {
+    $(".responsive-nav").slideToggle();
+  });
+});
+
+
+
+
+// --responsive navbar ----
 var swiper = new Swiper(".mySwiper", {
   navigation: {
     nextEl: ".swiper-button-next",
