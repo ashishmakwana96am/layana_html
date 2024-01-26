@@ -18,6 +18,14 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" rel="stylesheet">
+    <!-- Link to the file hosted on your server, -->
+    <link rel="stylesheet" href="../layana_html/js/dist/css/splide.min.css">
+
+
 </head>
 <body>
 
@@ -117,21 +125,42 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 
 
 
-
-
-
 <!-- treatment detail section -->
 <section class="treatment-detail">
     <div class="container">
         <div class="row gap-0">
             <!-- <div class="treatment-deatil-box"> -->
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 treatment-image">
-                    <img src="images/Deep Tissue Massage 1 (1).png" alt="">
-                    <div class="treatement-inner-img">
-                        <img src="images/Mask group (2).png" alt="">
-                        <img src="images/Mask group (3).png" alt="">
-                        <img src="images/Mask group (4).png" alt="">
+                    <div id="main-slider" class="splide">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                               
+                                <li class="splide__slide">
+                                    <img src="../layana_html/images/h1-1.jpg" />
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="../layana_html/images/h1-2.jpg" />
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="../layana_html/images/h1-3.jpg" />
+                                </li>
+                                
+                            </ul>
+                        </div>
                     </div>
+
+                    <ul id="thumbnails" class="thumbnails">
+                        <li class="thumbnail">
+                            <img src="../layana_html/images/h1-1.jpg" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="../layana_html/images/h1-2.jpg" />
+                        </li>
+                        <li class="thumbnail">
+                            <img src="../layana_html/images/h1-3.jpg" />
+                        </li>
+                       
+                    </ul>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 traetment-detail-content">
                     <h4>Deep Tissue Massage</h4>
@@ -142,6 +171,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
                             <li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
                             <li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
                             <li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
+                            
                             
                            
 
@@ -182,18 +212,19 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 <!-- FAQ Section  -->
 <section class="faq-section">
         <div class="container">
+            <h4>Frequently Asked Questions</h4>
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-10 col-sm-12">
                     <div class="accordion accordion-flush" id="faqlist">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                                What is Lorem Ipsum?
+                                    Lorem Ipsum is simply dummy text of the printing?
                                 </button>
                             </h2>
                             <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                 <div class="accordion-body">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                                 </div>
                             </div>
                         </div>
@@ -201,12 +232,12 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                                Why do we use it?
+                                    Lorem Ipsum is simply dummy?
                                 </button>
                             </h2>
                             <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                 <div class="accordion-body">
-                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                                 </div>
                             </div>
                         </div>
@@ -214,12 +245,12 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                                Where does it come from?
+                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem?
                                 </button>
                             </h2>
                             <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                 <div class="accordion-body">
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                                 </div>
                             </div>
                         </div>
@@ -227,33 +258,54 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
                         <div class="accordion-item">
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                                Where does it come from?
+                                    Excepteur sint occaecat cupidatat non proident?
                                 </button>
                             </h2>
                             <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                                 <div class="accordion-body">
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                                 </div>
                             </div>
                         </div>
     
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
-                                Where does it come from?
-                                </button>
-                            </h2>
-                            <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                <div class="accordion-body">
-                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
 </section>
+
+
+<!-- treatment browse section -->
+
+<section class="browse-section">
+    <div class="container">
+        <div class="row">
+            <h4>You might also like...</h4>
+            <div class="browse-inner-section">
+                <div class="browse-box">
+                    <img src="images/Deep Tissue Massage 2.png" alt="">
+                    <h5>Deep Tissue Massage</h5>
+                </div>
+                <div class="browse-box">
+                    <img src="images/hot stone 1 (1).png" alt="">
+                    <h5>Deep Tissue Massage</h5>
+                </div>
+                <div class="browse-box">
+                    <img src="images/Swedish Massage 62.png" alt="">
+                    <h5>Deep Tissue Massage</h5>
+                </div>
+            </div>
+            <div class="co-12 browse-button-col">
+                <button class=" btn">Browse all treatments </button>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
 
 
 
@@ -349,12 +401,12 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 </footer>
 
 <script src="js/jquery-3.7.1.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 </body>
 </html>

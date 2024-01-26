@@ -58,13 +58,13 @@ img {
   top: 6px;
   left: -8px;
 }
-.location-select div.select:after {
+/* .location-select div.select:after {
   content: "\f3c5";
   position: absolute;
   right: 6px;
   top: 8px;
   font-size: 9px;
-}
+} */
 .location-select p {
   margin: 0;
 
@@ -87,16 +87,16 @@ img {
   position: relative;
   margin-bottom: 5px;
   font-size: 14px;
-  cursor:pointer;
+  cursor:auto;
 
 }
-.location-select div.select:after {
+/* .location-select div.select:after {
   content: "\f3c5";
     position: absolute;
     right: 6px;
     top: 8px;
     font-size: 9px;
-}
+} */
 .location-select div.select .hidden {
 	position: absolute;
 	visibility: hidden;
@@ -1218,7 +1218,10 @@ Treatment section css
 Contact Page Css Start
 ************* */
 
-
+.form-control:focus{
+border-color: transparent !important;
+box-shadow: 0 0 0 0.25rem rgb(35 37 40 / 0%) !important;
+}
 .slide-contectus-1{
   background-image: url('../images/contact-bg.png');
   background-size: cover;
@@ -1316,6 +1319,7 @@ Treatment Detail Page Css Start
   display: flex;
   gap: 30px;
   margin-top: 30px;
+  justify-content: center;
 }
 .traetment-detail-content h4 {
   color: #000000;
@@ -1334,17 +1338,17 @@ Treatment Detail Page Css Start
 }
 .treatment-image img {
   max-width: 100%;
-  width: 100%;
+  /* width: 100%; */
+}
+.treatment-image{
+  text-align: center;
 }
 
-.traetment-detail-content{
-  padding-left: 30px;
-}
 
 .treatment-benifit-box{
   margin-top: 30px;
-  padding: 20px;
-  min-height: 300px; 
+  /* padding: 20px; */
+  min-height: 250px; 
   height: auto; 
 }
 .treatment-benifit-box h5{
@@ -1454,12 +1458,14 @@ margin-bottom: 0;
   justify-content: center;
   align-items: center;
 }
-
+.treatment-benifit-box h5{
+  font-style: normal;
+}
 
 /* faq section */
 .faq-section{
   background-color: #F3F3F3;
-  padding: 50px;
+  padding: 50px 0;
 }
 .accordion-collapse {
   border: 0;
@@ -1483,7 +1489,7 @@ margin-bottom: 0;
   color: #282828;
 }
 .accordion-body {
-  padding:  15px 0;
+  padding: 0px 0 30px
 }
 .accordion-button::after {
   width: auto;
@@ -1507,20 +1513,87 @@ margin-bottom: 0;
 
 .accordion-header{
   color: #282828;
-  font-weight: 400;
+  font-weight: 400 !important;
   font-size: 20px;
+  margin-bottom: 10px;
+}
+.faq-section h4{
+  color: #000000;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.accordion-item{
+  margin: 15px 0;
+}
+.accordion-button{
+border-bottom: 0;
 }
 
 
-
-
-
-
-
-
-
-
-
+/* Browse section  */
+.browse-section{
+  margin: 110px 0;
+}
+.browse-section h4 {
+  color: #000000;
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.browse-inner-section{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.browse-box{
+  position: relative;
+  overflow: hidden;
+  transition: transform 5s;
+}
+.browse-inner-section h5{
+  position: absolute;
+    z-index: 3;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: transform 1.5s;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #000000;
+}
+.browse-box:hover h5 {
+  opacity: 1;
+  right: 50%;
+  transform: translate(50%, -50%);
+  z-index: 999999;
+}
+.browse-box img:hover{
+  opacity: 0.4;
+}
+.browse-inner-section img {
+  max-width: 100%;
+  width: 100%;
+ 
+}
+.browse-button-col{
+  text-align: center;
+  margin-top: 65px;
+}
+.browse-section .btn{
+  width: auto;
+ 
+}
 
 
 
@@ -1598,5 +1671,51 @@ margin-bottom: 0;
   color: #fff;
   font-weight: 400;
 }
+
+
+
+
+
+
+
+
+
+
+.thumbnails {
+  display: flex;
+    margin: 30px auto 0;
+    padding: 0;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.thumbnail {
+  width: 168px;
+  height: 168px;
+  overflow: hidden;
+  list-style: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+/* .thumbnail {
+  opacity: 0.3;
+} */
+
+.thumbnail.is-active {
+  opacity: 1;
+}
+.splide__arrow--prev,
+.splide__arrow--next {
+  display: none !important;
+}
+
 
 
