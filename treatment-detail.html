@@ -7,24 +7,21 @@
 <link rel="stylesheet" href="css/all.min.css" type="text/css" />
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="css/fonts.css" type="text/css" />
-<link
-rel="stylesheet"
-href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-<link rel="stylesheet" href="css/style.css" type="text/css" />
-<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css"/>
 <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" rel="stylesheet">
+    <link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <!-- Link to the file hosted on your server, -->
     <link rel="stylesheet" href="../layana_html/js/dist/css/splide.min.css">
-
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
 
 </head>
 <body>
@@ -43,10 +40,23 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Treatments</a>
+                <div class="sub-menu sunmenu-treatments">
+                    <h3>Select-Location</h3> 
+                    <div class="row">
+                        <div class="col-6 text-center treatment-divider">
+                            <a href="#">  <img src="images/home_.png" alt="">
+                           <h4>Finchely Central</h4></a>
+                        </div>
+                        <div class="col-6 text-center">
+                            <a href="#"> <img src="images/mount.png" alt="">
+                            <h4>Muswell Hill</h4></a>
+                        </div>
+                    </div>
+                </div>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Prices</a>
-                <ul class="sub-menu">
+                <ul class="sub-menu sunmenu-item">
                     <li><a href="#">Beauty</a></li>
                     <li><a href="#">Lesser</a></li>
                     <li><a href="#">Massage</a></li>
@@ -128,40 +138,38 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 <!-- treatment detail section -->
 <section class="treatment-detail">
     <div class="container">
-        <div class="row gap-0">
+        <div class="row gap-0 tratement-responsive">
             <!-- <div class="treatment-deatil-box"> -->
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 treatment-image">
-                    <div id="main-slider" class="splide">
-                        <div class="splide__track">
-                            <ul class="splide__list">
-                               
-                                <li class="splide__slide">
-                                    <img src="../layana_html/images/h1-1.jpg" />
-                                </li>
-                                <li class="splide__slide">
-                                    <img src="../layana_html/images/h1-2.jpg" />
-                                </li>
-                                <li class="splide__slide">
-                                    <img src="../layana_html/images/h1-3.jpg" />
-                                </li>
-                                
-                            </ul>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 tratement-slider-parent">
+                    <div  class="swiper mySwiper2">
+                        <div class="swiper-wrapper text-center">
+                            <div class="treatment-img swiper-slide">
+                                <img src="images/h1-1.jpg" alt="">
+                            </div>
+                            <div class="treatment-img swiper-slide">
+                                <img src="images/h1-2.jpg" alt="">
+                            </div>
+                            <div class="treatment-img swiper-slide">
+                                <img src="images/h1-3.jpg" alt="">
+                            </div>
                         </div>
                     </div>
-
-                    <ul id="thumbnails" class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="../layana_html/images/h1-1.jpg" />
-                        </li>
-                        <li class="thumbnail">
-                            <img src="../layana_html/images/h1-2.jpg" />
-                        </li>
-                        <li class="thumbnail">
-                            <img src="../layana_html/images/h1-3.jpg" />
-                        </li>
-                       
-                    </ul>
-                </div>
+                   
+                    <div thumbsSlider="" class="swiper mySwiper-click treatment-parent d-flex justify-content-center">
+                        <div class="swiper-wrapper slide-click-img ">
+                            <div class="swiper-slide">
+                                <img src="images/h1-1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/h1-2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/h1-3.jpg" alt="">
+                            </div>
+                      </div>
+                    </div>
+                    </div>
+        
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 traetment-detail-content">
                     <h4>Deep Tissue Massage</h4>
                     <p>Deep tissue is a popular massage treatment at Thai Manee spa. Deep tissue massage treatment is widely known for releasing muscle tension. In a deep tissue massage session, our fully qualified Therapists use pressure points techniques with firm strokes pressing deep into muscles issues such as muscle tension, arthritis, joint mobility, muscle relaxation with desired pressure from medium to firm.</p>
@@ -171,7 +179,6 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
                             <li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
                             <li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
                             <li>Lorem Ipsum is simply dummy text of the printing and typesetting.</li>
-                            
                         </ul>
                     </div>
 
@@ -195,12 +202,10 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
                     </div>
                 <!-- </div> -->
             </div>
-            
+          
         </div>
     </div>
 </section>
-
-
 
 <!-- FAQ Section  -->
 <section class="faq-section">
@@ -266,8 +271,6 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
             </div>
         </div>
 </section>
-
-
 <!-- treatment browse section -->
 
 <section class="browse-section">
@@ -295,13 +298,6 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
 
 <!-- --section Contact-- -->
 <section class="contactus">
@@ -334,10 +330,6 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 </div>
 </div>
 </section>
-
-
-
-
 
   <!-- --footer--- -->
   <footer>
@@ -396,10 +388,30 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
+    
+    <script>
+        var swiper = new Swiper(".mySwiper-click", {
+          loop: true,
+        //   spaceBetween: 10,
+          slidesPerView: 3,
+          spaceBetween: 10,
+          freeMode: true,
+          watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+          loop: true,
+          spaceBetween: 10,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          thumbs: {
+            swiper: swiper,
+          },
+        });
+      </script>
 </body>
 </html>
