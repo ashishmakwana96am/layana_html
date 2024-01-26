@@ -196,7 +196,11 @@ padding: 16px 50px 16px 50px;
    
 }
 /* 768 Screen */
-
+@media(min-width:768px) and (max-width:992px){
+    .treatment-img img{
+        width: 100%;
+    }
+}
 @media(max-width:768px){
     .thumbnail {
         width: 168px;

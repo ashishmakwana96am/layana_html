@@ -1374,10 +1374,7 @@ Treatment Detail Page Css Start
   text-align: justify;
 }
 .slide-click-img .swiper-slide img{
-  /* width: 100%; */
-  /* height: 168px; */
   object-fit: cover;
-  /* display: flex; */
   justify-content: center;
 }
 .tratement-slider-parent .swiper-button-next{
