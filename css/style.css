@@ -655,6 +655,11 @@ justify-content: center;
 .logo-slider .swiper-slide {
 justify-content: center;
 }
+.contectus-hero-section#main {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
 .contactus {
   padding: 0 0 50px;
 }
@@ -1381,7 +1386,6 @@ Treatment Detail Page Css Start
 .slide-click-img {
   margin-top: 30px;
 }
-
 .treatment-parent{
   margin-top: 30px;
 }

@@ -12,12 +12,20 @@
         max-width: 980px;
       }
   
-      .traetment-detail-content{
+      /* .traetment-detail-content{
         margin-left: -50px;
+      } */
+      .tratement-responsive{
+        justify-content: center;
+        gap: 40px !important; 
+      }
+      .tratement-responsive .tratement-slider-parent{
+        width: 565px;
       }
       .beauty-image{
         padding-right: 42px;
       }
+      
 }
 
 
