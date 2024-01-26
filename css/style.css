@@ -1652,6 +1652,9 @@ beauty Detail page css
 .beauty-detail{
   margin: 110px 0;
 }
+.beauty-topimg img{
+  width: 100%;
+}
 .beauty-image h4{
   color: #000000;
   font-size: 28px;
@@ -1674,6 +1677,9 @@ beauty Detail page css
   font-weight: 400;
   font-style: italic;
   margin-bottom: 25px;
+}
+.beauty-image .tratement-slider-parent{
+  margin-bottom: 30px;
 }
 .beauty-text{
   margin-bottom: 5px !important;

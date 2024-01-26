@@ -126,34 +126,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-6 col-md-12 col-sm-12 beauty-image">
-                    <div id="main-slider" class="splide">
-                        <div class="splide__track">
-                            <ul class="splide__list">
-                                <li class="splide__slide">
-                                    <img src="../layana_html/images/h1-1.jpg" />
-                                </li>
-                                <li class="splide__slide">
-                                    <img src="../layana_html/images/h1-2.jpg" />
-                                </li>
-                                <li class="splide__slide">
-                                    <img src="../layana_html/images/h1-3.jpg" />
-                                </li>
-
-                            </ul>
+                    
+                    <div class="tratement-slider-parent">
+                        <div  class="swiper mySwiper2">
+                            <div class="swiper-wrapper text-center">
+                                <div class="treatment-img swiper-slide beauty-topimg">
+                                    <img src="images/beauty1.png" alt="">
+                                </div>
+                                <div class="treatment-img swiper-slide beauty-topimg">
+                                    <img src="images/beauty2.png" alt="">
+                                </div>
+                                <div class="treatment-img swiper-slide beauty-topimg">
+                                    <img src="images/beauty3.png" alt="">
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <ul id="thumbnails" class="thumbnails">
-                        <li class="thumbnail">
-                            <img src="../layana_html/images/h1-1.jpg" />
-                        </li>
-                        <li class="thumbnail">
-                            <img src="../layana_html/images/h1-2.jpg" />
-                        </li>
-                        <li class="thumbnail">
-                            <img src="../layana_html/images/h1-3.jpg" />
-                        </li>
-
-                    </ul>
+                       
+                        <div thumbsSlider="" class="swiper mySwiper-click treatment-parent d-flex justify-content-center">
+                            <div class="swiper-wrapper slide-click-img ">
+                                <div class="swiper-slide">
+                                    <img src="images/beauty1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/beauty2.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/beauty3.png" alt="">
+                                </div>
+                          </div>
+                        </div>
+                        </div>
                     <h4>Nails</h4>
                     <p>We thrive to perform every nail treatment to meet our customers expectation in our luxurious
                         beauty salon is very conveniently located in Finchley, North London 2 mins away from Finchley
@@ -467,7 +469,27 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
+    <script>
+        var swiper = new Swiper(".mySwiper-click", {
+          loop: true,
+        //   spaceBetween: 10,
+          slidesPerView: 3,
+          spaceBetween: 30,
+          freeMode: true,
+          watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+          loop: true,
+          spaceBetween: 10,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          thumbs: {
+            swiper: swiper,
+          },
+        });
+      </script>
 </body>
 
 </html>
