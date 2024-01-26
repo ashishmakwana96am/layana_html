@@ -140,8 +140,6 @@ img {
   visibility: visible;
 }
 
-
-
 /* --main--- */
 #main{
   position: relative;
@@ -182,13 +180,20 @@ display: flex;
   visibility: hidden;
   transition: all 0.5s;
 }
+.sunmenu-item{
+  width: 147px;
+  padding: 10px;
+}
+.sunmenu-treatments{
+width: 365px;
+height: 149px;
+padding: 22px;
+}
 .sub-menu {
   position: absolute;
   top: 38px;
   left: 0px;
   background-color: var(--white-color);
-  width: 147px;
-  padding: 7px;
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s;
@@ -202,7 +207,34 @@ display: flex;
   visibility: visible;
   width: 100%;
 }
-
+.sunmenu-treatments h3{
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+.sunmenu-treatments h4{
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  line-height: 13px;
+  margin-top: 15px;
+}
+.treatment-divider{
+  position: relative;
+}
+.treatment-divider:after{
+  position: absolute;
+  content: "";
+  background-color: #666666;
+  top: 18px;
+  right: 0;
+  width: 1px;
+  height: 38px;
+}
 
 .swiper-button-prev:after {
 content: 'prev';
@@ -1534,6 +1566,7 @@ margin-bottom: 0;
 .accordion-button{
 border-bottom: 0;
 }
+
 
 
 /* Browse section  */
