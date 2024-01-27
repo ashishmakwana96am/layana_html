@@ -1,50 +1,21 @@
-// detail page thumbnail js
-var splide = new Splide("#main-slider", {
-  pagination: false,
-});
+// ---popup --start----//
 
-splide.mount();
+document.addEventListener('DOMContentLoaded', function() {
+  var readMoreLink = document.getElementById('readMoreLink');
+  var closePopupBtn = document.getElementById('closePopupBtn');
+  var overlay = document.getElementById('myPopup');
 
-var thumbnails = document.getElementsByClassName("thumbnail");
-var current; // Keeps the current thumbnail
-
-var splide = new Splide("#main-slider", {
-  pagination: false,
-});
-
-var thumbnails = document.getElementsByClassName("thumbnail");
-var current;
-
-for (var i = 0; i < thumbnails.length; i++) {
-  initThumbnail(thumbnails[i], i);
-}
-
-function initThumbnail(thumbnail, index) {
-  thumbnail.addEventListener("click", function () {
-    splide.go(index);
+  readMoreLink.addEventListener('click', function(event) {
+      event.preventDefault();
+      overlay.style.display = 'block';
   });
-}
 
-splide.on("mounted move", function () {
-  var thumbnail = thumbnails[splide.index];
-
-  if (thumbnail) {
-    if (current) {
-      current.classList.remove("is-active");
-    }
-
-    thumbnail.classList.add("is-active");
-    current = thumbnail;
-  }
-});
-
-splide.mount();
-$(document).ready(function () {
-  $("#mobileMenuToggle").click(function () {
-    $(".responsive-nav").slideToggle();
+  closePopupBtn.addEventListener('click', function() {
+    overlay.style.display = 'none';
   });
 });
 
+// --popup--complete--//
 
 
 

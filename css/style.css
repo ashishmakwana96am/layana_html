@@ -1510,6 +1510,7 @@ margin-bottom: 0;
   font-style: normal;
 }
 
+
 /* faq section */
 .faq-section{
   background-color: #F3F3F3;
@@ -1830,6 +1831,226 @@ beauty Detail page css
   font-family: 'Muli'
 }
 
+/* 
+***************
+beauty_detail_finchly section css
+**************
+ */
+
+.beauty-slide-condition{
+  background-image: url('../images/beauty-2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.environ-detail{
+  margin: 110px 0 115px;
+}
+.environ-detail-img img{
+  width: 100%;
+  height: 575px;
+  object-fit: cover;
+}
+.environ-detail-content h4 {
+  color: #000000;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.environ-detail-content p {
+  color: #666666;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: justify;
+}
+.environ-detail-content h5{
+  font-style: italic;
+  color: #282828;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.environ-call-detail{
+  margin-bottom: 25px;
+}
+.environ-calltext{
+  margin-bottom: 5px;
+}
+.environ-detail-content .treatment-centarl-call {
+  background: #F7EFEC;
+  padding: 10px;
+  border-radius: 50px;
+  height: 36px;
+  width: 36px;
+  line-height: 11px;
+}
+.environ-price strong
+{
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  margin-left: 5px;
+}
+.environ-price p{
+  color: #666666;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  position: relative;
+}
+
+.environ-detail-content .environ-centarl-call {
+  background: #F7EFEC;
+  padding: 10px;
+  border-radius: 50px;
+  height: 36px;
+  width: 36px;
+  line-height: 11px;
+}
+.environ-detail-btn{
+  display: flex;
+}
+.environ-detail-btn .btn{
+  margin-right: 25px;
+}
+.environ-gallery{
+  border: 5px solid #F6F6F6;
+}
+.environ-gallery img{
+  width: 100%;
+  object-fit: cover;
+}
+.environ-gallery-data{
+  padding: 25px 15px;
+}
+.environ-gallery-data h3{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+}
+.environ-gallery-data h4{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #282828;
+  margin-bottom: 20px;
+}
+.environ-gallery-data p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+.environ-grid-col{
+  display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 45px;
+}
+.environ-btn{
+  margin: 40px 0 110px;
+  text-align: center;
+}
+
+/* 
+***************
+beauty_detail_muswell section css
+**************
+ */
+.fecial_detail .fecial_para{
+  min-height: 400px;
+  height: auto;
+}
+.facial-detail-img img{
+  width: 100%;
+  height: 100%;
+}
+
+/* --popup-- */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #F3F3F3;
+  background-color: #fff;
+  padding: 10px;
+  width: 574px;
+  z-index: 999999;
+}
+.overlay {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.25);
+  transition: opacity 500ms;
+  z-index: 9999999;
+}
+
+.popup-img img{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.popup-data{
+  padding: 20px 10px;
+  text-align: center;
+}
+.popup-data h4{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.popup-data p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.popup-data h5{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1858,6 +2079,13 @@ beauty Detail page css
   font-size: 65px;
   line-height: 75px;
   font-weight: 400;
+}
+.center-column h4{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
 }
 
 /* breadcrumb css */
