@@ -2177,7 +2177,331 @@ margin-bottom: 110px;
 }
 
 
+/* 
+***************
+Membership Packages section css
+**************
+ */
+ .memberships-detail-section{
+  margin: 110px 0;
+  padding:  0 10px;
+ }
+ .membership-slide-detail{
+   background-image: url('../images/membership.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   position: relative;
+   height: 500px;
+   display: flex;
+   align-items: center;
+  }
+.membership-subscription-box{
+  padding: 60px 55px;
+  border: 10px solid #F6F6F6;
+}
+.sub-title-box{
+  text-align: center;
+}
+ .sub-title-box h6{
+  padding: 10px 35px;
+  background-color: #F7EFEC;
+  display: inline-block;
+  color: #282828;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 300;
+ } 
+ .sub-title-box h5{
+  color: #000000;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+ } 
+ .sub-title-box p{
+  color: #000000;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 5px;
+ } 
+ .sub-title-box .sub-box-sec-p {
+  color: #282828;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  font-family: 'Muli';
+  margin-top: 0;
+ } 
+.membership-quote h4{
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #282828;
+  margin-top: 25px;
+}
+.subscription-quetion-box{
+  margin-top: 25px;
+}
+.subscription-quetion-box p{
+  color: #666666;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.subscription-quetion-box h6{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: justify;
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
 
+.subscription-quetion-box ul {
+  list-style: disc;
+  padding-left: 15px;
+}
+.subscription-quetion-box li{
+  color: #666666;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  font-family: 'Quattrocento';
+}
+.subscription-quetion-box li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+
+/* member-price-list */
+.member-price-list{
+  margin-bottom: 110px;
+}
+.member-price-list h4{
+  color: #000000;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+}
+.member-price-main-box{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.member-price-main-box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.member-inner-price h6{
+  background-color: #F7EFEC;
+  border: 4px solid #F6F6F6;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #282828;
+}
+.membership-price{
+  border: 4px solid #F6F6F6;
+}
+.price-list{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 17px 10px;
+ 
+}
+.price-list:not(:last-child){
+  border-bottom: 1px solid #F1F1F1;
+}
+.price-list p{
+  margin-bottom: 0;
+}
+.main-price-list{
+  padding: 8px 8px;
+}
+.per-min{
+  color: #282828;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: start;
+  margin-bottom: 10px !important;
+}
+.each-price{
+color: #666666;
+font-size: 12px;
+line-height: 12px;
+font-weight: 400;
+text-align: start;
+}
+.price-final{
+  color: #282828;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 10px !important;
+  text-align: end;
+  font-family: 'Muli';
+}
+.price-discount{
+  color: #666666;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: end;
+  text-decoration: line-through;
+}
+.member-price-description h6{
+  color: #282828;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+  font-style: italic;
+  text-align: center;
+}
+.member-detail-content .member-centarl-call {
+  background: #F7EFEC;
+  padding: 10px;
+  border-radius: 50px;
+  height: 36px;
+  width: 36px;
+  line-height: 11px;
+}
+.member-detail-content img {
+  max-width: 100%;
+  width: 15px;
+  height: 15px;
+}
+.membership-contact-list{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 40px;
+}
+.membership-centarl-call img {
+  background: #F7EFEC;
+  padding: 10px;
+  border-radius: 50px;
+  height: 36px;
+  width: 36px;
+  line-height: 11px;
+}
+.membership-call-detail p{
+margin-bottom: 10px;
+color: #666666;
+font-size: 14px;
+line-height: 14px;
+font-weight: 400;
+}
+.membership-centarl-call p{
+  margin-bottom: 0;
+  color: #282828;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* membership-terms-section */
+.member-terms-col{
+  display: flex;
+  justify-content: space-between;
+}
+.member-right-inner-box:not(:last-child){
+  margin-bottom: 30px;
+}
+.membership-terms-section{ 
+  margin-bottom: 110px;
+  background-color: #F6F6F6;
+  padding: 65px 0;
+}
+.member-left-call-detail{
+  display: flex;
+  gap: 30px;
+}
+.membership-terms-section h6{
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+.membership-terms-call img{
+width: 16px;
+height: 16px;
+}
+.membership-terms-call p{
+  margin-bottom: 0;
+}
+.member-call-image{
+background-color: #F7EFEC;
+height: 40px;
+width: 40px;
+line-height: 35px;
+text-align: center;
+border-radius: 50px;
+}
+.membership-terms-call p {
+  margin-bottom: 0 !important;
+  color: #666666;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.membership-terms-call a{
+  color: #666666;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: 'Quattrocento';
+}
+.member-terms-left-box p{
+margin-bottom: 10px;
+color: #666666;
+font-size: 14px;
+line-height: 14px;
+font-weight: 400;
+}
+.member-terms-list{
+  margin-top: 30px;
+}
+.member-terms-list ul{
+  list-style: disc;
+  padding-left: 17px;
+}
+.member-terms-list ul ::marker {
+font-size: 10px;
+border-radius: 50px;
+line-height: 1;
+}
+.member-terms-list li{
+  color: #666666;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: 'Quattrocento';
+}
+.member-terms-right-box p{
+  margin-bottom: 10px;
+  color: #666666;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  }
+.member-left-call-detail{
+  display: flex;
+}
 
 
 

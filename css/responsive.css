@@ -198,6 +198,9 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
+  .memberships-detail-section {
+    margin: 80px 0;
+}
 }
 
 @media (max-width: 991px) {
@@ -207,6 +210,15 @@
   .traetment-detail-content {
     margin-top: 40px;
   }
+  .member-price-main-box {
+    grid-template-columns: repeat(1,1fr);
+}
+.member-terms-col{
+  display: block;
+}
+.member-terms-left-box{
+  margin-bottom: 20px;
+}
 }
 /* 768 Screen */
 @media (min-width: 768px) and (max-width: 992px) {
@@ -468,6 +480,9 @@
   .spa-detail-section{
     margin-bottom: 90px;
     }
+    .member-price-list {
+      margin-bottom: 80px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -512,6 +527,23 @@
   .treatement-inner-img {
     gap: 10px;
   }
+  .sub-title-box h5 {
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 28px;
+  }.sub-title-box p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+}
+
+
+@media (max-width: 575px) {
+.membership-contact-list {
+  gap: 45px;
+}
 }
 /* 425 screen */
 
@@ -878,7 +910,80 @@ gap: 40px;
     font-size: 14px;
     line-height: 24px;
   }
+  .memberships-detail-section {
+    margin: 60px 0;
 }
+.membership-subscription-box {
+  padding: 30px 15px;
+}
+.sub-title-box h6 {
+  padding: 10px 25px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.sub-title-box h5 {
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 26px;
+}
+.membership-quote h4 {
+  font-size: 18px;
+  margin-top: 18px;
+}
+.membership-contact-list {
+  display: block;
+  margin-top: 15px;
+}
+.member-price-description h6 {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: start;
+}
+.membership-call-detail{
+  margin-bottom: 30px;
+}
+.membership-detail-btn{
+  text-align: center;
+}
+.member-price-list {
+  margin-bottom: 60px;
+}
+.membership-terms-section {
+  margin-bottom: 60px;
+  padding: 20px 0px;
+}
+.membership-terms-section h6 {
+  font-size: 16px;
+  line-height: 18px;
+}
+.member-terms-right-box p {
+  font-size: 14px;
+  line-height: 16px;
+}
+.member-right-inner-box:not(:last-child) {
+  margin-bottom: 20px;
+}
+.member-terms-list li {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+}
+
+
+@media (max-width: 400px) {
+.member-left-call-detail {
+  display: block;
+  margin-top: 10px;
+}
+.membership-terms-call{
+  margin-bottom: 20px;
+}
+}
+
+
+
+
 
 /* 320screen */
 
