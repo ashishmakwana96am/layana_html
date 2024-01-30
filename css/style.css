@@ -2062,6 +2062,119 @@ beauty_detail_muswell section css
 
 
 
+/* 
+***************
+Spa Packages section css
+**************
+ */
+.spa-package-section{
+  margin: 110px 0;
+}
+.spa-slide-detail{
+  background-image: url('../images/spa\ bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.spa-main-box{
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  gap: 50px;
+}
+.spa-main-box img{
+  width: 100%;
+}
+.spa-content h4{
+  color: #000000;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.spa-content p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  color: #666666;
+}
+.spa-content p:not(:last-child){
+  margin-bottom: 15px;
+}
+
+/* spa detail section */
+.spa-detail-section{
+margin-bottom: 110px;
+}
+.spa-detail-inner-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+}
+.spa-detail-box{
+  height: auto;
+}
+.spa-content-box-1{
+  background-color: #F5EEE9;
+}
+.spa-content-box-2{
+  background-color:#FBF3EC;
+}
+.spa-content-box-3{
+  background-color: #F9EEE7;
+}
+.spa-content-box-4{
+  background-color: #FFF4E9;
+}
+.spa-content-box-5{
+  background-color: #F5EEE9;
+}
+.spa-detail-inner-section img {
+  max-width: 100%;
+  width: 100%;
+}
+.spa-box-content{
+  padding: 35px 20px;
+  text-align: center;
+}
+.spa-box-content h5{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.spa-box-content h6{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #282828;
+  margin-bottom: 25px;
+}
+.spa-box-content p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #666666;
+  margin-bottom: 25px;
+}
+.spa-box-content .spa-quote{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #282828;
+  margin-bottom: 20px;
+  font-style: italic;
+}
 
 
 
