@@ -87,9 +87,9 @@ img {
 	width: max-content;
   position: relative;
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 12px;
   cursor:auto;
-
+  font-family: 'Muli';
 }
 /* .location-select div.select:after {
   content: "\f3c5";
@@ -1197,6 +1197,8 @@ Treatment section css
   position: relative;
   overflow: hidden;
   transition: all 0.5s;
+  height: 410px;
+  width: 410px;
 }
 .treatment-content img{
   width: 100%;
@@ -2164,7 +2166,8 @@ margin-bottom: 110px;
   line-height: 20px;
   text-align: center;
   color: #666666;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+  min-height: 60px;
 }
 .spa-box-content .spa-quote{
   font-weight: 400;
@@ -2182,6 +2185,7 @@ margin-bottom: 110px;
 Membership Packages section css
 **************
  */
+
  .memberships-detail-section{
   margin: 110px 0;
   padding:  0 10px;
@@ -2414,17 +2418,29 @@ font-weight: 400;
 }
 
 /* membership-terms-section */
-.member-terms-col{
+.member-terms-right-box{
   display: flex;
-  justify-content: space-between;
+  gap: 200px;
+  justify-content: center;
+ }
+ .member-terms-right-box .inner{
+  display: flex;
+  flex-direction: column;
+ }
+
+.member-terms-left-box{
+  text-align: center;
 }
 .member-right-inner-box:not(:last-child){
   margin-bottom: 30px;
 }
+.member-terms-right-box{
+  margin-top: 50px;
+}
 .membership-terms-section{ 
   margin-bottom: 110px;
   background-color: #F6F6F6;
-  padding: 65px 0;
+  padding: 50px 0;
 }
 .member-left-call-detail{
   display: flex;
@@ -2434,9 +2450,26 @@ font-weight: 400;
   color: #000000;
   font-weight: 600;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 25px;
   margin-bottom: 15px;
 }
+/* .member-border-left{
+  position: relative;
+} */
+/* .member-border-left::after{
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  right: -16px;
+  height: 37px;
+  color: #F7EFEC;
+  border-right: 1px solid #9b350f;
+  display: flex;
+  align-items: center;
+  opacity: 40%;
+
+} */
 .membership-terms-call img{
 width: 16px;
 height: 16px;
@@ -2491,7 +2524,12 @@ line-height: 1;
   line-height: 26px;
   font-weight: 400;
   font-family: 'Quattrocento';
+  position: relative;
+  list-style-type: disc;
 }
+
+
+
 .member-terms-right-box p{
   margin-bottom: 10px;
   color: #666666;
