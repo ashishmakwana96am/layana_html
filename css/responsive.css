@@ -1061,3 +1061,14 @@ gap: 40px;
     margin-bottom: 12px;
   }
 }
+@media (max-width: 45em) {
+  .prices-tab-section .tabs .tab,
+  .prices-tab-section .tabs label {
+    order: initial;
+  }
+  .prices-tab-section .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}

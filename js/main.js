@@ -134,7 +134,7 @@ $(".hidden p").click(function () {
 // tabs js
 // Set the first tab as active initially
 var initialTab = document.querySelector(".tab:first-child");
-initialTab.style.borderBottom = "2px solid #000000";
+initialTab.style.borderBottom = "1px solid #000000";
 initialTab.classList.add("active");
 
 function showTab(tabId) {
