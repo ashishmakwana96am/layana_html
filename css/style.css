@@ -1566,7 +1566,13 @@ margin-bottom: 0;
   color: #282828;
 }
 .faq-section .accordion-body {
-  padding: 0px 0 30px
+  padding: 0px 0 30px;
+  font-family: 'Muli';
+  font-size: 18px;
+  line-height: 28px;
+  text-align: justify;
+  font-weight: 300;
+  color: #666666;
 }
 .faq-section .accordion-button::after {
   width: auto;
@@ -2916,7 +2922,10 @@ margin-bottom: 15px;
   padding: 110px 0;
 }
 
-
+.benifit-first-img img{
+  width: 100%;
+  margin-bottom: 30px;
+}
 .benifit-img-box{
   align-items: center;
   margin-bottom: 10px;
@@ -3025,7 +3034,7 @@ margin-bottom: 0;
 .prices-tab-section .tabs label {
   order: 1;
   display: block;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   cursor: pointer;
   font-weight: bold;
   border-bottom: 1px solid #66666633;
@@ -3083,6 +3092,9 @@ margin-bottom: 0;
 .prices-tab-section tbody td:not(:first-child){
   text-align: end;
 }
+tr td:nth-child(3) {
+  margin-left: 20px;
+}
 .prices-tab-section tbody{
   padding: 22px 0;
 }
@@ -3090,8 +3102,18 @@ margin-bottom: 0;
   padding: 15px 0;
 }
 .prices-tab-section .table-number{
-  background-color:#DEBFB0;
+  padding: 0;
 }
+
+.table-number p{
+    margin: 0;
+    text-align: center;
+    margin-left: 100px;
+    background-color:#DEBFB0;
+    padding: 14px 0;
+}
+
+
 .prices-tab-section .accordion-header{
   background-color: #DEBFB0;
   padding: 15px 20px;
