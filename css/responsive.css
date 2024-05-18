@@ -296,7 +296,7 @@
   padding: 60px 0;
 }
 .work-content-col {
-  padding-left: 20px;
+  padding-left: 20px !important;
   margin-top: 40px;
 }
 .step-detail-box h6 {
@@ -767,7 +767,26 @@
 .step-contect-border::after{
   content: none;
 }
-
+.step-innner-section{
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.step-innner-sec-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.step-center-box-mobile{
+  grid-column: span 2;
+}
+.step-detail-box h6 {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.step-detail-box p {
+  font-size: 14px;
+  line-height: 20px;
+}
 }
 
 
@@ -790,11 +809,16 @@
   font-size: 30px;
   line-height: 40px;
   margin-bottom: 15px;
+  text-align: center;
 }
 .contult-hero-content p {
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 20px;
+  text-align: center;
+}
+.contult-hero-content{
+  text-align: center;
 }
 .pages-name ul {
   grid-template-columns: repeat(2,1fr);
@@ -813,7 +837,7 @@
   line-height: 20px;
 }
 .work-content-col {
-  padding-left: 10px;
+  padding-left: 10px !important;
   margin-top: 40px;
 }
 .benifit-content-column {
@@ -826,10 +850,10 @@
   margin-bottom: 10px;
 }
 .today-sale {
-  padding: 40px 0;
+  padding: 80px 0;
 }
 .benifit-section {
-  padding: 40px 0;
+  padding: 80px 0;
 }
 .banner-hd {
   padding: 40px 0;
@@ -849,6 +873,10 @@
   justify-content: center;
   align-items: center;
 }
+.beauty-info .row{
+  gap: 50px;
+}
+
 }
 /* 425 screen */
 
@@ -993,8 +1021,10 @@
     width: auto;
   }
   .beuty-info-box1 h3 {
-    font-size: 32px;
-    line-height: 42px;
+      font-size: 24px;
+      line-height: 31px;
+      padding: 10px;
+  
   }
   .beuty-info-box1 .btn {
     padding: 15px 35px;
@@ -1276,11 +1306,11 @@ gap: 40px;
     margin-bottom: 10px;
 }
 .contult-hero-content .btn {
-  padding: 23px 27px 23px 27px;
+  padding: 15px 27px 15px 27px;
 }
 .title-content h2 {
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 28px;
+  line-height: 38px;
 }
 .benifit-img-box h6 {
   font-size: 18px;
@@ -1304,10 +1334,46 @@ gap: 40px;
 }
 .faq-section .accordion-button {
   font-size: 16px;
+  gap: 8px;
 }
 .faq-section .accordion-body {
   font-size: 14px;
   line-height: 24px;
+}
+.works-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.consult-section .tab-one > .row{
+  flex-direction: column-reverse;
+  gap: 30px;
+}
+.consult-section-ul{
+margin-bottom: 30px;
+}
+.after_before .title-content h2 {
+  margin-bottom: 30px;
+}
+.after_before {
+  padding-bottom: 80px;
+}
+.faq-section .accordion-button::after{
+font-size: 30px;
+}
+.faq-section .accordion-button:not(.collapsed)::after{
+  font-size: 30px;
+
+}
+.faq-section .accordion-button:not(.collapsed) {
+  gap: 5px;
+  border-bottom: 0 !important;
+  box-shadow: none;
+}
+.faq-section .accordion-item {
+  margin: 20px 0;
+}
+.faq-section .accordion-header {
+  margin-bottom: 20px;
 }
 }
 

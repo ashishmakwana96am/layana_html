@@ -573,6 +573,8 @@ transform: translateY(-50%);
 -ms-transform: translateY(-50%);
 text-align: center;
 width: 100%;
+padding: 0 10px;
+
 }
 .beuty-info-box1 h3{
   font-size: 28px;
@@ -2828,6 +2830,7 @@ margin-bottom: 15px;
     row-gap: 30px;
     padding: 0;
 }
+
 .step-detail-box {
     flex: 0 0 calc(25% - 25px); 
     margin: 10px; 
@@ -2948,6 +2951,9 @@ margin-bottom: 0;
 }
 .benifit-box{
   margin-bottom: 30px;
+}
+.benifit-box.benifit-last-box{
+  margin-bottom: 0 !important;
 }
 .benifit-content-column{
   padding-left: 30px;
@@ -3139,6 +3145,13 @@ tr td:nth-child(3) {
 
 
 /* ----laser hair remover--- */
+.laser-hair-page-btn.environ-btn {
+  margin: 40px 0 0px ;
+  text-align: center;
+}
+#hair-FAQs .accordion-collapse{
+  background-color: transparent !important;
+}
 .hair-remove-title h2{
  font-size: 28px;
  line-height: 28px;
@@ -3247,7 +3260,7 @@ width: 100%;
 }
 .laser-beauty-info h3{
    width: 100%;
-   max-width: 250px;
+   /* max-width: 250px; */
    margin: 0 auto;
    line-height: 34px;
 }
