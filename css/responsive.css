@@ -230,6 +230,15 @@
 }
 
 @media (max-width: 991px) {
+  .massage thead th{
+    min-width: 200px;
+ }
+ .massage #collapseOne thead th:first-child{
+   min-width: 305px;
+ }
+ .massage #collapseTwo thead th:first-child{
+   min-width: 600px;
+ }
   .cosmetic-service {
     background: linear-gradient(90deg, #fefaf9 65%, #ffffff 50%);
   }
@@ -328,12 +337,18 @@
 .prices-tab-section {
   margin-bottom: 60px;
 }
+.laser-pages-name ul{
+  gap: 20px;
+  justify-content: center;
+}
+
 }
 /* 768 Screen */
 @media (min-width: 768px) and (max-width: 992px) {
   .treatment-img img {
     width: 100%;
   }
+ 
 }
 @media (max-width: 768px) {
   .thumbnail {
@@ -602,6 +617,72 @@
 .table-number p {
   margin-left: 55px;
 }
+.today-sale{
+  padding: 60px 0;
+}
+.award{
+  padding: 60px 0;
+}
+.contactus .contactus-data{
+  margin-bottom: 14px;
+}
+.banner-hd{
+  padding: 60px 0;
+}
+.after_before .col-12{
+   margin-bottom: 30px; 
+}
+.lesser_work{
+  padding-bottom: 60px;
+}
+.massage .accordion-button{
+  font-size: 18px;
+  line-height: 18px;
+}
+.massage thead tr th{
+  font-size: 16px;
+  line-height: 20px;
+}
+.accordion-para{
+  font-size: 14px;
+  line-height: 18px;
+}
+.facial-h3 {
+  font-size: 16px;
+  line-height: 18px;
+}
+.facial-h4{
+  font-size: 16px;
+  line-height: 18px;
+}
+.facial-space h3{
+  font-size: 16px;
+  line-height: 18px;
+}
+.facial-acco h4{
+  font-size: 16px;
+  line-height: 18px;
+}
+.facial-para-space h4{
+  font-size: 16px;
+  line-height: 18px;
+}
+#collapseTwo table tr td p {
+  font-size: 14px;
+  line-height: 16px;
+}
+.facial-h3-gray{
+  font-size: 16px;
+  line-height: 18px;
+}
+.facial-h4-gray{
+  font-size: 16px;
+  line-height: 18px;
+}
+.eyes-foot{
+  font-size: 16px;
+  line-height: 18px;
+}
 }
 
 @media (max-width: 767px) {
@@ -686,10 +767,22 @@
 .step-contect-border::after{
   content: none;
 }
+
 }
 
 
 @media (max-width: 575px) {
+  .massage .accordion-button{
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .long-width{
+    min-width: 555px;
+  }
+  .eyes-foot{
+    font-size: 14x;
+    line-height: 16px;
+  }
 .membership-contact-list {
   gap: 45px;
 }
@@ -725,6 +818,36 @@
 }
 .benifit-content-column {
   padding-left: 10px;
+}
+.award-img{
+  text-align: center;
+}
+.award .col-6{
+  margin-bottom: 10px;
+}
+.today-sale {
+  padding: 40px 0;
+}
+.benifit-section {
+  padding: 40px 0;
+}
+.banner-hd {
+  padding: 40px 0;
+}
+
+#collapseTwo table tr td p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.accordion-para{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.facial-space{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 }
 /* 425 screen */

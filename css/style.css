@@ -1791,7 +1791,7 @@ beauty Detail page css
   border-bottom: 1px solid #66666633;
 }
 .accordion{
-  border: none;
+  /* border: none; */
 }
 .beauty-price {
   display: flex;
@@ -2765,7 +2765,7 @@ color: #000000 !important;
 }
 .pages-name ul{
   display: flex!important;
-  gap: 60px;
+  gap: 50px;
   grid-template-columns: repeat(7,1fr);
 }
 .pages-name ul li{
@@ -2803,7 +2803,6 @@ color: #000000 !important;
 .work-img-col img{
   margin-top: -25px;
 }
-
 .work-content-col{
   padding-left: 40px;
 }
@@ -3136,4 +3135,395 @@ tr td:nth-child(3) {
   color: #000000;
   letter-spacing: 2px;
 
+}
+
+
+/* ----laser hair remover--- */
+.hair-remove-title h2{
+ font-size: 28px;
+ line-height: 28px;
+ color: var(--black-color);
+ font-weight: 300;
+ margin-bottom: 20px;
+}
+.lasser-hair .work-content-col{
+  padding-left: 24px;
+}
+.lesser_work  .work-content-col{
+  padding-left: 0;
+}
+.lesser_work{
+  padding-bottom: 110px;
+}
+.lasser-work-video video {
+  width: 100%;
+  /* height: 580px; */
+}
+.lasser-hair-aboutimg img{
+width: 100%;
+}
+.lesser_work p{
+  color: #666666;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.lesser_work .title-content h2{
+  margin-bottom: 31px;
+}
+.today-sale{
+  padding: 110px 0;
+}
+.consult-section-ul{
+  list-style: decimal;
+  color: #666666;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding-left: 14px;
+}
+.consult-h3{
+  color: #282828;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.after-content{
+  height: 100%;
+}
+.consult-h3 span{
+  color: #282828;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: none;
+}
+.banner-hd{
+  padding: 84px 0 110px;
+}
+.after_before {
+  padding-bottom: 84px;
+}
+.after_before .title-content h2{
+  margin-bottom: 45px;
+}
+.after_before .after-content{
+  border: 5px solid #F6F6F6;
+}
+.after-img{
+  display: flex;
+  gap: 1%;
+}
+.after-img img{
+    width: 100%;
+    max-width: 49%;
+}
+.after-data{
+  padding: 10px 15px 15px 15px;
+}
+.after-data h3{
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 16px;
+  color: var(--black-color);
+}
+.after-data{
+  border-top:5px solid #F6F6F6;
+}
+.award{
+  padding: 110px 0;
+}
+.award-img{
+  text-align: end;
+}
+.laser-beauty-info h3{
+   width: 100%;
+   max-width: 250px;
+   margin: 0 auto;
+   line-height: 34px;
+}
+.haeder-menu-page{
+  z-index: 20;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 12px;
+  border: 10px solid   #F3F3F3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  backdrop-filter: blur(5px); /* Apply blur effect */
+  z-index: 9998; /* Ensure the overlay is behind the popup */
+}
+.popup-img{
+  position: relative;
+  margin-bottom: 15px;
+}
+.close-popup{
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+}
+/* .pages-name ul{
+  justify-content: space-between;
+} */
+
+.laser-menu-page{
+  background-color: #F6F6F6;
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+.laser-pages-name ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.laser-pages-name ul li{
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: 'Muli';
+  text-transform: uppercase;
+}
+
+/* --massage--- */
+.massage{
+  padding: 110px 0 115px;
+}
+.massage .accordion-button{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.massage-head h4{
+  text-align: center;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.massage .accordion ,.accordion-body,
+.accordion-header{
+  font-family: 'Muli';
+}
+.massage thead tr th{
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.massage .accordion-body{
+  padding: 0;
+}
+.massage .accordion-button:not(.collapsed){
+  background-color: rgba(111, 89, 27, 0.25);
+}
+.massage table{
+background-color: #fbf8f3;
+}
+.massage table tr td{
+background-color: #FAF8F5;
+}
+.massage table thead tr th{
+background-color: rgba(111, 89, 27, 10%);
+}
+.massage  .accordion-button:focus{
+  box-shadow: none;
+}
+.massage .accordion-item{
+  border:  1px solid rgb(237, 236, 236);
+}
+.massage table{
+  margin-bottom: 0; 
+}
+.massage tbody, td, tfoot, th, thead, tr{
+   border: none;
+}
+
+
+.massage .first-tab tbody tr td:nth-child(2){
+  text-align: center;
+}
+.massage .first-tab tbody tr td:nth-child(3){
+  text-align: end;
+}
+.massage .first-tab tbody tr td:nth-child(4){
+  text-align: end;
+}
+.massage .first-tab thead tr th:nth-child(2){
+  text-align: center;
+}
+.massage .first-tab thead tr th:nth-child(3){
+  text-align: end;
+}
+.massage .first-tab thead tr th:nth-child(4){
+  text-align: end;
+}
+.massage .massage-tr td{
+  background-color: rgba(234, 224, 201,18%) ;
+}
+.massage table tr td{
+  margin: 0 4px;
+}
+.massage table tr td{
+  padding: 4px 8px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #000;
+}
+.display{
+  display: flex;
+  gap: 14px;
+  justify-content: end;
+}
+.massage #collapseOne table tbody tr td:nth-child(3){
+  color: #666666;
+}
+.massage table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+#collapseTwo table tr td p{
+  color: #666666;
+  width: 100%;
+  max-width: 632px;
+  font-family: 'Muli';
+  font-size: 16px;
+  line-height: 20px;
+}
+.accordion-para {
+  font-family: 'Muli';
+  font-size: 16px;
+  line-height: 20px;
+  color: #666666;
+  padding: 5px;
+  margin-bottom: 0;
+}
+.facial-acco{
+  padding-top: 8px;
+}
+.facial-acco h4{
+  background-color: rgba(111, 89, 27, 10%);
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.facial-acco h4 span{
+  font-style: italic;
+}
+.accordion-collapse{
+  background-color: #fbf8f3;
+}
+.facial-space{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(234, 224, 201,18%);
+}
+.facial-h3{
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 8px;
+}
+.facial-h3-gray{
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 0 8px;
+}
+.text-gray{
+  color: #666666;
+}
+.facial-h4{
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 8px 0;
+  /* padding: 8px; */
+  margin-bottom: 0;
+  /* display: flex;
+  justify-content: end; */
+  color: #282828;
+}
+.facial-h4-gray{
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 0 8px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: end;
+  color: #282828;
+}
+ .facial-h4 span{
+  color: #666666;
+}
+.eyes-foot{
+    font-size: 20px;
+    line-height: 22px;
+    color: #282828;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.last-child{
+  position: relative;
+}
+ .last-child::after{
+  position: absolute;
+  content: "";
+  background-color: #666666;
+  top: 12px;
+  left: -7px;
+  width: 2px;
+  height: 16px;
+}
+.facial-tr{
+  min-width: 536px;
+}
+.td-width{
+  min-width: 300px;
+}
+.long-width{
+  min-width: 585px;
 }
