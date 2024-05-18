@@ -519,6 +519,9 @@ align-items: center;
 .beauty-info{
   overflow: hidden;
 }
+.beauty-info .title-content h2{
+  margin-bottom: 60px;
+}
 .beauty-info{
   padding-bottom: 110px;
 }
@@ -653,6 +656,14 @@ justify-content: center;
 }
 .logo-slider{
   padding: 110px 0;
+}
+.logo-slider .owl-stage {
+  align-items: center;
+  display: flex;
+}
+.logo-slider.logo-laser-slider .container-fluid {
+  background: transparent;
+  padding: 65px 0;
 }
 .logo-slider .container-fluid{
   background: #FBFBFB;
@@ -1792,9 +1803,9 @@ beauty Detail page css
   padding: 0 0 15px 0;
   border-bottom: 1px solid #66666633;
 }
-.accordion{
-  /* border: none; */
-}
+/* .accordion{
+  border: none;
+} */
 .beauty-price {
   display: flex;
   gap: 20px;
@@ -3146,7 +3157,7 @@ tr td:nth-child(3) {
 
 /* ----laser hair remover--- */
 .laser-hair-page-btn.environ-btn {
-  margin: 40px 0 0px ;
+  margin: 60px 0 0px ;
   text-align: center;
 }
 #hair-FAQs .accordion-collapse{
@@ -3167,6 +3178,10 @@ tr td:nth-child(3) {
 }
 .lesser_work{
   padding-bottom: 110px;
+ 
+}
+.lesser_work  .row{
+  align-items: center;
 }
 .lasser-work-video video {
   width: 100%;
@@ -3303,7 +3318,11 @@ width: 100%;
 /* .pages-name ul{
   justify-content: space-between;
 } */
-
+.laser-menu-page{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
 .laser-menu-page{
   background-color: #F6F6F6;
   padding-top: 37px;

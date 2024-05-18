@@ -230,6 +230,19 @@
 }
 
 @media (max-width: 991px) {
+  .hero-laser-padding{
+    padding: 0;
+  }
+  .contult-hero-content h2, .contult-hero-content p {  
+    text-align: center;
+}
+.d-md-block {
+  display: block !important;
+  text-align: center;
+}
+.hero-first-button{
+  margin-right: 15px;
+}
   .massage thead th{
     min-width: 200px;
  }
