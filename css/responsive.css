@@ -274,7 +274,7 @@
 }
 .slide-consutation .container{
   max-width: 100%;
-    padding: 0;
+    /* padding: 0; */
 }
 .consult-hero-top {
   padding-right: 30px;
@@ -1386,11 +1386,14 @@ font-size: 30px;
 .membership-terms-call{
   margin-bottom: 20px;
 }
+.beauty-info .btn {
+  padding: 23px 44px 23px 44px !important;
 }
-
-
-
-
+.consult-h3 span {
+  font-size: 16px;
+  line-height: 26px;
+}
+}
 
 /* 320screen */
 
