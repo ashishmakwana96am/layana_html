@@ -521,7 +521,7 @@ align-items: center;
 }
 .beauty-info .title-content h2{
   margin-bottom: 60px;
-  font-weight: 600 !important;
+  font-weight: 400 !important;
 }
 .beauty-info{
   padding-bottom: 110px;
@@ -3205,6 +3205,7 @@ width: 100%;
 }
 .today-sale{
   padding: 110px 0;
+  text-align: center;
 }
 .consult-section-ul{
   list-style: decimal;
@@ -3510,10 +3511,7 @@ background-color: rgba(111, 89, 27, 10%);
   letter-spacing: 1px;
   font-weight: 600;
   padding: 8px 0;
-  /* padding: 8px; */
   margin-bottom: 0;
-  /* display: flex;
-  justify-content: end; */
   color: #282828;
 }
 .facial-h4-gray{
@@ -3568,6 +3566,16 @@ background-color: rgba(111, 89, 27, 10%);
 
 /* *******
 treatment-skin and body css strat */
+
+.trt-sec-section .row {
+  display: grid !important;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.environ-detail-img {
+  padding: 0;
+}
+
 .mySwiper.treatment-body-skin-slide .swiper-button-custom{
  display: none;
 }
@@ -3628,7 +3636,7 @@ treatment-skin and body css strat */
 
 .treatment-body-skin-table  tbody tr td:last-child ,
 .treatment-body-skin-table  thead th:last-child{
-padding: 20px 10px 5px 0px;
+padding: 20px 10px 20px 0px;
 }
 .treatment-body-skin-table  thead th {
 padding: 20px 0;
@@ -3643,12 +3651,9 @@ margin-top: 60px;
 .tratment-body-slider .container-fluid{
   padding: 0 !important;
 }
-
-
-
-
-
-
+.lesser_work .work-content-col {
+  padding-right: 25px;
+}
 
 
 .logo-laser-slider .owl-nav{

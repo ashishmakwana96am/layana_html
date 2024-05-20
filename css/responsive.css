@@ -594,6 +594,9 @@
   .environ-detail-img {
     margin-bottom: 30px;
   }
+  .trt-sec-section .environ-detail-img {
+    margin-bottom: 0px;
+}
   .environ-detail-content h4 {
     font-size: 28px;
     margin-bottom: 20px;
@@ -831,6 +834,18 @@
 }
 .laser-hair-page-btn.environ-btn {
   margin: 40px 0 0px;
+}
+.trt-sec-section .row {
+  display: grid !important;
+  gap: 30px;
+  grid-template-columns: repeat(1, 1fr);
+}
+.trt-sec-section{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.lesser_work .work-content-col {
+  padding-right: 10px;
 }
 }
 
@@ -1450,6 +1465,9 @@ font-size: 30px;
   font-size: 16px;
   line-height: 26px;
 }
+.trt-body-lesser-word{
+  margin-top: 10px;
+}
 }
 
 /* 320screen */
@@ -1498,6 +1516,7 @@ font-size: 30px;
   .treatment-body-skin-table tbody tr td:last-child, .treatment-body-skin-table thead th:last-child {
     padding: 20px 10px 5px 8px;
 }
+
 }
 @media (max-width: 400px) {
   .prices-tab-section .tabs .tab,

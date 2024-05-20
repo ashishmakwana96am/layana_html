@@ -124,7 +124,7 @@ $(".tret-body-owl-carousel").owlCarousel({
   responsive: {
     0: {
       items: 2,
-      stagePadding: 20,
+      stagePadding: 0,
     },
     600: {
       items: 2,
