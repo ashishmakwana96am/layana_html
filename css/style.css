@@ -3707,3 +3707,22 @@ display: none;
 .lesser-pigment-section .col-12:last-child{
 margin-bottom: 0 !important;
 }
+
+
+
+
+/* leg vessel page css strat  */
+#main .slide-treatment-veg-lesser{
+  background-image: url('../images/Header\ img\ \(5\).png') !important;
+  background-size: cover;
+  background-position:  top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.leg-vessel-section{
+  margin-top: 110px;
+}
+.leg-vessel-section .row{
+  justify-content: center;
+}
