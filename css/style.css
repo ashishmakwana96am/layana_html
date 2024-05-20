@@ -3662,8 +3662,8 @@ display: none;
 }
 
 /* lesser pigmentation css strat  */
-#main .slider-1.slide-treatment-lesser-pigment{
-  background-image: url('../images/Header\ img\ \(4\).png');
+#main .slide-treatment-lesser-pigment{
+  background-image: url('../images/Header\ img\ \(4\).png') !important;
   background-size: cover;
   background-position:  top;
   background-repeat: no-repeat;
