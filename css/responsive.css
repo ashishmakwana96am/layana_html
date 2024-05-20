@@ -227,6 +227,10 @@
 .table-number p {
   margin-left: 70px;
 }
+.trt-body-lesser-word h4 {
+  font-size: 24px;
+  margin-bottom: 13px;
+}
 }
 
 @media (max-width: 991px) {
@@ -377,6 +381,7 @@
   .treatment-img img {
     width: 100%;
   }
+
  
 }
 @media (max-width: 768px) {
@@ -616,6 +621,11 @@
     width: 100%;
     height: 100%;
   }
+  .lasser-work-video img {
+    width: 100%;
+    height: 100%;
+}
+
   .environ-grid-col{
   grid-template-columns: repeat(2,1fr);
   }
@@ -847,6 +857,10 @@
 .lesser_work .work-content-col {
   padding-right: 10px;
 }
+.trt-body-lesser-word h4 {
+  font-size: 28px;
+  line-height: 38px;
+}
 }
 
 
@@ -949,6 +963,9 @@
 .treatment-body-skin-contact {
   margin-top: 25px;
 }
+.treatment-body-lesser-table tbody tr td:first-child {
+  padding: 10px 0px 0px 20px;
+  }    
 }
 /* 425 screen */
 

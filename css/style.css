@@ -3654,11 +3654,56 @@ margin-top: 60px;
 .lesser_work .work-content-col {
   padding-right: 25px;
 }
-
-
 .logo-laser-slider .owl-nav{
 display: none;
 }
 .tret-body-owl-carousel{
   overflow: hidden;
+}
+
+/* lesser pigmentation css strat  */
+#main .slider-1.slide-treatment-lesser-pigment{
+  background-image: url('../images/Header\ img\ \(4\).png');
+  background-size: cover;
+  background-position:  top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.how-work-list h5{
+  color: #000000;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.how-work-list ul{
+  list-style: auto;
+  padding-left: 30px;
+}
+.how-work-list ul li{
+  color: #666666;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: 'Quattrocento';
+
+}
+.how-work-list ul li:not(:last-child){
+  margin-bottom: 15px;
+}
+
+.trt-body-lesser-word h4 {
+  color: #000000;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.treatment-body-lesser-table tbody tr td:first-child {
+  padding: 10px 132px 0px 20px;
+  }     
+
+.lesser-pigment-section .col-12:last-child{
+margin-bottom: 0 !important;
 }
