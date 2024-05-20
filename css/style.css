@@ -521,6 +521,7 @@ align-items: center;
 }
 .beauty-info .title-content h2{
   margin-bottom: 60px;
+  font-weight: 600 !important;
 }
 .beauty-info{
   padding-bottom: 110px;
@@ -1564,10 +1565,11 @@ margin-bottom: 0;
   padding: 0px;
   font-weight: 400;
   border: 0;
-  font-size: 18px;
-  color: #333333;
+  font-size: 20px;
+  color: #282828;
   text-align: left;
   border-bottom: 1px solid #ddd; 
+  font-family: 'Quattrocento';
 }
 .faq-section .accordion-button:focus {
   box-shadow: none;
@@ -3558,4 +3560,100 @@ background-color: rgba(111, 89, 27, 10%);
 }
 .long-width{
   min-width: 585px;
+}
+
+
+
+
+
+/* *******
+treatment-skin and body css strat */
+.mySwiper.treatment-body-skin-slide .swiper-button-custom{
+ display: none;
+}
+
+#main .slider-1.slide-treatment-body-1{
+  background-image: url('../images/Skin\ Rejuvenation\ 1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.treatment-body-skin-slide .slide-treatment-body-1 h1 {
+  text-align: start !important;
+  color: #000000 !important;
+  font-size: 44px !important;
+  line-height: 54px !important;
+  font-weight: 700 !important;
+  margin-bottom: 40px !important;
+}
+
+.treatment-body-skin-contact{
+  margin-top: 50px;
+}
+.treatment-body-skin-contact p {
+  font-size: 16px;
+}
+.treatment-body-skin-contact .environ-detail-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.treatment-call-text{
+  color: #282828 !important;
+}
+
+
+
+/* after before section css start */
+.treatment-body-afetr-before .after-data {
+  padding: 10px 15px 10px 15px;
+}
+.treatment-body-afetr-before .row{
+  justify-content: center;
+}
+
+.treatment-body-skin-table .accordion-collapse {
+  background-color: transparent;
+}
+.treatment-body-skin-table  thead th:first-child{
+  text-align: start;
+  padding: 20px 0px 20px 20px;
+}
+.treatment-body-skin-table  tbody tr td:first-child{
+  text-align: start;
+  padding: 10px 0px 0px 20px;
+}
+
+.treatment-body-skin-table  tbody tr td:last-child ,
+.treatment-body-skin-table  thead th:last-child{
+padding: 20px 10px 5px 0px;
+}
+.treatment-body-skin-table  thead th {
+padding: 20px 0;
+}
+
+.treatment-body-skin-table .accordion{
+margin-top: 60px;
+}
+.treatment-body-skin-table td {
+  padding: 0px 0;
+}
+.tratment-body-slider .container-fluid{
+  padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+.logo-laser-slider .owl-nav{
+display: none;
+}
+.tret-body-owl-carousel{
+  overflow: hidden;
 }

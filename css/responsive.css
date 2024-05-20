@@ -354,7 +354,23 @@
   gap: 20px;
   justify-content: center;
 }
-
+/* lesser work section css start */
+.trt-body-lesser-word .row{
+  gap:20px
+}
+.lesser_work .title-content h2 {
+  margin-bottom: 15px;
+}
+.trt-body-lesser-word .work-content-col {
+  padding-left: 10px !important;
+  margin-top: 20px;
+}
+.treatment-body-afetr-before .laser-hair-page-btn.environ-btn {
+  margin: 30px 0 0px;
+}
+.treatment-body-afetr-before .btn {
+  padding: 23px 38px 23px 38px;
+}
 }
 /* 768 Screen */
 @media (min-width: 768px) and (max-width: 992px) {
@@ -452,7 +468,7 @@
     padding-top: 0px;
   }
   .logo-slider {
-    padding: 60px 0;
+    padding: 80px 0;
   }
   .logo-slider .container-fluid {
     padding: 25px 0;
@@ -800,6 +816,22 @@
   font-size: 14px;
   line-height: 20px;
 }
+.treatment-body-afetr-before .laser-hair-page-btn.environ-btn {
+  margin: 10px 0 0px;
+}
+.treatment-body-skin-table .accordion {
+  margin-top: 30px;
+}
+.logo-slider.logo-laser-slider .container-fluid {
+  background: transparent;
+  padding: 0px 0;
+}
+.beauty-info .title-content h2 {
+  margin-bottom: 30px;
+}
+.laser-hair-page-btn.environ-btn {
+  margin: 40px 0 0px;
+}
 }
 
 
@@ -889,7 +921,19 @@
 .beauty-info .row{
   gap: 50px;
 }
-
+.treatment-body-skin-contact .environ-detail-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.treatment-detail-content p {
+  margin-bottom: 15px;
+}
+.treatment-body-skin-contact {
+  margin-top: 25px;
+}
 }
 /* 425 screen */
 
@@ -1043,7 +1087,7 @@
     padding: 15px 35px;
   }
   .beauty-info {
-    padding-bottom: 60px;
+    padding-bottom: 80px;
   }
   .contect-border1:after {
     display: none;
@@ -1451,8 +1495,11 @@ font-size: 30px;
     line-height: 36px;
     margin-bottom: 12px;
   }
+  .treatment-body-skin-table tbody tr td:last-child, .treatment-body-skin-table thead th:last-child {
+    padding: 20px 10px 5px 8px;
 }
-@media (max-width: 45em) {
+}
+@media (max-width: 400px) {
   .prices-tab-section .tabs .tab,
   .prices-tab-section .tabs label {
     order: initial;
