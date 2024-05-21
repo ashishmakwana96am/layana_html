@@ -2978,6 +2978,7 @@ margin-bottom: 0;
 
 .consult-section h2 {
   text-align: center;
+  margin-bottom: 25px;
 }
 .consult-tab-container .tab.active {
   border-bottom: 2px solid #000;
@@ -3745,4 +3746,45 @@ margin-bottom: 0 !important;
 }
 .leg-vessel-section .row{
   justify-content: center;
+}
+
+
+/* fungal nail page css start */
+#main .slide-treatment-fungal-nail{
+  background-image: url('../images/Header\ img\ \(7\).png') !important;
+  background-size: cover;
+  background-position:  top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.fungal-nail-consult-sec{
+  margin-top: 110px;
+}
+.fungal-nail-consult-sec .consult-content {
+    color: #666666;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+.fungal-nail-consult-sec .consult-section-ul{
+  margin-right: 47px;
+}
+
+.fungal-nail-consult-sec .fungal-aftercare-list .consult-content,
+.consult-content-last-des{
+  color: #666666;
+  text-align: justify;
+  font-size: 16px !important;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.consult-content-last-des {
+  margin-bottom: 0;
+}
+.consult-section-ul:not(:last-child){
+padding-left: 25px;
 }

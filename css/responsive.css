@@ -120,6 +120,9 @@
   /* .container{
         max-width: 1050px;
     } */
+    .fungal-nail-consult-sec {
+      margin-top: 80px;
+  }
   .parking-section {
     margin-bottom: 70px;
   }
@@ -203,7 +206,7 @@
     line-height: 30px;
   }
   .environ-detail-content h4 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 13px;
   }
   .environ-detail-content p {
@@ -215,7 +218,7 @@
     padding: 16px 28px 16px 28px;
   }
   .environ-detail {
-    margin: 70px 0;
+    margin: 80px 0;
   }
   .spa-detail-inner-section{
     grid-template-columns: repeat(2, 1fr);
@@ -228,7 +231,7 @@
   margin-left: 70px;
 }
 .trt-body-lesser-word h4 {
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 13px;
 }
 .leg-vessel-section {
@@ -740,6 +743,18 @@
   font-size: 16px;
   line-height: 18px;
 }
+.trt-sec-section .row {
+  display: grid !important;
+  gap: 30px;
+  grid-template-columns: repeat(1, 1fr);
+}
+.fungal-nail-consult-sec .consult-content {
+  font-size: 16px;
+  line-height: 26px;
+}
+.laser-hair-page-btn.environ-btn {
+  margin: 20px 0 0px;
+}
 }
 
 @media (max-width: 767px) {
@@ -857,14 +872,8 @@
 .beauty-info .title-content h2 {
   margin-bottom: 30px;
 }
-.laser-hair-page-btn.environ-btn {
-  margin: 40px 0 0px;
-}
-.trt-sec-section .row {
-  display: grid !important;
-  gap: 30px;
-  grid-template-columns: repeat(1, 1fr);
-}
+
+
 .trt-sec-section{
   padding-right: 10px;
   padding-left: 10px;
@@ -1286,7 +1295,7 @@
     line-height: 20px;
   }
   .faq-section {
-    padding: 30px 0;
+    padding: 30px 0 10px;
   }
   .browse-section h4 {
     margin-bottom: 25px;
