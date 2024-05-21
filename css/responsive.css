@@ -178,7 +178,7 @@
     padding: 97px 0;
   }
   .beauty-info {
-    padding-bottom: 78px;
+    padding-bottom: 80px;
   }
   .central-section {
     padding: 78px 0;
@@ -230,6 +230,21 @@
 .trt-body-lesser-word h4 {
   font-size: 24px;
   margin-bottom: 13px;
+}
+.leg-vessel-section {
+  margin-top: 80px;
+}
+.lesser_work {
+  padding-bottom: 80px;
+}
+.treatment-body-lesser-table{
+  margin-bottom: 80px;
+}
+.prices-tab-section .accordion-body {
+  padding: 20px 0 0;
+}
+.logo-slider {
+  padding: 80px 0;
 }
 }
 
@@ -1552,7 +1567,7 @@ font-size: 30px;
     margin-bottom: 12px;
   }
   .treatment-body-skin-table tbody tr td:last-child, .treatment-body-skin-table thead th:last-child {
-    padding: 20px 10px 5px 8px;
+    padding: 20px 10px 20px 8px;
 }
 
 }
