@@ -249,6 +249,9 @@
 .logo-slider {
   padding: 80px 0;
 }
+.treatment-wart-afetr-before {
+  margin-top: 80px;
+}
 }
 
 @media (max-width: 991px) {
@@ -753,7 +756,7 @@
   line-height: 26px;
 }
 .laser-hair-page-btn.environ-btn {
-  margin: 20px 0 0px;
+  margin: 30px 0 0px;
 }
 }
 
@@ -989,7 +992,14 @@
 }
 .treatment-body-lesser-table tbody tr td:first-child {
   padding: 10px 0px 0px 20px;
-  }    
+  }   
+  .after_before .title-content h2 {
+    margin-bottom: 30px;
+} 
+.title-content h2 {
+  font-size: 28px;
+  line-height: 38px;
+}
 }
 
 
@@ -1003,6 +1013,9 @@
     margin-bottom: 0;
 
 }
+.slide-treatment-wart-verruca .hero-first-button {
+  margin-bottom: 0px;
+}
 
 
 }
@@ -1010,10 +1023,11 @@
 /* 425 screen */
 
 @media (max-width: 425px) {
-  .slide-treatment-veg-lesser
-  .hero-first-button {
+  .slide-treatment-wart-verruca .hero-first-button {
     margin-bottom: 10px;
-
+  }
+.slide-treatment-veg-lesser .hero-first-button {
+  margin-bottom: 10px;
 }
   .tab-box-col {
     display: grid;
@@ -1442,10 +1456,7 @@ gap: 40px;
 .contult-hero-content .btn {
   padding: 15px 27px 15px 27px;
 }
-.title-content h2 {
-  font-size: 28px;
-  line-height: 38px;
-}
+
 .benifit-img-box h6 {
   font-size: 18px;
   line-height: 18px;

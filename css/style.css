@@ -3253,11 +3253,11 @@ width: 100%;
 }
 .after-img{
   display: flex;
-  gap: 1%;
+  gap: 0;
 }
 .after-img img{
     width: 100%;
-    max-width: 49%;
+    max-width: 50%;
 }
 .after-data{
   padding: 10px 15px 15px 15px;
@@ -3787,4 +3787,32 @@ margin-bottom: 0 !important;
 }
 .consult-section-ul:not(:last-child){
 padding-left: 25px;
+}
+
+
+/* wart and verruca page css start */
+#main .slide-treatment-wart-verruca{
+  background-image: url('../images/wart-bg.png') !important;
+  background-size: cover;
+  background-position:  top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.slide-treatment-wart-verruca .contult-hero-content h2 ,
+.slide-treatment-wart-verruca .contult-hero-content p {
+  color: #fff !important;
+}
+
+.slide-treatment-wart-verruca .btn{
+  border: 1px solid var(--white-color)!important;
+  color: var(--white-color);
+}
+.slide-treatment-wart-verruca .btn:hover{
+  border: 1px solid var(--black-color)!important;
+  color: var(--white-color);
+}
+
+.treatment-wart-afetr-before{
+  margin-top: 110px;
 }
