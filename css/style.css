@@ -3730,7 +3730,7 @@ margin-bottom: 0 !important;
 .slide-treatment-veg-lesser .contult-hero-content p,
 .treatment-body-skin-slide .contult-hero-content p,
 .treatment-body-skin-slide .contult-hero-content p{
-  color: #000000;
+  color: #000000 !important;
 }
 #main .slide-treatment-veg-lesser{
   background-image: url('../images/Header\ img\ \(5\).png') !important;
