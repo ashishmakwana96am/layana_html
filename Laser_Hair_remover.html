@@ -829,6 +829,26 @@
     },
   },
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menu = document.querySelector('.laser-menu-page');
+    const stickyOffset = menu.offsetTop;
+
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > stickyOffset) {
+            menu.classList.add('sticky');
+        } else {
+            menu.classList.remove('sticky');
+        }
+    });
+});
+
+
+
+
+
+
   </script>
 
   

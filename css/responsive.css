@@ -967,9 +967,30 @@
   padding: 10px 0px 0px 20px;
   }    
 }
+
+
+@media (max-width: 429px) {
+
+.hero-first-button {
+  margin-bottom: 10px;
+}
+.slide-treatment-veg-lesser
+  .hero-first-button {
+    margin-bottom: 0;
+
+}
+
+
+}
+
 /* 425 screen */
 
 @media (max-width: 425px) {
+  .slide-treatment-veg-lesser
+  .hero-first-button {
+    margin-bottom: 10px;
+
+}
   .tab-box-col {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
