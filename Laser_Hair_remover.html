@@ -129,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-xl-6 col-lg-6 col-md-12">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-12 hero-laser-padding">
                         <div class="consult-hero-image">
                             <img src="images/cons-img.png" alt="">
                         </div>
@@ -201,7 +201,7 @@
         </div>
         </section>
 
-        <!-- Steps section -->
+<!-- Steps section -->
 <section class="step-section" id="hair-work">
     <div class="container">
         <div class="row">
@@ -247,7 +247,7 @@
             </div>
         </div>
     </div>
-    </section>
+</section>
 
      <!-- --today sale - -->
      <section class="today-sale">
@@ -424,8 +424,8 @@
     <div class="col-md-4 col-sm-6 col-12">
         <div class="after-content">
             <div class="after-img">
-                <img src="images/Mask group (49).png" alt="">
-                <img src="images/Mask group (50).png" alt="">
+                <img src="images/beofre-1.png" alt="">
+                <img src="images/after-1.png" alt="">
             </div>
             <div class="after-data">
                 <h3>Hair Remova, moveo Technology=1 Courtesy of woman to woman, skin type 6</h3>
@@ -435,8 +435,8 @@
     <div class="col-md-4 col-sm-6 col-12">
         <div class="after-content">
             <div class="after-img">
-                <img src="images/Mask group (52).png" alt="">
-                <img src="images/Mask group (51).png" alt="">
+                <img src="images/before-2.png" alt="">
+                <img src="images/after-2.png" alt="">
             </div>
             <div class="after-data">
                 <h3>Hair Removal, Moveo Technology=1 Treatment</h3>
@@ -446,8 +446,8 @@
     <div class="col-md-4 col-sm-6 col-12">
         <div class="after-content">
             <div class="after-img">
-                <img src="images/Mask group (53).png" alt="">
-                <img src="images/Mask group (54).png" alt="">
+                <img src="images/before-3.png" alt="">
+                <img src="images/after-3.png" alt="">
             </div>
             <div class="after-data">
                 <h3>Hair Removal, Moveo Technology=1 Treatment, courtesy of Michela, M.D. and Prof, paolo bonan, M.D.</h3>
@@ -646,7 +646,7 @@
     </div>
 </section> -->
     <!-- --logo slider-- -->
-    <section class="logo-slider">
+    <section class="logo-slider logo-laser-slider">
         <div class="container-fluid">
           <div class="owl-carousel owl-theme">
             <div class="item"><img src="images/client1.png" alt=""></div>
@@ -673,7 +673,7 @@
                 <div class="beuty-content bg-gray">
                     <img src="images/Mask group (55).png" alt="">
                     <div class="beuty-info-box1 laser-beauty-info">
-                        <h3>I Peel Image Skincare - Enzyme & Chemical Peel</h3>
+                        <a href="#"><h3>I Peel Image Skincare - Enzyme & Chemical Peel</h3></a>
                     </div>
                 </div>
             </div>
@@ -681,7 +681,7 @@
                 <div class="beuty-content bg-orange">
                     <img src="images/Mask group (56).png" alt="">
                     <div class="beuty-info-box1 laser-beauty-info">
-                        <h3>Chemical Peel</h3>
+                        <a href="#"> <h3>Chemical Peel</h3></a>
                     </div>
                 </div>
             </div>
@@ -689,7 +689,7 @@
                 <div class="beuty-content bg-green">
                     <img src="images/Mask group (57).png" alt="">
                     <div class="beuty-info-box1 laser-beauty-info">
-                        <h3>3D - HydrO2 Facial</h3>
+                        <a href="#"><h3>3D - HydrO2 Facial</h3></a>
                     </div>
                 </div>
             </div>
@@ -829,6 +829,26 @@
     },
   },
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menu = document.querySelector('.laser-menu-page');
+    const stickyOffset = menu.offsetTop;
+
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > stickyOffset) {
+            menu.classList.add('sticky');
+        } else {
+            menu.classList.remove('sticky');
+        }
+    });
+});
+
+
+
+
+
+
   </script>
 
   

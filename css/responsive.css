@@ -120,6 +120,9 @@
   /* .container{
         max-width: 1050px;
     } */
+    .fungal-nail-consult-sec {
+      margin-top: 80px;
+  }
   .parking-section {
     margin-bottom: 70px;
   }
@@ -178,7 +181,7 @@
     padding: 97px 0;
   }
   .beauty-info {
-    padding-bottom: 78px;
+    padding-bottom: 80px;
   }
   .central-section {
     padding: 78px 0;
@@ -203,7 +206,7 @@
     line-height: 30px;
   }
   .environ-detail-content h4 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 13px;
   }
   .environ-detail-content p {
@@ -215,7 +218,7 @@
     padding: 16px 28px 16px 28px;
   }
   .environ-detail {
-    margin: 70px 0;
+    margin: 80px 0;
   }
   .spa-detail-inner-section{
     grid-template-columns: repeat(2, 1fr);
@@ -227,9 +230,44 @@
 .table-number p {
   margin-left: 70px;
 }
+.trt-body-lesser-word h4 {
+  font-size: 28px;
+  margin-bottom: 13px;
+}
+.leg-vessel-section {
+  margin-top: 80px;
+}
+.lesser_work {
+  padding-bottom: 80px;
+}
+.treatment-body-lesser-table{
+  margin-bottom: 80px;
+}
+.prices-tab-section .accordion-body {
+  padding: 20px 0 0;
+}
+.logo-slider {
+  padding: 80px 0;
+}
+.treatment-wart-afetr-before {
+  margin-top: 80px;
+}
 }
 
 @media (max-width: 991px) {
+  .hero-laser-padding{
+    padding: 0;
+  }
+  .contult-hero-content h2, .contult-hero-content p {  
+    text-align: center;
+}
+.d-md-block {
+  display: block !important;
+  text-align: center;
+}
+.hero-first-button{
+  margin-right: 15px;
+}
   .massage thead th{
     min-width: 200px;
  }
@@ -274,7 +312,7 @@
 }
 .slide-consutation .container{
   max-width: 100%;
-    padding: 0;
+    /* padding: 0; */
 }
 .consult-hero-top {
   padding-right: 30px;
@@ -341,13 +379,30 @@
   gap: 20px;
   justify-content: center;
 }
-
+/* lesser work section css start */
+.trt-body-lesser-word .row{
+  gap:20px
+}
+.lesser_work .title-content h2 {
+  margin-bottom: 15px;
+}
+.trt-body-lesser-word .work-content-col {
+  padding-left: 10px !important;
+  margin-top: 20px;
+}
+.treatment-body-afetr-before .laser-hair-page-btn.environ-btn {
+  margin: 30px 0 0px;
+}
+.treatment-body-afetr-before .btn {
+  padding: 23px 38px 23px 38px;
+}
 }
 /* 768 Screen */
 @media (min-width: 768px) and (max-width: 992px) {
   .treatment-img img {
     width: 100%;
   }
+
  
 }
 @media (max-width: 768px) {
@@ -439,7 +494,7 @@
     padding-top: 0px;
   }
   .logo-slider {
-    padding: 60px 0;
+    padding: 80px 0;
   }
   .logo-slider .container-fluid {
     padding: 25px 0;
@@ -565,6 +620,9 @@
   .environ-detail-img {
     margin-bottom: 30px;
   }
+  .trt-sec-section .environ-detail-img {
+    margin-bottom: 0px;
+}
   .environ-detail-content h4 {
     font-size: 28px;
     margin-bottom: 20px;
@@ -584,6 +642,11 @@
     width: 100%;
     height: 100%;
   }
+  .lasser-work-video img {
+    width: 100%;
+    height: 100%;
+}
+
   .environ-grid-col{
   grid-template-columns: repeat(2,1fr);
   }
@@ -682,6 +745,18 @@
 .eyes-foot{
   font-size: 16px;
   line-height: 18px;
+}
+.trt-sec-section .row {
+  display: grid !important;
+  gap: 30px;
+  grid-template-columns: repeat(1, 1fr);
+}
+.fungal-nail-consult-sec .consult-content {
+  font-size: 16px;
+  line-height: 26px;
+}
+.laser-hair-page-btn.environ-btn {
+  margin: 30px 0 0px;
 }
 }
 
@@ -787,6 +862,32 @@
   font-size: 14px;
   line-height: 20px;
 }
+.treatment-body-afetr-before .laser-hair-page-btn.environ-btn {
+  margin: 10px 0 0px;
+}
+.treatment-body-skin-table .accordion {
+  margin-top: 30px;
+}
+.logo-slider.logo-laser-slider .container-fluid {
+  background: transparent;
+  padding: 0px 0;
+}
+.beauty-info .title-content h2 {
+  margin-bottom: 30px;
+}
+
+
+.trt-sec-section{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.lesser_work .work-content-col {
+  padding-right: 10px;
+}
+.trt-body-lesser-word h4 {
+  font-size: 28px;
+  line-height: 38px;
+}
 }
 
 
@@ -876,11 +977,58 @@
 .beauty-info .row{
   gap: 50px;
 }
+.treatment-body-skin-contact .environ-detail-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.treatment-detail-content p {
+  margin-bottom: 15px;
+}
+.treatment-body-skin-contact {
+  margin-top: 25px;
+}
+.treatment-body-lesser-table tbody tr td:first-child {
+  padding: 10px 0px 0px 20px;
+  }   
+  .after_before .title-content h2 {
+    margin-bottom: 30px;
+} 
+.title-content h2 {
+  font-size: 28px;
+  line-height: 38px;
+}
+}
+
+
+@media (max-width: 429px) {
+
+.hero-first-button {
+  margin-bottom: 10px;
+}
+.slide-treatment-veg-lesser
+  .hero-first-button {
+    margin-bottom: 0;
 
 }
+.slide-treatment-wart-verruca .hero-first-button {
+  margin-bottom: 0px;
+}
+
+
+}
+
 /* 425 screen */
 
 @media (max-width: 425px) {
+  .slide-treatment-wart-verruca .hero-first-button {
+    margin-bottom: 10px;
+  }
+.slide-treatment-veg-lesser .hero-first-button {
+  margin-bottom: 10px;
+}
   .tab-box-col {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1030,7 +1178,7 @@
     padding: 15px 35px;
   }
   .beauty-info {
-    padding-bottom: 60px;
+    padding-bottom: 80px;
   }
   .contect-border1:after {
     display: none;
@@ -1161,7 +1309,7 @@
     line-height: 20px;
   }
   .faq-section {
-    padding: 30px 0;
+    padding: 30px 0 10px;
   }
   .browse-section h4 {
     margin-bottom: 25px;
@@ -1308,10 +1456,7 @@ gap: 40px;
 .contult-hero-content .btn {
   padding: 15px 27px 15px 27px;
 }
-.title-content h2 {
-  font-size: 28px;
-  line-height: 38px;
-}
+
 .benifit-img-box h6 {
   font-size: 18px;
   line-height: 18px;
@@ -1386,11 +1531,17 @@ font-size: 30px;
 .membership-terms-call{
   margin-bottom: 20px;
 }
+.beauty-info .btn {
+  padding: 23px 44px 23px 44px !important;
 }
-
-
-
-
+.consult-h3 span {
+  font-size: 16px;
+  line-height: 26px;
+}
+.trt-body-lesser-word{
+  margin-top: 10px;
+}
+}
 
 /* 320screen */
 
@@ -1435,8 +1586,12 @@ font-size: 30px;
     line-height: 36px;
     margin-bottom: 12px;
   }
+  .treatment-body-skin-table tbody tr td:last-child, .treatment-body-skin-table thead th:last-child {
+    padding: 20px 10px 20px 8px;
 }
-@media (max-width: 45em) {
+
+}
+@media (max-width: 400px) {
   .prices-tab-section .tabs .tab,
   .prices-tab-section .tabs label {
     order: initial;

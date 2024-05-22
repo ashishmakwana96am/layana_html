@@ -113,6 +113,27 @@ $(".owl-carousel").owlCarousel({
   },
 });
 
+
+
+$(".tret-body-owl-carousel").owlCarousel({
+  loop: true,
+  dots: false,
+  margin: 10,
+  nav: false,
+  stagePadding: 0,
+  responsive: {
+    0: {
+      items: 2,
+      stagePadding: 0,
+    },
+    600: {
+      items: 2,
+    },
+    1000: {
+      items: 4,
+    },
+  },
+});
 // header select option
 
 $(".hidden p").click(function () {
