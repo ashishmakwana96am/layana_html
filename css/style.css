@@ -3328,14 +3328,17 @@ width: 100%;
   z-index: 999;
 }
 
-.laser-menu-page.sticky ul li a {
+
+.laser-pages-name ul li:focus{
   font-weight: 600;
 }
+.laser-active-menu{
+  font-weight: bold;
+}
 
-
-
-
-
+.laser-page-pricing-table .accordion-collapse {
+  background-color: transparent !important;
+}
 
 
 
