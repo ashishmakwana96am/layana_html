@@ -2986,6 +2986,7 @@ margin-bottom: 0;
   color: #fff;
   font-family: 'Muli';
   background-color: #282828;
+  text-align: center;
 }
 .consult-tab-container .tab{
   font-family: 'Muli';
@@ -2994,6 +2995,7 @@ margin-bottom: 0;
   font-weight: 400 !important;
   letter-spacing: 3px;
   border: 1px solid #000 ;
+  text-align: center;
 }
 .consult-content{
   color: #666666;

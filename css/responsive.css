@@ -437,21 +437,8 @@
   .treatment-tab-section {
     margin: 80px 0;
   }
-  .tab-container {
-    display: block;
-    text-align: center;
-  }
-  .tab.active {
-    border-bottom: 2px solid #000;
-    width: 100%;
-    max-width: 200px;
-    margin: auto;
-  }
-  .tab {
-    width: 100%;
-    max-width: 200px;
-    margin: auto;
-  }
+
+
   .left-content-col {
     padding-left: 12px;
   }
