@@ -252,6 +252,30 @@
 .treatment-wart-afetr-before {
   margin-top: 80px;
 }
+
+
+.banner-book-section .banner-inner-box{
+  gap: 10px;
+}
+.banner-book-section .banner-content {
+  gap: 10px;
+  display: block;
+  margin: auto;
+}
+.banner-book-section .banner-btn-group{ 
+  gap: 10px;
+  justify-content: center;
+}
+.banner-book-section .banner-title h4{
+  font-size: 18px !important;
+  line-height: 28px;
+  text-align: center;
+}
+
+
+
+
+
 }
 
 @media (max-width: 991px) {
@@ -268,15 +292,15 @@
 .hero-first-button{
   margin-right: 15px;
 }
-  .massage thead th{
+  /* .massage thead th{
     min-width: 200px;
- }
- .massage #collapseOne thead th:first-child{
+ } */
+ /* .massage #collapseOne thead th:first-child{
    min-width: 305px;
- }
- .massage #collapseTwo thead th:first-child{
+ } */
+ /* .massage #collapseTwo thead th:first-child{
    min-width: 600px;
- }
+ } */
   .cosmetic-service {
     background: linear-gradient(90deg, #fefaf9 65%, #ffffff 50%);
   }
@@ -703,7 +727,7 @@
   line-height: 18px;
 }
 .massage thead tr th{
-  font-size: 16px;
+  font-size: 11px;
   line-height: 20px;
 }
 .accordion-para{
@@ -757,6 +781,10 @@
 }
 .laser-hair-page-btn.environ-btn {
   margin: 30px 0 0px;
+}
+.massage table tr td {
+  font-size: 12px;
+  line-height: 18px;
 }
 }
 
@@ -888,6 +916,22 @@
   font-size: 28px;
   line-height: 38px;
 }
+
+
+.banner-book-section .banner-left-image, .banner-right-image{
+  display: none;
+}
+.banner-book-section .banner-inner-box {
+  gap: 10px;
+  padding: 50px 0;
+}
+.banner-book-section .banner-book-btn {
+  padding: 9px 12px;
+  margin-top: 6px;
+  letter-spacing: 0 !important;
+}
+
+
 }
 
 
@@ -961,7 +1005,7 @@
 }
 
 #collapseTwo table tr td p {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
 }
 .accordion-para{
