@@ -2993,6 +2993,7 @@ margin-bottom: 0;
   line-height: 26px;
   font-weight: 400 !important;
   letter-spacing: 3px;
+  border: 1px solid #000 ;
 }
 .consult-content{
   color: #666666;
@@ -3848,6 +3849,7 @@ padding-left: 25px;
   font-size: 12px !important;
   line-height: 22px !important;
   letter-spacing: 2px;
+  transition: all 0.5s;
 }
 .banner-book-section .banner-content{
   display: flex;
@@ -3858,6 +3860,12 @@ padding-left: 25px;
 .banner-book-section .banner-btn-group{
   display: flex;
   gap: 25px;
+}
+
+.banner-book-btn:hover {
+  background-color: #000000 !important;
+  color: #fff;
+  border-color: #000 !important;
 }
 
 
