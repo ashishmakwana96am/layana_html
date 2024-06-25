@@ -4048,20 +4048,12 @@ line-height: 16px;
 .facial_tech_data{
   margin-top: 60px;
 }
-.facial_grid1{
-  display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-around;
-   gap: 30px;
-}
+
 .facial_grid{
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr); */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
+  justify-content: center;
+  gap: 75px;
 }
 .facial-box{
   display: flex;
@@ -4080,4 +4072,19 @@ line-height: 16px;
   color: #282828;
   width: 100%;
   max-width: 150px;
+}
+/* --hydro2 end-- */
+.consult-step-h3{
+  font-size: 20px;
+line-height: 28px;
+font-weight: 400;
+color: #000;
+font-family: 'Mulish';
+margin-bottom: 15px;
+}
+.seven-step-data .consult-content{
+  margin-bottom: 20px;
+}
+.mb-60{
+  margin-bottom: 40px;
 }
