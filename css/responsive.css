@@ -276,7 +276,9 @@
   line-height: 28px;
   text-align: center;
 }
-
+.video-inner-box {
+  gap: 40px;
+}
 
 
 
@@ -297,15 +299,7 @@
 .hero-first-button{
   margin-right: 15px;
 }
-  /* .massage thead th{
-    min-width: 200px;
- } */
- /* .massage #collapseOne thead th:first-child{
-   min-width: 305px;
- } */
- /* .massage #collapseTwo thead th:first-child{
-   min-width: 600px;
- } */
+
   .cosmetic-service {
     background: linear-gradient(90deg, #fefaf9 65%, #ffffff 50%);
   }
@@ -356,8 +350,8 @@
   margin-bottom: 30px;
 }
 .works-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .benifit-section {
   padding: 60px 0;
@@ -427,6 +421,23 @@
 }
 .facial_tech {
   padding-bottom: 70px;
+}
+.seven-step-data{
+  margin-top: 30px;
+}
+.consult-step-h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.hydro-preparation {
+  margin-top: 60px;
+}
+.btn {
+  padding: 15px;
+}
+.video-inner-box {
+  gap: 40px;
+  flex-direction: column;
 }
 }
 /* 768 Screen */
@@ -915,8 +926,6 @@ gap: 24px;
 .beauty-info .title-content h2 {
   margin-bottom: 30px;
 }
-
-
 .trt-sec-section{
   padding-right: 10px;
   padding-left: 10px;
@@ -928,8 +937,6 @@ gap: 24px;
   font-size: 28px;
   line-height: 38px;
 }
-
-
 .banner-book-section .banner-left-image, .banner-right-image{
   display: none;
 }
@@ -949,6 +956,52 @@ gap: 24px;
 }
 .table_para {
 margin-bottom: 10px;
+}
+.img-video-sec {
+  position: unset;
+}
+.hydro-after-section {
+  margin-top: 80px;
+}
+.hair-remove-title h2{
+  font-size: 24px;
+  line-height: 34px;
+}
+.hydro-after-before-section .after-data h3 {
+  line-height: 26px;
+  font-size: 16px;
+}
+.hydro-title h2 {
+  margin-bottom: 30px !important;
+}
+.hydro-tab-section tbody td{
+  min-width: auto !important;
+  font-size: 12px !important;
+}
+.hydro-tab-section tbody tr td:first-child{
+  padding: 10px 0px 0px 0px;
+}
+.hydro-tab-section thead th:first-child {
+  text-align: start;
+  padding: 20px 0px 20px 0px;
+}
+.hydro-tab-section thead th {
+  padding: 20px 8px;
+}
+.beauty-hydro-section .title-content h2{
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 10px;
+}
+.beauty-hydro-section {
+  margin-top: 80px;
+}
+.beauty-hydro-inner-box .beauty-row{
+  row-gap: 20px;
+}
+.video-detail-box h4{
+  font-size: 26px;
+    line-height: 38px;
 }
 }
 
@@ -1105,6 +1158,22 @@ padding: 48px 0;
   line-height: 20px;
 }.facial_tech_data {
   margin-top: 30px;
+}
+
+/* hydro css start */
+.hydro_work_list li{
+  font-size: 16px;
+  line-height: 26px; 
+ }
+ .facial-box h3{
+  font-size: 16px;
+ }
+ .facial-box img{
+    width: 130px;
+    height: 130px;
+ }
+ .facial_tech {
+  padding-bottom: 36px;
 }
 }
 

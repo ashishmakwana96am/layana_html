@@ -1,3 +1,16 @@
+// header responsive menu 
+
+document.getElementById('mobileMenuToggle').addEventListener('click', function() {
+  var nav = document.querySelector('.responsive-nav');
+  if (nav.style.display === 'block') {
+    nav.style.display = 'none';
+  } else {
+    nav.style.display = 'block';
+  }
+});
+
+
+
 // ---popup --start----//
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -178,3 +191,4 @@ function showTab(tabId) {
 
 
 // -----har remover page---- popup 
+

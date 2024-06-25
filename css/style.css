@@ -28,6 +28,7 @@ p,
 .about-right-data p,
 .collection-left-data p,
 .about-info-data h3,
+.video-detail-box .hydro-video-btn,
 .form-enquire-section ::placeholder{
   font-family: 'Quattrocento';
 }
@@ -4017,6 +4018,12 @@ line-height: 16px;
 /* -- chemical peel end */
 
 /* --hyfro2 facial start-- */
+.laser-menu-page  .container{
+  max-width: 1440px;
+}
+.hydro-preparation{
+  margin-top: 110px;
+}
 .hybro2_hero{
   background-image: url('../images/Header\ img\ \(1\).png');
   background-size: cover;
@@ -4073,14 +4080,13 @@ line-height: 16px;
   width: 100%;
   max-width: 150px;
 }
-/* --hydro2 end-- */
 .consult-step-h3{
   font-size: 20px;
-line-height: 28px;
-font-weight: 400;
-color: #000;
-font-family: 'Mulish';
-margin-bottom: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #000;
+  font-family: 'Mulish';
+  margin-bottom: 15px;
 }
 .seven-step-data .consult-content{
   margin-bottom: 20px;
@@ -4088,3 +4094,112 @@ margin-bottom: 15px;
 .mb-60{
   margin-bottom: 40px;
 }
+.hydro-title h2{
+  margin-bottom: 60px !important;
+}
+
+
+/* hydro video css  */
+.hydro-video-section{
+  margin-top: 70px;
+  background-color: #FBF3EC;
+  background-image: url('/images/video-bg\ \(1\).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+.video-detail-box{
+  position: relative;
+}
+
+.video-detail-box h4{
+  color: #D08F57;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+.video-inner-box{
+  display: flex;
+  gap: 86px;
+  align-items: center;
+  position: relative;
+}
+.img-video-sec{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.video-detail-box h5{
+  font-size: 18px;
+  line-height: 28px;
+  color: #282828;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.video-detail-box h6{
+  font-size: 18px;
+  line-height: 28px;
+  color: #282828;
+  font-weight: 700;
+  
+  margin-bottom: 65px;
+}
+.video-detail-box .hydro-video-btn{
+  background-color: #D08F57;
+  border-radius: 10px;
+  padding: 11px 15px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  border: none;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+/* hydro-after section css start */
+.hydro-after-section{
+  margin-top: 110px;
+}
+
+.hydro-after-before-section .after-img {
+  display: flex;
+  gap: 4px;
+}
+.hydro-after-before-section .after-data p{
+  font-size: 14px;
+  color: #666666;
+  font-size: 400;
+}
+.hydro-after-before-section .after-data h3 {
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 18px;
+  color: var(--black-color);
+}
+.hydro-tab-section thead th {
+  text-align: end;
+}
+/* beauty hydro box css  */
+.beauty-hydro-box{
+  border: 5px solid #F6F6F6;
+  height: 100%;
+}
+.beauty-detail-dec{
+  padding: 15px;
+    border-top: 5px solid #F6F6F6;
+}
+.beauty-detail-dec h6{
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 16px;
+  color: var(--black-color);
+  text-align: justify;
+}
+/* beauty hydro sction css start */
+.beauty-hydro-section{
+  margin-top: 110px;
+}
+
+/* --hydro2 end-- */
