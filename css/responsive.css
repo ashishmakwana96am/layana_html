@@ -113,6 +113,11 @@
 .contult-hero-content .btn{
   padding: 23px 15px 23px 15px;
 }
+
+/* ---chemical peel--- */
+.chemical_hair .btn {
+  padding: 23px 34px 23px 34px;
+}
 }
 /* 1024 Screen */
 
@@ -773,6 +778,19 @@
   font-size: 12px;
   line-height: 18px;
 }
+
+/* --chemical peel--0 */
+.product-data{
+flex-wrap: wrap;
+gap: 24px;
+}
+.product-data{
+  margin-bottom: 24px;
+}
+.table_para {
+  font-size: 16px;
+  line-height: 23px;
+}
 }
 
 @media (max-width: 767px) {
@@ -857,6 +875,10 @@
 .step-contect-border::after{
   content: none;
 }
+.chemical_detail-box .step-contect-border2::after,
+.chemical_detail-box .step-contect-border::after{
+  content: '';
+}
 .step-innner-section{
   display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -918,9 +940,14 @@
   letter-spacing: 0 !important;
 }
 
-
+.prices-tab-section tbody td{
+  width: 100%;
+  min-width: 360px;
 }
-
+.table_para {
+margin-bottom: 10px;
+}
+}
 
 @media (max-width: 575px) {
   .massage .accordion-button{
@@ -1031,8 +1058,50 @@
   font-size: 28px;
   line-height: 38px;
 }
-}
 
+
+/* --chemical peel-- */
+.center-column h4{
+  font-size: 16px;
+  line-height: 20px;
+}
+.chemical_hair.works-section{
+padding: 48px 0;
+}
+.chemical_hair .work-content-col{
+  margin-top: 29px;
+}
+.chemical_hair .work-content-col p{
+  font-size: 14px;
+  line-height: 24px;
+}
+.product {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.popular-title p{
+  font-size: 16px;
+  line-height: 20px;
+}
+.product-data-h4{
+  font-size: 18px;
+  line-height: 20px;
+}
+.table_para {
+  font-size: 16px;
+  line-height: 28px;
+}
+.chemical_logo img{
+  margin: 0 10px;
+}
+.prices-tab-section td{
+  padding: 10px 0;
+}
+.prices-tab-section tbody td {
+  font-size: 18px;
+  line-height: 20px;
+}
+}
 
 @media (max-width: 429px) {
 
@@ -1571,6 +1640,37 @@ font-size: 30px;
 }
 .trt-body-lesser-word{
   margin-top: 10px;
+}
+
+/* --chemicl peel */
+.chemical_btn.environ-detail-btn .btn {
+  margin-right: 20px;
+  padding: 15px 13px;
+}
+.chemical_gallery .environ-gallery-data h3{
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+.chemical_gallery .environ-gallery-data p{
+  font-size: 12px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+.chemical_gallery .environ-gallery-data h4{
+  font-size: 16px;
+  line-height: 26px;
+}
+.chemical_consult .consult-content{
+  font-size: 14px;
+  line-height: 24px;
+}
+.chemical_consult .consult-section-ul{
+  margin-bottom: 15px;
+}
+.popular-title p{
+  font-size: 14px;
+  line-height: 16px;
 }
 }
 

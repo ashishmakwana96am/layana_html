@@ -1165,6 +1165,7 @@ Treatment section css
   display: flex;
   align-items: center;
 }
+
 /* tabs css */
 .tab-container {
   display: flex;
@@ -1900,6 +1901,7 @@ beauty_detail_finchly section css
   display: flex;
   align-items: center;
 }
+
 .environ-detail{
   margin: 110px 0 115px;
 }
@@ -3870,9 +3872,212 @@ padding-left: 25px;
   border-color: #000 !important;
 }
 
+/* ----chemical peel css start */
+.chemical-slide-condition{
+  background-image: url('../images/Header\ img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.chemical_gallery{
+  height: 100%;
+}
+.chemical_gallery .peel_img{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.chemical_gallery img{
+ width: auto ;
+}
+.chemical_gallery .environ-gallery-data{
+  padding: 20px 10px 25px 10px;
+}
+.chemical_gallery .environ-gallery-data h3{
+  font-family: 'Mulish';
+  margin-bottom: 21px;
+  line-height: 25px;
+}
+.chemical_gallery  .environ-gallery-data p{
+  margin-bottom: 40px;
+}
+.week-h3{
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-family: 'Mulish';
+}
+.chemical_consult .consult-content{
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+.chemical_consult .consult-h3{
+  margin-top: 10px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: 'Mulish';
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.consult-section-ul.list-style{
+list-style: disc;
+line-height: 16px;
+}
+.popular-title p{
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Quattrocento';
+  margin-bottom: 25px;
+}
+.product{
+  padding-top: 110px;
+  padding-bottom: 105px;
+}
+.product-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.product .popular-title h2{
+  margin-bottom: 20px;
+  font-family: 'Mulish';
+}
+.product-data{
+  margin-bottom: 30px;
+}
+.product-data-img{
+  border: 5px solid #F6F6F6;
+}
+.product-data-h4{
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #000;
+  font-family: 'Mulish';
+  text-align: center;
+}
+.chemical_table_td div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.chemical_table_td {
+  width: 
+  289px;
+}
+.chemical_table_td div{
+  padding: 92px 13px;
+}
+.table_bg_div{
+  background-color: #DEBFB0;
+}
+.prices-tab-section thead th{
+  text-align: start;
+}
+.prices-tab-section thead th:last-child{
+  text-align: end;
+}
+.table_h4{
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.table_para{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.chemical_table.prices-tab-section tbody td:not(:first-child){
+  text-align: center !important;
+}
+.table_bg_div.table_foot{
+  padding: 15px 25px;
+}
+.chemical_step .step-contect-border2::after{
+  right: -17px;
+}
+.laser-pages-name ul{
+  gap: 26px;
+  justify-content: center;
+}
 
 
+/* -- chemical peel end */
 
-
-
-
+/* --hyfro2 facial start-- */
+.hybro2_hero{
+  background-image: url('../images/Header\ img\ \(1\).png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.hydro_work_list li{
+ display: flex;
+ align-items: center;
+ gap: 15px;
+ font-size: 16px;
+ line-height: 16px;
+ font-weight: 700;
+ color: #666666;
+ margin-bottom: 12px;
+}
+.hydro_work_list {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.facial_tech{
+  padding-bottom: 110px;
+}
+.facial_tech_data{
+  margin-top: 60px;
+}
+.facial_grid1{
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+   gap: 30px;
+}
+.facial_grid{
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.facial-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.facial-box img{
+ border-radius: 50%;
+ margin-bottom: 15px;
+}
+.facial-box h3{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #282828;
+  width: 100%;
+  max-width: 150px;
+}
