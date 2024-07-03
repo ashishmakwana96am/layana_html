@@ -280,7 +280,9 @@
   gap: 40px;
 }
 
-
+.work-popular-step ul {
+  grid-template-columns: repeat(3, 1fr);
+}
 
 
 }
@@ -438,6 +440,10 @@
 .video-inner-box {
   gap: 40px;
   flex-direction: column;
+}
+.tab-content .row {
+  flex-direction: column-reverse;
+  gap: 30px;
 }
 }
 /* 768 Screen */
@@ -805,6 +811,16 @@ gap: 24px;
   font-size: 16px;
   line-height: 23px;
 }
+.work-popular-step ul {
+  grid-template-columns: repeat(2, 1fr);
+}
+.what-treat-step h6 {
+  color: #282828;
+  font-size: 16px;
+}
+.dermaforce-after-before {
+  margin-top: 80px;
+}
 }
 
 @media (max-width: 767px) {
@@ -1003,6 +1019,62 @@ margin-bottom: 10px;
   font-size: 26px;
     line-height: 38px;
 }
+.how-does-row{
+  flex-direction: column-reverse ;
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
+.what-can-treat-section{
+  padding-top: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-bottom: 40px;
+
+}
+.what-treat-title p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 15px;
+}
+.what-treat-step h6 {
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 150px;
+}
+.what-treat-step img {
+  width: 100px;
+  height: 100px;
+}
+.dermaforce-video-section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+} 
+.dermaforce-video-section .video-detail-box {
+  display: block;
+  text-align: center;
+}
+.video-first-title {
+  font-size: 32px;
+  line-height: 30px;
+}
+.video-sec-title {
+  font-size: 20px;
+  line-height: 30px;
+}
+.video-third-title {
+  font-size: 20px;
+  line-height: 26px;
+}
+.video-fourth-title {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+.derma-video-btn {
+  padding: 15px 20px;
+}
 }
 
 @media (max-width: 575px) {
@@ -1114,8 +1186,6 @@ margin-bottom: 10px;
   font-size: 28px;
   line-height: 38px;
 }
-
-
 /* --chemical peel-- */
 .center-column h4{
   font-size: 16px;
@@ -1175,6 +1245,52 @@ padding: 48px 0;
  .facial_tech {
   padding-bottom: 36px;
 }
+.work-popular-step ul{
+  grid-template-columns: repeat(2,1fr);
+  list-style: disc;
+  padding-left: 15px;
+}
+.what-treat-detail{
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-between;;
+  margin-top: 50px;
+}
+  
+.how-work-step-detail{
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 17px !important;
+}
+.how-work-step-detail p, .how-work-image-box {
+  text-align: center;
+}
+.how-work-step-detail .centered {
+  grid-column: span 2;
+  margin: 20px auto 0;
+}
+.what-treat-detail .centered{
+  grid-column: span 2;
+  text-align: center;
+}
+.step-section .centered{
+  grid-column: span 2;
+  text-align: center;
+}
+.work-popular-area h4 {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+}
+.work-popular-step li {
+  font-size: 15px;
+  line-height: 20px;
+}
+.work-popular-step {
+  margin-top: 10px;
+}
+
 }
 
 @media (max-width: 429px) {
@@ -1791,8 +1907,10 @@ font-size: 30px;
     line-height: 36px;
     margin-bottom: 12px;
   }
-  .treatment-body-skin-table tbody tr td:last-child, .treatment-body-skin-table thead th:last-child {
+  .treatment-body-skin-table tbody tr td:last-child, 
+  .treatment-body-skin-table thead th:last-child {
     padding: 20px 10px 20px 8px;
+
 }
 
 }
@@ -1806,4 +1924,8 @@ font-size: 30px;
     margin-right: 0;
     margin-top: 0.2rem;
   }
+  .demaforce-body-skin-table tbody tr td:last-child, 
+.demaforce-body-skin-table thead th:last-child {
+  padding: 8px 10px 8px 8px !important;
+}
 }
