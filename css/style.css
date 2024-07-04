@@ -4657,7 +4657,7 @@ margin-bottom: 20px;
 }
 
 
-/* ---akin pen--- */
+/* ---sakin pen--- */
 
 .skin-banner-data{
   background-image: url('../images/Group\ 1000008353.png');
@@ -4745,4 +4745,115 @@ margin-bottom: -10px;
   height: 48px;
   width: 181px;
   font-family: 'Quattrocento';
+}
+
+
+
+/* hifu section css start  */
+.hifu-benifit .hifu-centarl-call{
+  margin-bottom: 22px;
+}
+.hifu-inner-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  column-gap: 50px;
+}
+.hifu-centarl-call  p{
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+}
+.benifit-step-h3{
+  color: #000;
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+
+/* hifu-banner-setion css strat */
+.hifu-banner-section{
+  margin-top: 80px;
+}
+
+/* hifu Post section css start */
+#how-it-work .title-content{
+  margin-bottom: 60px;
+}
+.hifu-post .hifu-centarl-call{
+  margin-bottom: 14px;
+}
+.hifu-post{
+  margin-top: 22px;
+}
+.hifu-post h5{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.post-hifu-section .title-content h2 {
+  margin-bottom: 60px;
+}
+
+.hifu-pre-post-section .title-content h2 {
+  margin-bottom: 60px;
+}
+
+/* what area can trat */
+.what-area-treat-detail{
+  display: grid !important;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+.what-can-area-treat-section .container{
+  max-width: 940px;
+}
+.what-can-area-treat-section .what-treat-step:not(:last-child) h6{
+  margin-top: 40px;
+}
+.what-can-area-treat-section .what-treat-step:last-child h6{
+  margin-top: 00px;
+}
+
+/* video-section */
+.hifu-video-section.container-fluid{
+  background:url('../images/video-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-des{
+  display: flex;
+  gap: 20px;
+}
+.hifu-video-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.video-client-detail{
+  color: #666666;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.video-left-name{
+  margin-top: 20px;
+}
+.video-left-name h6{
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.video-left-name p{
+  color: #666666;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.hifu-video-section{
+  margin-top: 110px;
 }
