@@ -67,6 +67,16 @@
   .member-terms-right-box {
     gap: 50px;
 }
+
+.skin-imgs img {
+  position: absolute;
+  top: 41px;
+  right: 205px;
+}
+.skin-imgs .btn-button {
+  top: 45%;
+    right: 23%;
+}
 }
 
 
@@ -117,6 +127,9 @@
 /* ---chemical peel--- */
 .chemical_hair .btn {
   padding: 23px 34px 23px 34px;
+}
+.emlift-3d-data-img img {
+  max-width: 186px;
 }
 }
 /* 1024 Screen */
@@ -285,6 +298,29 @@
 }
 
 
+.skin-imgs img{
+  top: 41px;
+  right: 37px;
+}
+.skin-imgs .btn-button{
+  top: 45%;
+      right: 4%;
+}
+.skin-banner-right{
+margin-left: 59px;
+}
+.skin-img img {
+  right: 0;
+}
+.skin-img img { 
+  max-width: 480px;
+}
+.emlift-3d-data-img img {
+  max-width: 186px;
+}
+.emlift-banner {
+  padding: 70px 0;
+}
 }
 
 @media (max-width: 991px) {
@@ -459,6 +495,9 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 34px;
+}
+.cutm-td {
+  min-width: auto;
 }
 }
 /* 768 Screen */
@@ -852,6 +891,45 @@ gap: 24px;
 .step-box-img{
   margin-bottom: 20px;
 }
+.skin-banner-left img{
+  position: static;
+}
+.skin-banner-right p{
+  margin-bottom: 47px;
+}
+.skin-banner-right{
+  padding-bottom: 0;
+}
+
+.skin-img img {
+  right: 0;
+  left: 0;
+  margin: auto;
+  max-width: 315px;
+}
+#main1 .skinpen-slider {
+  padding-top: 127px;
+}
+.emlift-3d-data-img{
+  justify-content: center;
+}
+.emlift-3d-data h3{
+  text-align: center;
+}
+.emlift-3d-treatment{
+  justify-content: center;
+}
+.emlift-treate p{
+  width: 100% !important;
+}
+
+.emlif-treat-section{
+  margin-top: 80px;
+}
+.review-data-content p{
+  font-size: 16px;
+  line-height: 28px;
+}
 }
 
 @media (max-width: 767px) {
@@ -1118,6 +1196,10 @@ margin-bottom: 10px;
 .reason-inner-section{
   flex-direction: column-reverse;
 }
+.what-treat .what-treat-step img{
+  width: 130px;
+  height: 130px;
+}
 }
 
 @media (max-width: 575px) {
@@ -1228,6 +1310,38 @@ margin-bottom: 10px;
 .title-content h2 {
   font-size: 28px;
   line-height: 38px;
+}
+.emlift-work-title h3{
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 15px;
+}
+.synergy-data{
+  padding: 38px 15px 40px ;
+}
+.pre-post{
+  padding-top: 80px;
+}
+.pre-post-data .consult-section-ul .consult-content{
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.dermaforce-after-before{
+  margin-top: 80px;
+}
+.emlift.after_before .col-12{
+  margin-bottom: 40px;
+}
+.emlift .laser-hair-page-btn.environ-btn{
+  margin-top: 0;
+}
+ .custm-td-mobile{
+  min-width: 70px !important; 
+}
+.review-data-content p{
+  font-size: 14px;
+  line-height: 24px;
 }
 /* --chemical peel-- */
 .center-column h4{
@@ -1378,6 +1492,74 @@ padding: 48px 0;
   flex-direction: column-reverse;
   gap: 40px;
 }
+.skin-banner-right {
+  padding-top: 92px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+.skin-banner-right h3 {
+  margin-bottom: 29px;
+}
+.skin-banner-right p {
+  margin-bottom: 36px;
+}
+.reason-section{
+  margin-bottom: 50px;
+}
+.skin-banner-end img{
+  width: 120px;
+}
+#main1 .skinpen-slider {
+    padding-top: 127px;
+}
+.skin-img img {
+  max-width: 242px;
+}
+#main1 .contult-hero-content h2{
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+}
+.emlift-3d-data h3{
+  font-size: 14px;
+  line-height: 14px;
+  text-align: start;
+}
+.emlift-3d-data-img img {
+  max-width: 165px;
+}
+.treatment-data .step-img {
+width: 42px;
+height: 42px;
+padding: 5px 10px;
+}
+.emlift-3d-data-img{
+  gap: 22px;
+}
+.treatment-data h4{
+  font-size: 11px;
+  line-height: 11px;
+}
+.treatment-data p{
+  font-size: 9px;
+  line-height: 14px;
+  max-width: 95px;
+}
+.emlift-3d-data-div{
+  padding: 16px 16px 0 16px;
+}
+.emlift-3d-treatment{
+  padding: 13px 11px 16px 16px;
+  gap: 13px;
+}
+.what-treat {
+  grid-template-columns: repeat(2,1fr);
+  
+}
+.what-treat .what-treat-step .step1{
+  margin-bottom: 60px;
+}
+
 }
 
 @media (max-width: 429px) {
@@ -1897,6 +2079,23 @@ font-size: 30px;
 .faq-section .accordion-header {
   margin-bottom: 20px;
 }
+.skin-banner-right{
+  padding-top: 70px;
+}
+.skin-banner-right h3 {
+  font-size: 36px;
+  margin-left: 0;
+}
+.skin-banner-right{
+  padding-left: 0;
+}
+.skin-banner-right p {
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+.skin-imgs .btn-button {
+  top: 49%;
+}
 }
 
 
@@ -1954,6 +2153,18 @@ font-size: 30px;
 
 /* 320screen */
 
+@media (max-width: 375px) {
+  .skin-imgs .btn-button {
+    top: 46%;
+}
+.skin-banner-right h3 {
+  font-size: 32px;
+}
+
+.skin-banner-right p {
+  max-width: 320px;
+}
+}
 @media (max-width: 320px) {
   .team-data-img img {
     width: 82%;
@@ -2000,6 +2211,23 @@ font-size: 30px;
     padding: 20px 10px 20px 8px;
 
 }
+
+.skin-imgs .btn-button {
+  top: 43%;
+}
+.skin-banner-right {
+  padding-top: 71px;
+}
+.skin-banner-right h3 {
+  font-size: 28px;
+line-height: 30px;
+margin-bottom: 18px;
+}
+.skin-banner-right button {
+  padding: 15px 16px;
+}
+
+
 
 }
 @media (max-width: 400px) {
