@@ -4806,9 +4806,6 @@ margin-bottom: -10px;
   display: flex;
   align-items: center;
 }
-/* .hifu-inner-box {
-}
-
 
 
 /* hifu section css start  */
@@ -4996,7 +4993,7 @@ max-width: 150px;
     font-weight: 600;
    
   }
-}
+
 .hifu-centarl-call  p{
   color: #666666;
   font-size: 16px;
@@ -5094,4 +5091,23 @@ max-width: 150px;
 }
 .hifu-video-section{
   margin-top: 110px;
+}
+/* ----co2 fakcial-page */
+.co2-facial{
+  background-image: url('../images/Header\ img\ \(3\).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.co2-what-treat-detail{
+  display: grid!important;
+  gap: 20px;
+  grid-template-columns: repeat(5,1fr);
+  justify-content: space-between;
+  margin-top: 50px;
 }
