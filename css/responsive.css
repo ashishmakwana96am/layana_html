@@ -849,6 +849,9 @@ gap: 24px;
 .skin-border-1::after , .skin-border-2::after{
  content: none;
 }
+.step-box-img{
+  margin-bottom: 20px;
+}
 }
 
 @media (max-width: 767px) {
