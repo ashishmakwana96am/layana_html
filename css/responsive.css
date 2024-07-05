@@ -324,6 +324,13 @@ margin-left: 59px;
   font-size: 34px;
   max-width: 100% ;
 }
+.bingo-video-data-right{
+  padding: 30px 40px 30px 100px;
+}
+.bingo-responsive .title-content h2{
+margin-bottom: 40px;
+}
+
 }
 
 @media (max-width: 991px) {
@@ -949,6 +956,15 @@ gap: 24px;
   margin-top: 30px;
   gap: 30px;
 }
+.bingo-video-data{
+  flex-direction: column;
+}
+.bingo-video-data-right{
+  padding: 30px 40px 30px 40px;
+}
+.bingo-video{
+  margin: 80px 0;
+}
 }
 
 @media (max-width: 767px) {
@@ -1255,28 +1271,16 @@ margin-bottom: 10px;
   line-height: 32px;
   margin-bottom: 10px;
 }
-}
-.co2-table-para{
-  padding-left: 0;
-  margin-top: 10px;
+.bingo-table.prices-tab-section .accordion-button{
   font-size: 14px;
-  line-height: 18px;
+  line-height: 20px;
 }
-.review-data{
-  margin-top: 50px;
+.bingo-table.prices-tab-section .accordion-button span{
+  font-size: 11px;
+  line-height: 16px;
 }
-.co2-review-content p{
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 20px;
 }
-.co2-review-content h6{
-  font-size: 18px;
-  line-height: 18px;
-}
-.review-data{
-  padding: 40px 0;
-}
+
 
 
 
@@ -1289,6 +1293,27 @@ margin-bottom: 10px;
     }
 }
 @media (max-width: 575px) {
+  .co2-table-para{
+    padding-left: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .review-data{
+    margin-top: 50px;
+  }
+  .co2-review-content p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .co2-review-content h6{
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .review-data{
+    padding: 40px 0;
+  }
   .massage .accordion-button{
     font-size: 16px;
     line-height: 18px;
@@ -1677,6 +1702,47 @@ text-align: center;
 }
 .co2-what-data-list ul li{
   font-size: 15px;
+}
+.bingo-video-data-right h3{
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.bingo-video-data-right h6{
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.bingo-video-data-right p{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.bingo-video-data-right button{
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px 17px;
+}
+.prices-tab-section.bingo-table td {
+  padding: 0px 0;
+}
+.logo-black img {
+  max-width: 75px;
+  width: 100%;
+}
+.bingo-work.chemical_hair.works-section{
+  padding-top: 0;
+}
+.bingo-video-data-right{
+  padding: 30px 20px 30px 20px;
+}
+.bingo-ultimated h2 {
+  font-size: 28px;
+  line-height: 30px;
+}
+.bingo-ultimated h3{
+  font-size: 20px;
+  line-height: 24px;
 }
 }
 
