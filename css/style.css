@@ -5139,4 +5139,23 @@ max-width: 150px;
 }
 .co2-what-data ul:last-child li{
   margin-bottom: 0;
+/* fit freezing css start */
+
+#main .fit-slider-1{
+  background-image: url('../images/fit-bg.png') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.fit-freezing-banner-section .contult-hero-content h2 , .fit-freezing-banner-section .contult-hero-content p{
+  color: #fff !important;
+}
+.fit-freezing-banner-section .btn {
+  border: 1px solid var(--white-color) !important;
+  color: var(--white-color);
+}
+.fit-freezing-banner-section .btn:hover {
+  border: 1px solid var(--black-color) !important;
+  color: var(--white-color);
 }
