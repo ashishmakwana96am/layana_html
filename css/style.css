@@ -29,7 +29,8 @@ p,
 .collection-left-data p,
 .about-info-data h3,
 .video-detail-box .hydro-video-btn,
-.form-enquire-section ::placeholder{
+.form-enquire-section ::placeholder,
+.co2-what-data h3{
   font-family: 'Quattrocento';
 }
 
@@ -5110,4 +5111,32 @@ max-width: 150px;
   grid-template-columns: repeat(5,1fr);
   justify-content: space-between;
   margin-top: 50px;
+}
+
+/* ---co2-what-data--- */
+.co2-what-data h3{
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: 
+  #DC9C84;
+  margin-top: 50px;
+}
+.co2-what-data ul{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap:34px;
+ list-style: disc;
+}
+.co2-what-data ul li{
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 300;
+  color: 
+  #282828;
+  margin-bottom: 20px;
+}
+.co2-what-data ul:last-child li{
+  margin-bottom: 0;
 }
