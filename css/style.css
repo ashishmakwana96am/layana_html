@@ -5226,3 +5226,13 @@ font-weight: 600;
 text-transform: capitalize;
 border: none;
 }
+.co2-table-para{
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 27px;
+  font-family: "Muli";
+}
