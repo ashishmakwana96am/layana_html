@@ -4228,6 +4228,9 @@ line-height: 16px;
 
 
 /* 3D Dermaforce */
+.demaforce-extra-space{
+  margin-left: 22px;
+}
 .dermaforce-section {
   background-image: url(../images/3d\ header.png);
   background-size: cover;
