@@ -2123,6 +2123,9 @@ font-size: 30px;
 .skin-imgs .btn-button {
   top: 49%;
 }
+.custm-td-mobile {
+  min-width: 60px !important;
+}
 }
 
 
