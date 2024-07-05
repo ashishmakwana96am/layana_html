@@ -913,6 +913,15 @@ gap: 24px;
 .skinpen-container.container{
   align-items: normal;
 }
+.emlift-3d-data-img{
+  justify-content: center;
+}
+.emlift-3d-treatment{
+  justify-content: center;
+}
+.emlift-3d-data-img img {
+  max-width: 249px;
+}
 }
 
 @media (max-width: 767px) {
@@ -1514,6 +1523,65 @@ text-align: center;
 .contult-hero-content{
   margin-bottom: 0;
 }
+.cutm-td{
+  min-width: auto;
+}
+.emlift-3d-data-img img {
+  max-width: 168px;
+}
+.emlift-3d-data-img{
+  gap: 22px;
+}
+.emlift-3d-treatment{
+  padding: 13px 11px 16px 16px;
+}
+.treatment-data h4{
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 3px;
+}
+.treatment-data p{
+  font-size: 9px;
+  line-height: 14px;
+}
+.emlift-3d-treatment .step-img{
+  width: 42px;
+  height: 42px;
+  padding: 7px 10px;
+}
+.emlift-3d-data h3{
+  font-size: 14px;
+  line-height: 14px;
+}
+.emlift-work-step img{
+  width: 170px;
+}
+.emlif-treat-section{
+  margin-top: 50px;
+}
+.dermaforce-header-menu .laser-pages-name ul{
+  gap: 17px;
+}
+.laser-menu-page {
+  padding-top: 27px;
+  padding-bottom: 27px
+}
+.emlift-section{
+  height: 393px;
+}
+.treatment-data{
+  gap: 9px;
+}
+.emlift-3d-treatment{
+  gap: 13px;
+}
+.emlift-treate p{
+  width: 100% !important;
+}
+.emlif-what-treat .what-treat-step img{
+  width: 130px;
+  height: 130px;
+}
 }
 
 
@@ -1532,6 +1600,10 @@ text-align: center;
 }
 
 
+
+.emlif-what-treat.what-treat{
+  grid-template-columns: repeat(2, 1fr);
+}
 }
 
 /* 425 screen */
@@ -2014,7 +2086,7 @@ margin-bottom: 30px;
   margin-bottom: 30px;
 }
 .after_before {
-  padding-bottom: 80px;
+  padding-bottom: 65px;
 }
 .faq-section .accordion-button::after{
 font-size: 30px;
@@ -2129,6 +2201,9 @@ font-size: 30px;
 }
 .skinpen-slider .contult-hero-content .btn{
   padding: 18px 40px 18px 50px;
+}
+.emlift-3d-data-img img {
+  max-width: 146px;
 }
 }
 @media (max-width: 320px) {
