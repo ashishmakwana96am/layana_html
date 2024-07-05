@@ -2124,7 +2124,10 @@ font-size: 30px;
   top: 49%;
 }
 .custm-td-mobile {
-  min-width: 60px !important;
+  min-width: 40px !important;
+}
+.dermaforce-body-skin-table thead th:last-child {
+  padding: 8px 0px 8px 0px;
 }
 }
 
