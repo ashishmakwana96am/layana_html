@@ -1247,6 +1247,15 @@ margin-bottom: 10px;
   justify-content: center;
   gap: 10px;
 }
+.fit-does-section{
+  margin-top: 80px;
+}
+.fit-work-popular h4 {
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+}
 .co2-table-para{
   padding-left: 0;
   margin-top: 10px;
@@ -1268,7 +1277,7 @@ margin-bottom: 10px;
 .review-data{
   padding: 40px 0;
 }
-}
+
 
 
 @media (max-width: 690px) {

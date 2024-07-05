@@ -30,7 +30,8 @@ p,
 .about-info-data h3,
 .video-detail-box .hydro-video-btn,
 .form-enquire-section ::placeholder,
-.co2-what-data h3{
+.co2-what-data h3,
+.body-alout-li li{
   font-family: 'Quattrocento';
 }
 
@@ -3180,7 +3181,7 @@ tr td:nth-child(3) {
 }
 .hair-remove-title h2{
  font-size: 28px;
- line-height: 28px;
+ line-height: 38px;
  color: var(--black-color);
  font-weight: 300;
  margin-bottom: 20px;
@@ -5234,6 +5235,8 @@ text-transform: none;
 .co2-what-data-list ul:last-child li{
   margin-bottom: 0;
 }
+
+
 /* fit freezing css start */
 
 #main .fit-slider-1{
@@ -5267,10 +5270,10 @@ text-transform: none;
   font-weight: 400;
   text-align: justify;
 }
-.fit-does-section{
-  margin-top: 80px;
-}
 
+.fit-does-section{
+  margin-bottom: 80px;
+}
 .fit-work-popular{
   text-align: center;
   margin-top: 60px;
@@ -5279,13 +5282,11 @@ text-transform: none;
 .fit-work-popular h4{
   font-size: 28px;
   line-height: 38px;
+  margin-bottom: 20px;
 
 }
-
-
 .fit-after-before{
   margin-top: 110px;
-  margin-bottom: 110px;
 }
 .fit-after-before .consult-section-ul li{
   margin-bottom: 15px;
@@ -5304,4 +5305,36 @@ text-transform: none;
 .fit-logo-section{
   padding-bottom: 110px;
   padding-top: 0! important;
+}
+
+
+
+/* body radio page css start */
+#main .body-radio-banner{
+  background-image: url('../images/radio-image.png') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.body-about-link{
+color: #1078d5;
+}
+
+.body-radio-about-section p.body-aboutlist-title{
+  color: #000000;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.body-call-sec{
+  margin-top: 20px;
+}
+.body-alout-li li{
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 15px;
 }
