@@ -1494,6 +1494,9 @@ padding: 48px 0;
 .skin-img img {
   max-width: 242px;
 }
+.skin-img{
+  margin-top: 20px;
+}
 .skinpen-hero h2{
   font-size: 28px;
   line-height: 38px;
