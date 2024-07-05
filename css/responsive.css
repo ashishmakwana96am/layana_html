@@ -317,6 +317,13 @@ margin-left: 59px;
 .emlift-banner {
   padding: 70px 0;
 }
+.co2-banner {
+  gap: 25px;
+}
+.co2-dermoforce-banner h2 {
+  font-size: 34px;
+  max-width: 100% ;
+}
 }
 
 @media (max-width: 991px) {
@@ -922,6 +929,26 @@ gap: 24px;
 .emlift-3d-data-img img {
   max-width: 249px;
 }
+.co2-banner{
+  flex-direction: column;
+  align-items: center;
+}
+.co2-dermoforce-banner{
+  text-align: center;
+}
+.co2-dermoforce-banner p{
+  max-width: 100%;
+}
+.co2-what-data-list ul{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.emlif-row.how-does-row{
+  flex-direction: column-reverse ;
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
 }
 
 @media (max-width: 767px) {
@@ -1214,7 +1241,35 @@ margin-bottom: 10px;
 .fit-after-before .consult-section-ul li {
   margin-bottom: 10px;
 }
+.co2-btn-grp{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
+.co2-table-para{
+  padding-left: 0;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.review-data{
+  margin-top: 50px;
+}
+.co2-review-content p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.co2-review-content h6{
+  font-size: 18px;
+  line-height: 18px;
+}
+.review-data{
+  padding: 40px 0;
+}
+}
+
 
 @media (max-width: 690px) {
   .skin-img img {
@@ -1600,6 +1655,19 @@ text-align: center;
 .emlif-what-treat .what-treat-step img{
   width: 130px;
   height: 130px;
+}
+.co2-what-data-list ul {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.co2-what-data-list h3{
+  text-align: center;
+  font-size: 22px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+.co2-what-data-list ul li{
+  font-size: 15px;
 }
 }
 
@@ -2147,6 +2215,18 @@ font-size: 30px;
 }
 .dermaforce-body-skin-table thead th:last-child {
   padding: 8px 0px 8px 0px;
+}
+.co2-dermoforce-banner h2 {
+  font-size: 20px;
+  line-height: 22px;
+}
+.co2-btn-grp .btn{
+  font-size: 14px;
+  line-height: 18px;
+}
+.btn-ptomotion{
+  font-size: 14px;
+  line-height: 18px;
 }
 }
 

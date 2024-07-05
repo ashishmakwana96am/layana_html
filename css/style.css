@@ -4840,7 +4840,7 @@ margin-bottom: -10px;
   font-size: 36px;
   line-height: 36px;
   font-weight: 300;
-  text-align: center;
+  /* text-align: center; */
   color: #000000;
   margin-bottom: 20px;
 }
@@ -4848,7 +4848,7 @@ margin-bottom: -10px;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
-  text-align: center;
+  /* text-align: center; */
   color: 
   #666666;
   margin-bottom: 25px;
@@ -5008,7 +5008,23 @@ max-width: 150px;
     font-weight: 600;
    
   }
-
+  .co2-review-content p{
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 400;
+    color: 
+#666666;
+font-family: 'Quattrocento';
+  }
+.co2-review-content h6{
+  color: 
+  #000000;
+  font-weight: 600;
+  font-family: "Mulish";
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
 .hifu-centarl-call  p{
   color: #666666;
   font-size: 16px;
@@ -5126,7 +5142,71 @@ max-width: 150px;
   justify-content: space-between;
   margin-top: 50px;
 }
-
+.co2-banner{
+  display: flex;
+  gap: 43px;
+}
+.btn-ptomotion{
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #FFF7F3;
+  border: 1px solid #FFF7F3;
+  border-radius: 10px;
+  margin-bottom: 13px;
+}
+.co2-dermoforce-banner h2{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+  font-family: "Playfair Display", serif;
+  width: 100%;
+  max-width: 500px;
+}
+.co2-dermoforce-banner p{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: 
+  #FFF7F3;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 570px;
+}
+.co2-btn-grp {
+  display: flex;gap: 24px;
+  margin-bottom: 20px;
+}
+.co2-btn-grp .btn{
+  padding: 15px 14px;
+  color: 
+  #E0AF97;
+  background-color: #FFF7F3;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+text-transform: none;
+}
+.co2-hair .consult-content{
+  line-height: 20px;
+}
+.co2-table-para{
+  letter-spacing: 1px;
+  color: 
+  #000000;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 24px;
+  margin-top: 27px;
+  padding-left: 20px;
+}
 /* ---co2-what-data--- */
 .co2-what-data-list h3{
   font-size: 28px;
