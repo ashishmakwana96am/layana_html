@@ -1195,6 +1195,25 @@ margin-bottom: 10px;
   grid-column: span 2;
   margin: 20px auto 0;
 }
+.fit-after-before {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.fit-sfter-first-row {
+  margin-bottom: 0px;
+}
+.fit-after-before .skin-pen-row {
+  margin-top: 20px;
+}
+.after_before.hydro-after-before-section.fit-after-before{
+  padding-bottom: 0;
+}
+.dermaforce-step-section {
+  margin-top: 8px;
+}
+.fit-after-before .consult-section-ul li {
+  margin-bottom: 10px;
+}
 }
 
 @media (max-width: 690px) {

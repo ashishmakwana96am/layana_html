@@ -4203,6 +4203,7 @@ line-height: 16px;
   line-height: 26px;
   font-size: 18px;
   color: var(--black-color);
+  margin-bottom: 0;
 }
 .hydro-tab-section thead th {
   text-align: end;
@@ -5173,67 +5174,54 @@ max-width: 150px;
   border: 1px solid var(--black-color) !important;
   color: var(--white-color);
 }
+.consult-content-fit{
+  color: #DC9C84 !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
 
-/* ---co2-dermoforce-banner */
-.co2-banner{
-  display: flex;
-  gap: 43px;
-}
-.co2-dermoforce-banner .btn-ptomotion{
-  color: #FFF7F3;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 20px;
-  padding: 15px 20px;
-  border: 1px solid #FFF7F3;
-  border-radius: 10px;
-  text-transform: uppercase;
-  margin-bottom: 13px;
-}
-.co2-dermoforce-banner h2{
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 600;
-  color: 
-  #FFFFFF;
-  font-family: "Playfair Display", serif;
-  width: 100%;
-  max-width: 500px;
-  margin-bottom: 15px;
-}
-.co2-dermoforce-banner p{
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #FFF7F3;
-  width: 100%;
-  max-width: 550px;
-  margin-bottom: 15px;
-}
-.co2-btn-grp {
-  display: flex;
-  gap: 25px;
-  margin-bottom: 19px;
-}
-.co2-btn-grp .btn{
-  padding: 15px 16px;
-  border-radius: 10px;
-  color: #E0AF97;
+.fit-does-section p{
+  color: #666666;
   font-size: 16px;
-  background-color: #FFF7F3;
-  line-height: 24px;
-font-weight: 600;
-text-transform: capitalize;
-border: none;
-}
-.co2-table-para{
-  font-size: 20px;
-  line-height: 20px;
-  letter-spacing: 1px;
-  color: #000000;
+  line-height: 26px;
   font-weight: 400;
-  font-style: italic;
-  margin-top: 27px;
-  font-family: "Muli";
-  padding-left: 20px;
+  text-align: justify;
+}
+.fit-does-section{
+  margin-top: 80px;
+}
+
+.fit-work-popular{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.fit-work-popular h4{
+  font-size: 28px;
+  line-height: 38px;
+
+}
+
+
+.fit-after-before{
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+.fit-after-before .consult-section-ul li{
+  margin-bottom: 15px;
+}
+.fit-after-care-title{
+  color: #000000;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.fit-sfter-first-row{
+  margin-bottom: 40px;
+}
+.fit-logo-section{
+  padding-bottom: 110px;
+  padding-top: 0! important;
 }
