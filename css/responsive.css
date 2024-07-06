@@ -330,7 +330,18 @@ margin-left: 59px;
 .bingo-responsive .title-content h2{
 margin-bottom: 40px;
 }
-
+.works-section{
+  padding: 80px 0;
+}
+.cellulite-class{
+  padding-top: 80px;
+}
+.emlif-treat-section{
+  margin-top: 80px;
+}
+.cellute-before{
+  padding-top: 80px;
+}
 }
 
 @media (max-width: 991px) {
@@ -964,6 +975,9 @@ gap: 24px;
 }
 .bingo-video{
   margin: 80px 0;
+}
+.cellulite-benifit{
+  padding-top: 80px;
 }
 }
 
@@ -1790,6 +1804,22 @@ text-align: center;
   padding: 0px 40px 0px 20px;
   text-align: center;
 }
+.cellulite-class-data{
+grid-template-columns: repeat(2,1fr);
+gap: 10px;
+}
+.cellulite-class-data .class-box img{
+  width: 100%;
+  object-fit: cover;
+}
+.cellulite-class-data .class-box{
+  border-right: 5px solid #F6F6F6;
+}
+.cellute-before{
+  padding-top: 60px;
+}
+
+
 }
 
 
@@ -2348,6 +2378,15 @@ font-size: 30px;
 .btn-ptomotion{
   font-size: 14px;
   line-height: 18px;
+}
+.cellulite-consult.consult-section-ul{
+  margin-bottom: 0 !important;
+}
+.cellulite-consult .consult-content{
+  margin-bottom: 0;
+}
+.bingo-video-data-right button {
+  padding: 12px 13px;
 }
 }
 
