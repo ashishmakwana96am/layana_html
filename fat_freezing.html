@@ -805,88 +805,73 @@
             <script src="js/owl.carousel.min.js"></script>
           
             <script>
-              $(".owl-carousel").owlCarousel({
-                loop: true,
-                dots: false,
-                margin: 10,
-                nav: false,
-                stagePadding: 0,
-                responsive: {
-                  0: {
-                    items: 2,
-                },
-                600: {
-                    items: 2, stagePadding: 50
-                },
-                1000: {
-                    items: 4,
-                },
-            },
-        });
-
-
-        function openPopup() {
-            document.getElementById("popupContent").style.display = "block";
-            document.getElementById("overlay").style.display = "block";
-        }
-
-        function closePopup() {
-            document.getElementById("popupContent").style.display = "none";
-            document.getElementById("overlay").style.display = "none";
-        }
-
-        document.getElementById("readMoreLink").addEventListener("click", function (event) {
-            event.preventDefault();
-            openPopup();
-        });
-
-
-
-        document.addEventListener("DOMContentLoaded", function () {
-            const navItems = document.querySelectorAll("#nav li a");
-            const sections = document.querySelectorAll("section");
-
-            function activateNavItem() {
-                let currentActiveIndex = -1;
-
-                sections.forEach((section, index) => {
-                    const rect = section.getBoundingClientRect();
-                    if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
-                        currentActiveIndex = index;
-                    }
+                $(".owl-carousel").owlCarousel({
+                  loop: true,
+                  dots: false,
+                  margin: 10,
+                  nav: false,
+                  stagePadding: 0,
+                  responsive: {
+                    0: {
+                      items: 2,
+                    },
+                    600: {
+                      items: 2, stagePadding: 50
+                    },
+                    1000: {
+                      items: 4,
+                    },
+                  },
                 });
-              
-              
-              
-              document.addEventListener("DOMContentLoaded", function() {
-                  const navItems = document.querySelectorAll("#nav li a");
-                  const sections = document.querySelectorAll("section");
-              
-                  function activateNavItem() {
-                      let currentActiveIndex = -1;
-              
-                      sections.forEach((section, index) => {
-                          const rect = section.getBoundingClientRect();
-                          if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
-                              currentActiveIndex = index;
-                          }
-                      });
-              
-                      if (currentActiveIndex !== -1) {
-                          navItems.forEach((link) => {
-                              link.classList.remove('laser-active-menu');
-                              if (link.getAttribute('href') === `#${sections[currentActiveIndex].id}`) {
-                                  link.classList.add('laser-active-menu');
-                              }
-                          });
-                      }
+                
+                
+                  function openPopup() {
+                    document.getElementById("popupContent").style.display = "block";
+                    document.getElementById("overlay").style.display = "block";
                   }
-              
-                  window.addEventListener('scroll', activateNavItem);
-                  activateNavItem(); // Call initially to set the active item on page load
-              });
-              
-                </script>
+                
+                  function closePopup() {
+                    document.getElementById("popupContent").style.display = "none";
+                    document.getElementById("overlay").style.display = "none";
+                  }
+                
+                  document.getElementById("readMoreLink").addEventListener("click", function(event) {
+                    event.preventDefault(); 
+                    openPopup(); 
+                  });
+                
+                
+                
+                document.addEventListener("DOMContentLoaded", function() {
+                    const navItems = document.querySelectorAll("#nav li a");
+                    const sections = document.querySelectorAll("section");
+                
+                    function activateNavItem() {
+                        let currentActiveIndex = -1;
+                
+                        sections.forEach((section, index) => {
+                            const rect = section.getBoundingClientRect();
+                            if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+                                currentActiveIndex = index;
+                            }
+                        });
+                
+                        if (currentActiveIndex !== -1) {
+                            navItems.forEach((link) => {
+                                link.classList.remove('laser-active-menu');
+                                if (link.getAttribute('href') === `#${sections[currentActiveIndex].id}`) {
+                                    link.classList.add('laser-active-menu');
+                                }
+                            });
+                        }
+                    }
+                
+                    window.addEventListener('scroll', activateNavItem);
+                    activateNavItem(); // Call initially to set the active item on page load
+                });
+                
+                  </script>
+                  
                   <script src="js/main.js"></script>
     </body>
     </html>
