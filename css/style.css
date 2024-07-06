@@ -5441,6 +5441,212 @@ font-family: 'Quattrocento';
 }
 /* ---body-wing end */
 
+
+
+
+
+
+
+
+/* body radio page css start */
+#main .body-radio-banner{
+  background-image: url('../images/radio-image.png') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.body-about-link{
+color: #1078d5;
+}
+
+.body-radio-about-section p.body-aboutlist-title{
+  color: #000000;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.body-call-sec{
+  margin-top: 20px;
+}
+.body-alout-li li{
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.body-why-choose {
+  display: flex;
+  justify-content: space-evenly;
+}
+.body-why-choose{
+  margin-top: 25px;
+}
+.body-why-choose h6{
+  color: #000000;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.body-why-choose .beauty-centarl-call img {
+  background: #F7EFEC;
+  padding: 13px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  line-height: 11px;
+}
+
+
+
+/* body video banner section css start */
+.body-video{
+  margin: 110px 0;
+}
+.body-video-data{
+  background-color: #F5EDE2;
+  display: flex;
+  align-items: center;
+}
+.body-video-data-right{
+  padding: 0px 40px 0px 100px;
+  text-align: center;
+}
+.body-video-data-right h3{
+  font-size: 22px;
+  line-height: 32px;
+font-weight: 600;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+.body-video-data-right h6{
+  font-size: 26px;
+  line-height: 32px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.body-video-data-right p{
+  font-size: 16px;
+  line-height: 26px;
+font-weight: 400;
+margin-bottom: 30px;
+color: #000000;
+}
+
+/* body radio does section css start */
+.body-radio-does-section .what-treat-detail  {
+  grid-template-columns: repeat(4, 1fr);
+}
+.body-radio-does-section h2{
+  font-size: 36px;
+    line-height: 46px;
+    color: var(--black-color);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.body-step-section{
+  margin-top: 100px;
+}
+
+.body-after-before-section{
+  margin-top: 110px;
+}
+
+/* body page accordion price section css start */
+.body-accordion-items{
+  margin-top: 30px;
+}
+.body-inner-price{
+  font-size: 16px;
+  font-weight: 400;
+}
+.prices-tab-section.body-radio-price tbody td:first-child{
+  padding-top: 20px !important;
+}
+.prices-tab-section.body-radio-price tbody td{
+  padding-top: 20px !important;
+}
+.dermaforce-body-skin-table.body-radio-price tbody tr td:last-child{
+  padding-bottom: 0 !important;
+}
+.prices-tab-section.body-radio-price {
+  margin-bottom: 0px;
+}
+
+.body-logo-slider{
+  margin-top: 110px;
+}
+
+
+
+/* fat reduction page css start */
+#main .fat-reduction-banner{
+  background-image: url('../images/header-image-reduction.png') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.fat-reduction-about .hair-remove-title h2 {
+  font-size: 27px;
+  line-height: 38px;
+  color: var(--black-color);
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.fat-reduction-about .work-content-col p {
+  color: #666666;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.fat-reduce-section {
+  padding: 60px 20px;
+  background-color: #F6F6F6;
+  margin-bottom: 110px;
+  margin-top: 110px;
+  text-align: center;
+}
+
+.banner-inner-container p{
+  color: #282828;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.banner-inner-container p:not(:last-child){
+  margin-bottom: 30px;
+}
+
+.reduction-aftercare{
+  margin-bottom: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---cellulite-hero start */
 #main .cellulite-hero{
   background-image: url('../images/cellute.png') !important;
@@ -5499,3 +5705,6 @@ border-right: none;
   padding-top: 110px;
 }
 /* ---cellulite-hero end */
+
+
+
