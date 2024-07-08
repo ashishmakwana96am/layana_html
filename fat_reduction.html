@@ -367,6 +367,7 @@
                     </div>
                     </div>
             </div>
+            <div id="overlay" class="overlay"></div>
             <div id="popupContent" class="popup">
                 <div>
                    <img src="images/Mask group (28).png" alt="" class="popup-img"> 
@@ -794,7 +795,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script>
-        
         $(".owl-carousel").owlCarousel({
                     loop: true,
                     dots: false,
@@ -814,8 +814,7 @@
                     },
                   });
     </script>
-    <script src="js/main.js">
-
+         <script>
                 function openPopup() {
                   document.getElementById("popupContent").style.display = "block";
                   document.getElementById("overlay").style.display = "block";
@@ -830,12 +829,7 @@
                   event.preventDefault(); 
                   openPopup(); 
                 });
-              
-              
-       
-              
-              
-              
+  
               document.addEventListener("DOMContentLoaded", function() {
                   const navItems = document.querySelectorAll("#nav li a");
                   const sections = document.querySelectorAll("section");
@@ -865,3 +859,4 @@
               });
               
                 </script>
+                <script  src="js/main.js"></script>
