@@ -5708,3 +5708,159 @@ border-right: none;
 
 
 
+/* ----consultation=start-- */
+.beauty-slide-condition {
+  background-image: url("../images/hw2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+.book-consul {
+  margin: 110px 0;
+}
+.consult-form {
+  border: 10px solid #f6f6f6;
+}
+.custult-title{
+  background-color: #F7EFEC;
+}
+.custult-title h2{
+  color: 
+  #000000;
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.cunsult-form{
+  padding: 35px;
+}
+.cunsult-form .display{
+  display: flex;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+.cunsult-form label{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 15px;
+  color: #000;
+  padding-left: 10px;
+}
+.cunsult-form .form-control{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: 
+  #666666 ;
+  padding: 0 10px 10px 10px;
+  border-bottom:  1px solid #666666 !important;
+  border-radius: 0;
+}
+.cunsult-form .form-select{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: 
+  #666666 ;
+  padding: 0 10px 10px 10px;
+  border-bottom:  1px solid #666666 !important;
+  border-radius: 0;
+  border: 0;
+}
+.cunsult-form .form-select:focus{
+  outline: none;
+  box-shadow: none;
+}
+.cunsult-form .form-control:focus{
+  box-shadow: none;
+  outline: none;
+}
+.display-row{
+ display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.display-row-data{
+  display: flex;
+  gap: 25px;
+  width: 100%;
+}
+.display-row .display-row-data:first-child{
+  width: 55%;
+}
+.display-row .display-row-data:last-child{
+  width:45%;
+}
+.display-row .display-row-data:first-child .dis-row-data:first-child{
+  width: 60%;
+}
+.display-row .display-row-data:first-child .dis-row-data:last-child{
+  width: 40%;
+}
+.display-row .display-row-data:last-child .dis-row-data:first-child{
+  width: 50%;
+}
+.display-row .display-row-data:last-child .dis-row-data:last-child{
+  width: 50%;
+}
+
+.text-area{
+  margin-bottom: 30px;
+}
+
+.consult-radio .form-check-input:checked[type="radio"]{
+  --bs-form-check-bg-image: url('../images/Ellipse 74.png');
+  
+}
+.consult-radio .form-check-input:checked{
+  background-color: transparent !important;
+  border-color:#000;
+}
+.consult-radio .form-check-input:focus{
+  box-shadow: none;
+  outline: none;
+  border-color:#000 !important;
+}
+.consult-radio .form-check-input{
+  border: 1px solid #000 !important;
+  background-size: 10px;
+
+}
+.consult-radio{
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.consult-radio label{
+  padding-left: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.consult-btn-grp{
+  display: flex;
+  justify-content: space-around;
+}
+.consult-popup{
+  border: none;
+  padding: 0;
+}
+
+.popup-data{
+  padding: 15px;
+  border: 1px solid #B58D6F ;
+}
