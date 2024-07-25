@@ -5875,6 +5875,10 @@ border-right: none;
   width: 100% !important;
   max-width: 694px !important;
 }
+.consult-popup .close-popup{
+top: 0;
+right: 0;
+}
 .consult-popup-flex{
   display: flex;
 }
@@ -5965,6 +5969,28 @@ border-right: none;
   align-items: center;
   flex-direction: column;
   padding: 37px 0;
+  transition: border 0.3s ease; 
+}
+.skincare .grid-data {
+  border: 5px solid #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 37px 0;
+  transition: border 0.3s ease;
+  cursor: pointer; 
+}
+
+.skincare input[type=radio] {
+  display: none;
+}
+
+.skincare .grid-data:hover {
+  border: 5px solid black; 
+}
+.skincare input[type=radio]:checked + label {
+  border: 5px solid black; 
 }
 .care-img{
   width: 45px;
