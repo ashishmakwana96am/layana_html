@@ -533,7 +533,12 @@ margin-bottom: 40px;
 .skinpen-hero h2{
   max-width: 100%;
 }
-}
+
+.btn-line {
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: center;
+}}
 /* 768 Screen */
 @media (min-width: 768px) and (max-width: 992px) {
   .treatment-img img {
@@ -1002,6 +1007,36 @@ gap: 24px;
 .book-consul{
   margin: 80px 0;
 }
+.consult-popup{
+  max-width: 620px !important;
+}
+.popup-data-cons{
+  padding: 30px 15px 30px 15px;
+}
+.popup-data-cons img{
+  margin-bottom: 20px;
+}
+.popup-data-cons h2{
+  margin-bottom: 20px;
+  font-size: 38px;
+  line-height: 40px;
+}
+.popup-data-cons p {
+  max-width: 358px;
+}
+.skincare .grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.skincare .step-5-grid{
+  margin-bottom: 20px;
+}
+.skincare .step-5-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
 }
 
 @media (max-width: 767px) {
@@ -1362,11 +1397,7 @@ margin-bottom: 10px;
   line-height: 26px;
 }
 
-
 }
-
-
-
 
 @media (max-width: 690px) {
   .skin-img img {
@@ -1375,6 +1406,23 @@ margin-bottom: 10px;
   .skinpen-hero .btn{
     margin-bottom: 20px;
     }
+.consult-popup-flex{
+  flex-direction: column;
+}
+.consult-popup {
+  max-width: 446px !important;
+}
+.consult-popup-imgs img:first-child{
+  display: none;
+}
+.consult-popup-imgs img:last-child{
+  display: block;
+  width: 100%;
+}
+.skincare .step-5-grid{
+  flex-wrap: wrap;
+}  
+
 }
 @media (max-width: 575px) {
   .co2-table-para{
@@ -1882,12 +1930,24 @@ gap: 10px;
   gap: 20px;
   align-items: center;
 }
-.cunsult-form{
+.step-1 .form-details,.step-2 .form-details,.step-3 .form-details ,.step-4 .form-details,.step-5 .form-details{
   padding: 20px;
 }
 .custult-title h2{
   font-size: 18px;
   line-height: 20px;
+}
+.skincare .grid-data{
+  padding: 28px 0;
+}
+.car-nav .car-left, .car-nav .car-right{
+  width: 35px;
+  height: 35px;
+}
+.goal .grid {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
 }
 }
 
@@ -1914,6 +1974,7 @@ gap: 10px;
 }
 
 /* 425 screen */
+
 
 @media (max-width: 425px) {
   .slide-treatment-wart-verruca .hero-first-button {
@@ -2457,6 +2518,13 @@ font-size: 30px;
 .bingo-video-data-right button {
   padding: 12px 13px;
 }
+.consult-popup{
+  max-width: 360px !important;
+}
+.popup-data-cons {
+  padding: 20px 15px 20px 15px;
+}
+
 }
 
 
@@ -2514,6 +2582,7 @@ font-size: 30px;
 
 /* 320screen */
 
+
 @media (max-width: 375px) {
   .skin-imgs .btn-button {
     top: 46%;
@@ -2539,6 +2608,49 @@ font-size: 30px;
 .emlift-3d-data-img img {
   max-width: 146px;
 }
+.consult-popup {
+  max-width: 330px !important;
+}
+.popup-data-cons {
+  padding: 20px 10px 20px 10px;
+}
+.popup-data-cons img {
+  margin-bottom: 12px;
+}
+.popup-data-cons h2 {
+  margin-bottom: 12px;
+  font-size: 34px;
+  line-height: 34px;
+}
+.popup-data-cons p {
+  font-size: 14px;
+  line-height:20px;
+  margin-bottom: 12px;
+}
+.skincare .grid-data{
+  padding: 18px 0;
+}
+.care-img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+.skincare .grid-data h3 {
+  font-size: 12px;
+  line-height: 14px;
+}
+.car-nav .car-left, .car-nav .car-right{
+  width: 26px;
+  height: 26px;
+  padding: 4px
+}
+.custult-title h2 {
+  font-size: 16px;
+  line-height: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 }
 @media (max-width: 320px) {
   .skinpen-hero{
@@ -2610,9 +2722,10 @@ margin-bottom: 18px;
 
 
 
-.cunsult-form {
+.step-1 .form-details,.step-2 .form-details ,.step-3 .form-details ,.step-4 .form-details,.step-5 .form-details {
   padding: 10px;
 }
+
 .cunsult-form label{
   font-size: 14px;
   line-height: 14px;
@@ -2629,6 +2742,14 @@ margin-bottom: 18px;
   font-size: 12px;
   line-height: 14px;
 }
+.consult-popup {
+  max-width: 282px !important;
+}
+.popup-data-cons h2 {
+  font-size: 26px;
+  line-height: 26px;
+}
+
 }
 @media (max-width: 400px) {
   .prices-tab-section .tabs .tab,

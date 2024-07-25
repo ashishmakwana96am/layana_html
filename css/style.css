@@ -2095,7 +2095,6 @@ beauty_detail_muswell section css
 }
 
 
-
 /* 
 ***************
 Spa Packages section css
@@ -5739,9 +5738,15 @@ border-right: none;
   text-align: center;
   margin-bottom: 0;
 }
-.cunsult-form{
+
+.step-1 .form-details{
   padding: 35px;
 }
+
+.step-2 .form-details ,.step-3 .form-details,.step-4 .form-details,.step-5 .form-details{
+  padding: 35px 37px 40px  38px;
+}
+
 .cunsult-form .display{
   display: flex;
   margin-bottom: 30px;
@@ -5754,6 +5759,13 @@ border-right: none;
   margin-bottom: 15px;
   color: #000;
   padding-left: 10px;
+}
+.selected-dial-code{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: 
+  #666666 ;
 }
 .cunsult-form .form-control{
   font-weight: 400;
@@ -5833,7 +5845,7 @@ border-right: none;
 .consult-radio .form-check-input{
   border: 1px solid #000 !important;
   background-size: 10px;
-
+  cursor: pointer;
 }
 .consult-radio{
   display: flex;
@@ -5841,6 +5853,7 @@ border-right: none;
   justify-content: center;
   margin-bottom: 40px;
 }
+
 .consult-radio label{
   padding-left: 0;
   margin-bottom: 0;
@@ -5849,6 +5862,7 @@ border-right: none;
   line-height: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .consult-btn-grp{
@@ -5858,9 +5872,240 @@ border-right: none;
 .consult-popup{
   border: none;
   padding: 0;
+  width: 100% !important;
+  max-width: 694px !important;
+}
+.consult-popup-flex{
+  display: flex;
+}
+.popup-data-cons{
+  margin: 15px;
+  border: 1px solid #B58D6F ;
+  text-align: center;
+  background-image: url('../images/Group\ 1000008362.png');
+  /* width: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 20px 39px 20px;
+}
+.popup-data-cons img{
+  margin-bottom: 36px;
 }
 
-.popup-data{
-  padding: 15px;
-  border: 1px solid #B58D6F ;
+.consult-popup-imgs img:last-child{
+  display: none;
+}
+.popup-data-cons h2{
+  font-family: 'Quattrocento';
+  color: 
+  #B58D6F;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+.popup-data-cons p{
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.intl-tel-input {
+  display: block;
+}
+.intl-tel-input .selected-flag .iti-flag{
+  display: none;
+}
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 .selected-flag{
+  width: 45px;
+}
+.intl-tel-input.separate-dial-code .selected-dial-code{
+  padding-left: 0;
+}
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=tel]{
+  padding-left: 55px;
+}
+.intl-tel-input.separate-dial-code .selected-flag{
+  background-color: transparent !important;
+}
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel]{
+  padding-left: 55px;
+}
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 .selected-flag{
+  width: 45px;
+}
+.intl-tel-input .flag-container{
+  top: -10px;
+}
+/* --step-2-- */
+.skincare .grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 25px;
+  margin-bottom: 35px;
+}
+.step-6-data{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.skincare .step-5-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+  margin-bottom: 35px;
+}
+
+.skincare .grid-data{
+  border: 5px solid #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 37px 0;
+}
+.care-img{
+  width: 45px;
+  height: 45px;
+  background-color: 
+  #F7EFEC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+.skincare .grid-data h3{
+  color: #000;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  font-family: 'Quattrocento';
+}
+.car-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.care-btn{
+  margin-bottom: 23px;
+}
+.car-nav .car-left ,.car-nav .car-right{
+  border:  1px solid #000000;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-line {
+  display: flex;
+  gap: 0.5em;
+  border: 4px solid #F6F6F6;
+  width: 100%;
+  max-width: max-content;
+}
+.btn-line:first-child{
+  margin-bottom: 20px;
+}
+.btn-line:last-child{
+  margin-bottom: 35px;
+}
+.btn-line .btn {
+  display: none;
+}
+
+.btn-line label {
+  display: inline-block;
+  padding: 11px 15px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #282828;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-line.increse-btn {
+  width: 100%;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-bottom: 0;
+}
+.btn-line.increse-btn label {
+  width: 151px;
+}
+
+.btn-line input[type=radio] {
+  display: none;
+}
+
+.btn-line input[type=radio]:checked + label {
+  background-color:#F7EFEC;
+}
+.goal .grid{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+  margin-bottom: 35px;
+}
+.goal .form-check-input:checked[type="radio"]{
+  --bs-form-check-bg-image: url('../images/Ellipse 74.png');
+}
+.goal .form-check-input:checked{
+  background-color: transparent !important;
+  border-color:#000;
+}
+.goal .form-check-input:focus{
+  box-shadow: none;
+  outline: none;
+  border-color:#000 !important;
+}
+.goal .form-check-input{
+  width: 12px;
+  height: 12px;
+  margin-top: 7px;
+}
+.goal .form-check-input{
+  border: 1px solid #000 !important;
+  background-size: 8px;
+  cursor: pointer;
+}
+.goal .form-check{
+  background-color: #F6F6F6;
+  padding: 10px 10px 10px 32px;
+}
+.goal .form-check label{
+  cursor: pointer;
+  padding-left: 0px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: 'Quattrocento';
+  color: 
+  #666666;
+}
+
+/* ---wizard form-- step-- */
+.step {
+  display: none;
+}
+.step.active {
+  display: block;
+}
+.popup {
+  display: none;
+}
+.popup.active {
+  display: block;
 }

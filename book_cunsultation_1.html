@@ -11,6 +11,8 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <!-- --tel-- -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.6/css/intlTelInput.css">
     
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css"/>
     <link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css"/>
@@ -128,115 +130,294 @@
  <section class="book-consul">
     <div class="container">
       <div class="consult-form">
-         <div class="custult-title">
-            <h2>Book a Skin Consultation</h2>
-         </div>
-         <form class="cunsult-form">
-             <div class="display">
-                <div class="w-100">
-                    <label class="form-label">First Name</label>
-                    <input type="text"  class="form-control" placeholder="Enter You First Name">
+          <form class="cunsult-form"  id="wizard-form" onsubmit="return false;"> 
+             <div class="step step-1 active">
+                <div class="custult-title">
+                    <h2>Book a Skin Consultation</h2>
                  </div>
-                <div class="w-100">
-                    <label class="form-label">Last Name</label>
-                    <input type="text"  class="form-control" placeholder="Enter You Last Name">
+               <div class="form-details">
+                <div class="display">
+                    <div class="w-100">
+                        <label class="form-label">First Name</label>
+                        <input type="text"  class="form-control" placeholder="Enter You First Name">
+                     </div>
+                    <div class="w-100">
+                        <label class="form-label">Last Name</label>
+                        <input type="text"  class="form-control" placeholder="Enter You Last Name">
+                     </div>
                  </div>
-             </div>
-             <div class="display">
-                <div class="w-100">
-                    <label class="form-label">Email</label>
-                    <input type="email"  class="form-control" placeholder="Enter You Email">
+                 <div class="display">
+                    <div class="w-100">
+                        <label class="form-label">Email</label>
+                        <input type="email"  class="form-control" placeholder="Enter You Email">
+                     </div>
+                    <div class="w-100">
+                        <label class="form-label">Mobile Number</label>
+                        <input id="mobile" type="tel" name="mobile" class="form-control" autofocus>
+                     </div>
                  </div>
-                <div class="w-100">
-                    <label class="form-label">Mobile Number</label>
-                    <input type="text"  class="form-control" placeholder="Enter You First Name">
+                 <div class="display-row">
+                   <div class="display-row-data">
+                    <div class="dis-row-data">
+                        <label class="form-label">Treatments</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Cellulite Reduction</option>
+                            <option value="One">One</option>
+                            <option value="Two">Two</option>
+                            <option value="Three">Three</option>
+                          </select>
+                     </div>
+                    <div class="dis-row-data">
+                        <label class="form-label">Day</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Sunday">Sunday</option>
+                          </select>
+                     </div>
+                   </div>
+                   <div class="display-row-data">
+                    <div class="dis-row-data">
+                        <label class="form-label">Start Time</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>08:00 AM</option>
+                            <option value="1">05:00 AM</option>
+                            <option value="2">09:00 AM</option>
+                            <option value="3">07:00 AM</option>
+                          </select>
+                     </div>
+                    <div class="dis-row-data">
+                        <label class="form-label">End Time</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>12:00 PM</option>
+                            <option value="1">9:00 PM</option>
+                            <option value="2">10:00 PM</option>
+                            <option value="3">11:00 PM</option>
+                          </select>
+                     </div>
+                   </div>
                  </div>
-             </div>
-             <div class="display-row">
-               <div class="display-row-data">
-                <div class="dis-row-data">
-                    <label class="form-label">Treatments</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Cellulite Reduction</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
+                 <div   class="text-area">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" rows="8"></textarea>              
                  </div>
-                <div class="dis-row-data">
-                    <label class="form-label">Day</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Monday</option>
-                        <option value="1">Tuesday</option>
-                        <option value="2">Friday</option>
-                        <option value="3">Sunday</option>
-                      </select>
+                 <div class="consult-radio">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Tell us about yourself and  skin routine
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault9" checked>
+                        <label class="form-check-label" for="flexRadioDefault9">
+                            Skip
+                        </label>
+                      </div>
+                 </div>
+                 <div class="consult-btn-grp">
+                    <button class="btn" id="requestCallBack">REQUEST A CALL BACK</button>
+                    <button class="btn" id="bookNow">Book now</button>
                  </div>
                </div>
-               <div class="display-row-data">
-                <div class="dis-row-data">
-                    <label class="form-label">Start Time</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>08:00 AM</option>
-                        <option value="1">05:00 AM</option>
-                        <option value="2">09:00 AM</option>
-                        <option value="3">07:00 AM</option>
-                      </select>
+             </div>
+             <div class="step step-2">
+                <div class="custult-title">
+                    <h2>When do you use your skincare?</h2>
                  </div>
-                <div class="dis-row-data">
-                    <label class="form-label">End Time</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>12:00 PM</option>
-                        <option value="1">9:00 PM</option>
-                        <option value="2">10:00 PM</option>
-                        <option value="3">11:00 PM</option>
-                      </select>
+                 <div class="form-details">
+                    <div class="skincare">
+                        <div class="grid">
+                            <div class="grid-data">
+                                <div class="care-img">
+                                    <img src="images/de1.png" alt="">
+                                </div>
+                                <h3>Morning</h3>
+                            </div>
+                            <div class="grid-data">
+                                <div class="care-img">
+                                    <img src="images/de2.png" alt="">
+                                </div>
+                                <h3>Night</h3>
+                            </div>
+                            <div class="grid-data">
+                                <div class="care-img">
+                                    <img src="images/de3.png" alt="">
+                                </div>
+                                <h3>Morning & Night</h3>
+                            </div>
+                            <div class="grid-data">
+                                <div class="care-img">
+                                    <img src="images/de4.png" alt="">
+                                </div>
+                                <h3>Never</h3>
+                            </div>
+                        </div>
+                        <div class="text-center care-btn">
+                            <button class="btn continue">Continue</button>
+                        </div>
+                        <div class="car-nav">
+                             <div class="car-left backbtn"><img src="images/gw1.png" alt=""></div>
+                             <div class="car-right continue" ><img src="images/gw2.png" alt=""></div>
+                        </div>
+                    </div>
                  </div>
+             </div>
+            <div class="step step-3">
+                <div class="custult-title">
+                    <h2>How do you describe your skin type?</h2>
+                 </div>
+                 <div class="form-details">
+                  <div class="d-flex justify-content-center align-items-center flex-column">
+                    <div class="btn-line">
+                        <input type="radio" id="book-all" name="book-count" class="btn" value="Very Dry">
+                        <label for="book-all">Very Dry</label>
+                        <input type="radio" id="book-100" name="book-count" value="Dry">
+                        <label for="book-100">Dry</label>
+                        <input type="radio" id="book-150" name="book-count" value="Normal">
+                        <label for="book-150">Normal</label>
+                        <input type="radio" id="book-200" name="book-count" value="Combination" checked>
+                        <label for="book-200">Combination</label>
+                        <input type="radio" id="book-250" name="book-count" value="Oily">
+                        <label for="book-250">Oily</label>
+                        <input type="radio" id="book-300" name="book-count" value="Don’t know">
+                        <label for="book-300">Don’t know</label>
+                      </div>
+                    <div class="btn-line">
+                        <input type="radio" id="book-semn" name="book-count1" class="btn" value="Very Sensitive">
+                        <label for="book-semn">Very Sensitive</label>
+                        <input type="radio" id="book-Quite" name="book-count1" value="Quite Sensitive" checked>
+                        <label for="book-Quite">Quite Sensitive</label>
+                        <input type="radio" id="book-Not" name="book-count1" value="Not Sensitive">
+                        <label for="book-Not">Not Sensitive</label>
+                       
+                      </div>
+                  </div>
+                  <div class="text-center care-btn">
+                    <button class="btn continue" >Continue</button>
+                </div>
+                  <div class="car-nav">
+                    <div class="car-left backbtn"><img src="images/gw1.png" alt=""></div>
+                    <div class="car-right continue"><img src="images/gw2.png" alt=""></div>
                </div>
-             </div>
-             <div   class="text-area">
-                <label class="form-label">Message</label>
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" rows="8"></textarea>              
-             </div>
-             <div class="consult-radio">
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Tell us about yourself and  skin routine
-                    </label>
+                 </div>
+            </div>
+            <div class="step step-4">
+                <div class="custult-title">
+                    <h2>What is your primary skin goal?</h2>
+                 </div>
+                 <div class="form-details">
+                  <div class="goal">
+                    <div class="grid">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Increase skin hydration
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Treat hyperpigmentation and discoloration
+                            </label>
+                          </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                            <label class="form-check-label" for="flexRadioDefault3">
+                                Treat acne and breakouts
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" >
+                            <label class="form-check-label" for="flexRadioDefault4">
+                                Increase skin brightness
+                            </label>
+                          </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+                            <label class="form-check-label" for="flexRadioDefault5">
+                                Reduce fine lines and wrinkles
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6" >
+                            <label class="form-check-label" for="flexRadioDefault6">
+                                Control oiliness & shine
+                            </label>
+                          </div>
+                    </div>
+                    <div class="text-center care-btn">
+                        <button class="btn continue">Continue</button>
+                    </div>
+                    <div class="car-nav">
+                         <div class="car-left backbtn"><img src="images/gw1.png" alt=""></div>
+                         <div class="car-right continue"><img src="images/gw2.png" alt=""></div>
+                    </div>
                   </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                        Skip
-                    </label>
-                  </div>
+                 </div>
+            </div>    
+            <div class="step step-5">
+                <div class="custult-title">
+                    <h2>What skin care products do you use?</h2>
+                 </div>
+                 <div class="form-details">
+                    <div class="skincare step-5-grid">
+                       <div class="step-6-data">
+                        <div class="step-5-grid">
+                            <div class="grid-data">
+                                <div class="care-img">
+                                    <img src="images/de5.png" alt="">
+                                </div>
+                                <h3>Moisturiser</h3>
+                            </div>
+                            <div class="grid-data">
+                                <div class="care-img">
+                                    <img src="images/de6.png" alt="">
+                                </div>
+                                <h3>SPF</h3>
+                            </div>
+                            <div class="grid-data">
+                                <div class="care-img">
+                                    <img src="images/de7.png" alt="">
+                                </div>
+                                <h3>Other</h3>
+                            </div>
+                        </div>
+                       </div>
+                        <div class="text-center care-btn">
+                            <button class="btn" id="carImage">Continue</button>
+                        </div>
+                        <div class="car-nav" >
+                             <div class="car-left backbtn"><img src="images/gw1.png" alt=""></div>
+                             <div class="car-right"  ><img src="images/gw2.png" alt=""></div>
+                        </div>
+                    </div>
+                 </div>
              </div>
-             <div class="consult-btn-grp">
-                <button class="btn">REQUEST A CALL BACK</button>
-                <button class="btn" id="readMoreLink" >Book now</button>
-             </div>
-         </form>
+        </form>
       </div>
+   
     </div>
  </section>
- <div id="popupContent" class="popup consult-popup">
-   <div class="d-flex">
-    <div>
+ <!-- ---poppup--- -->
+ <div id="popup" class="popup consult-popup">
+   <div class=" consult-popup-flex">
+    <div class=" consult-popup-imgs">
         <img src="images/Rectangle 39588.png" alt="">
+        <img src="images/Rectangle 39588 (1).png" alt="">
     </div>
-    <div class="popup-content">
-        <div class="popup-data">
+        <div class="popup-data-cons">
             <img src="images/chemark.png" alt="">
             <h2>THANK YOU !</h2>
             <p>Thanks for your time! Your request has been received and will be processed shortly.
            </p>
-           <button class="btn" onclick="closePopup()" >Finish</button>
+           <button class="btn" id="closePopup" >Finish</button>
        </div>
-    </div>
    </div>
 </div>
  <div id="overlay" class="overlay"></div>
+
   <!-- --section Contact-- -->
   <section class="contactus">
     <div class="container">
@@ -333,20 +514,6 @@
 <script src="js/main.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
-    function openPopup() {
-      document.getElementById("popupContent").style.display = "block";
-      document.getElementById("overlay").style.display = "block";
-    }
-  
-    function closePopup() {
-      document.getElementById("popupContent").style.display = "none";
-      document.getElementById("overlay").style.display = "none";
-    }
-  
-    document.getElementById("readMoreLink").addEventListener("click", function(event) {
-      event.preventDefault(); 
-      openPopup(); 
-    });
   
   
     $(".owl-carousel").owlCarousel({
@@ -367,9 +534,6 @@
       },
     },
   });
-  
-  
-  
   
   document.addEventListener("DOMContentLoaded", function() {
       const navItems = document.querySelectorAll("#nav li a");
@@ -399,6 +563,91 @@
       activateNavItem(); // Call initially to set the active item on page load
   });
   
+    </script>
+    <script>
+         $(function () {
+            var code = ""; // Assigning value from model.
+            $('#mobile').val(code);
+            $('#mobile').intlTelInput({
+                autoHideDialCode: true,
+                autoPlaceholder: "ON",
+                dropdownContainer: document.body,
+                formatOnDisplay: true,
+               // hiddenInput: "full_number",
+                initialCountry: "us",
+              //  nationalMode: true,
+                placeholderNumberType: "MOBILE",
+                preferredCountries: ['us','gb','in'],
+                separateDialCode: true
+            });
+            $('#btn-submit').on('click', function () {
+                var code = $("#mobile").intlTelInput("getSelectedCountryData").dialCode;
+                var phoneNumber = $('#mobile').val();
+              //  $('#mobile').val(code+phoneNumber);
+                //  alert('Country Code : ' + code + '\nPhone Number : ' + phoneNumber );
+                document.getElementById("code").innerHTML = code;
+                document.getElementById("mobile-number").innerHTML = phoneNumber;
+            });
+        });
+
+
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.6/js/intlTelInput.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const steps = document.querySelectorAll('.step');
+            let currentStep = 0;
+
+            function showStep(index) {
+                steps.forEach((step, i) => {
+                    step.classList.toggle('active', i === index);
+                });
+            }
+
+            document.getElementById('bookNow').addEventListener('click', function() {
+                const skip = document.getElementById('flexRadioDefault9').checked;
+                if (skip) {
+                    document.getElementById('popup').classList.add('active');
+                    document.getElementById("overlay").style.display = "block";
+                } else {
+                    currentStep++;
+                    showStep(currentStep);
+                }
+            });
+
+            document.getElementById('carImage').addEventListener('click', showPopupDirectly);
+
+        function showPopupDirectly() {
+            showPopup();
+        }
+
+        function showPopup() {
+            document.getElementById('popup').classList.add('active');
+            document.getElementById('overlay').style.display = 'block';
+        }
+            const continueButtons = document.querySelectorAll('.continue');
+            continueButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    currentStep++;
+                    showStep(currentStep);
+                });
+            });
+            const backButtons = document.querySelectorAll('.backbtn');
+            backButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    currentStep--;
+                    showStep(currentStep);
+                });
+            });
+
+            document.getElementById('closePopup').addEventListener('click', function() {
+                document.getElementById('popup').classList.remove('active');
+                document.getElementById("overlay").style.display = "none";
+            });
+
+        });
     </script>
 </body>
 </html>
